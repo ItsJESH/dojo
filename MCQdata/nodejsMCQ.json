@@ -1,0 +1,504 @@
+[
+  {
+    "Q": 1,
+    "Question": "What is Node.js?",
+    "OptionA": "A backend JavaScript runtime environment",
+    "OptionB": "A front-end JavaScript framework",
+    "OptionC": "A database",
+    "OptionD": "A type of operating system",
+    "Answer": "A",
+    "Explanation": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that allows for backend development using JavaScript."
+  },
+  {
+    "Q": 2,
+    "Question": "Which of the following is true about Node.js?",
+    "OptionA": "Node.js is single-threaded",
+    "OptionB": "Node.js runs on multiple threads by default",
+    "OptionC": "Node.js supports synchronous I/O",
+    "OptionD": "Node.js is slower than traditional back-end technologies",
+    "Answer": "A",
+    "Explanation": "Node.js is single-threaded and uses an event-driven, non-blocking I/O model, making it efficient and lightweight."
+  },
+  {
+    "Q": 3,
+    "Question": "Which library is commonly used for handling HTTP requests in Node.js?",
+    "OptionA": "Express",
+    "OptionB": "React",
+    "OptionC": "MongoDB",
+    "OptionD": "Vue",
+    "Answer": "A",
+    "Explanation": "Express.js is a popular web framework for Node.js that simplifies the creation of web applications and APIs."
+  },
+  {
+    "Q": 4,
+    "Question": "Which command is used to initialize a new Node.js project?",
+    "OptionA": "npm init",
+    "OptionB": "node init",
+    "OptionC": "npm start",
+    "OptionD": "node start",
+    "Answer": "A",
+    "Explanation": "The `npm init` command is used to create a `package.json` file, which manages the project's dependencies and configuration."
+  },
+  {
+    "Q": 5,
+    "Question": "Which of the following is used to manage packages in a Node.js project?",
+    "OptionA": "npm",
+    "OptionB": "yarn",
+    "OptionC": "bower",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "npm, yarn, and bower are all package managers used to manage dependencies in Node.js projects."
+  },
+  {
+    "Q": 6,
+    "Question": "What is the purpose of the 'require' function in Node.js?",
+    "OptionA": "To import external modules",
+    "OptionB": "To execute a function",
+    "OptionC": "To define new variables",
+    "OptionD": "To define a class",
+    "Answer": "A",
+    "Explanation": "The `require` function is used to import external modules or files into a Node.js application."
+  },
+  {
+    "Q": 7,
+    "Question": "How do you create a simple server using Node.js?",
+    "OptionA": "Using the `http` module",
+    "OptionB": "Using the `express` module",
+    "OptionC": "Using the `fs` module",
+    "OptionD": "Using the `crypto` module",
+    "Answer": "A",
+    "Explanation": "The `http` module in Node.js is used to create a server that can handle requests and send responses."
+  },
+  {
+    "Q": 8,
+    "Question": "What is the event loop in Node.js?",
+    "OptionA": "A mechanism that allows asynchronous operations to be handled efficiently",
+    "OptionB": "A loop that repeats a specific function until the server is restarted",
+    "OptionC": "A queue for holding server requests",
+    "OptionD": "An infinite loop that handles I/O operations",
+    "Answer": "A",
+    "Explanation": "The event loop is responsible for handling asynchronous operations and non-blocking I/O in Node.js."
+  },
+  {
+    "Q": 9,
+    "Question": "Which of the following methods is used to send a response in a Node.js HTTP server?",
+    "OptionA": "res.send()",
+    "OptionB": "res.write()",
+    "OptionC": "res.writeHead()",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "In Node.js, `res.send()`, `res.write()`, and `res.writeHead()` are used to send a response in an HTTP server."
+  },
+  {
+    "Q": 10,
+    "Question": "Which module in Node.js is used for working with the file system?",
+    "OptionA": "fs",
+    "OptionB": "http",
+    "OptionC": "crypto",
+    "OptionD": "path",
+    "Answer": "A",
+    "Explanation": "The `fs` module in Node.js is used for interacting with the file system, such as reading and writing files."
+  },
+  {
+    "Q": 11,
+    "Question": "Which of the following is used to handle routing in Node.js applications?",
+    "OptionA": "Express",
+    "OptionB": "http",
+    "OptionC": "fs",
+    "OptionD": "path",
+    "Answer": "A",
+    "Explanation": "Express is a web framework built on top of Node.js that simplifies routing and handling HTTP requests."
+  },
+  {
+    "Q": 12,
+    "Question": "What does the `fs.readFile()` method do in Node.js?",
+    "OptionA": "Reads a file asynchronously",
+    "OptionB": "Writes data to a file",
+    "OptionC": "Deletes a file",
+    "OptionD": "Reads a file synchronously",
+    "Answer": "A",
+    "Explanation": "The `fs.readFile()` method in Node.js reads a file asynchronously and returns its contents in a callback."
+  },
+  {
+    "Q": 13,
+    "Question": "How do you handle errors in Node.js?",
+    "OptionA": "Using try-catch blocks",
+    "OptionB": "Using the 'error' event",
+    "OptionC": "Using promises and .catch()",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "In Node.js, errors can be handled using try-catch blocks, the 'error' event, or promises with `.catch()`."
+  },
+  {
+    "Q": 14,
+    "Question": "What is the purpose of the `process` object in Node.js?",
+    "OptionA": "Provides information about the current Node.js process",
+    "OptionB": "Handles HTTP requests",
+    "OptionC": "Defines the configuration of Node.js",
+    "OptionD": "Manages the event loop",
+    "Answer": "A",
+    "Explanation": "The `process` object provides information and control over the current Node.js process, such as environment variables."
+  },
+  {
+    "Q": 15,
+    "Question": "What is the purpose of the `next()` function in Express.js?",
+    "OptionA": "To pass control to the next middleware function",
+    "OptionB": "To terminate the request-response cycle",
+    "OptionC": "To send a response to the client",
+    "OptionD": "To initialize the server",
+    "Answer": "A",
+    "Explanation": "In Express.js, the `next()` function is used to pass control to the next middleware function in the stack."
+  },
+  {
+    "Q": 16,
+    "Question": "Which of the following is used to create a REST API in Node.js?",
+    "OptionA": "Express",
+    "OptionB": "MongoDB",
+    "OptionC": "Socket.io",
+    "OptionD": "MySQL",
+    "Answer": "A",
+    "Explanation": "Express is commonly used to build REST APIs by providing routing and middleware for HTTP requests."
+  },
+  {
+    "Q": 17,
+    "Question": "How do you make an asynchronous HTTP request in Node.js?",
+    "OptionA": "Using the `http` or `https` module",
+    "OptionB": "Using the `fetch` API",
+    "OptionC": "Using the `request` module",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "Node.js can make asynchronous HTTP requests using the `http`, `https`, `fetch`, or `request` modules."
+  },
+  {
+    "Q": 18,
+    "Question": "What is npm used for in Node.js?",
+    "OptionA": "Managing dependencies",
+    "OptionB": "Managing environment variables",
+    "OptionC": "Managing requests and responses",
+    "OptionD": "Managing file system operations",
+    "Answer": "A",
+    "Explanation": "npm (Node Package Manager) is used to manage dependencies, install packages, and manage project scripts in Node.js applications."
+  },
+  {
+    "Q": 19,
+    "Question": "Which of the following is true about the `res.json()` method in Express?",
+    "OptionA": "It sends a JSON response to the client",
+    "OptionB": "It is used to send HTML content to the client",
+    "OptionC": "It creates a new JSON file on the server",
+    "OptionD": "It parses incoming JSON data",
+    "Answer": "A",
+    "Explanation": "`res.json()` sends a JSON response to the client and automatically sets the correct `Content-Type` header."
+  },
+  {
+    "Q": 20,
+    "Question": "Which method is used to close the server in Node.js?",
+    "OptionA": "server.close()",
+    "OptionB": "server.end()",
+    "OptionC": "server.stop()",
+    "OptionD": "server.exit()",
+    "Answer": "A",
+    "Explanation": "The `server.close()` method is used to stop the server from accepting new connections and clean up any remaining requests."
+  },
+
+  {
+    "Q": 21,
+    "Question": "What is the default port for an Express.js server?",
+    "OptionA": "8080",
+    "OptionB": "3000",
+    "OptionC": "5000",
+    "OptionD": "80",
+    "Answer": "B",
+    "Explanation": "By default, an Express.js server listens on port 3000, unless specified otherwise."
+  },
+  {
+    "Q": 22,
+    "Question": "How do you create a new Express application?",
+    "OptionA": "express.create()",
+    "OptionB": "express.new()",
+    "OptionC": "express()",
+    "OptionD": "new express()",
+    "Answer": "C",
+    "Explanation": "To create a new Express application, you simply call `express()`."
+  },
+  {
+    "Q": 23,
+    "Question": "Which of the following methods is used to set middleware in an Express.js application?",
+    "OptionA": "app.use()",
+    "OptionB": "app.middleware()",
+    "OptionC": "app.route()",
+    "OptionD": "app.set()",
+    "Answer": "A",
+    "Explanation": "In Express.js, `app.use()` is used to define middleware that runs for every request."
+  },
+  {
+    "Q": 24,
+    "Question": "What is the purpose of the `res.status()` method in Express?",
+    "OptionA": "To send a status code with the response",
+    "OptionB": "To send the status of the database",
+    "OptionC": "To update the status of the server",
+    "OptionD": "To track the status of an HTTP request",
+    "Answer": "A",
+    "Explanation": "`res.status()` is used to set the HTTP status code for the response."
+  },
+  {
+    "Q": 25,
+    "Question": "Which method is used to create a route that responds to HTTP GET requests in Express.js?",
+    "OptionA": "app.get()",
+    "OptionB": "app.route()",
+    "OptionC": "app.post()",
+    "OptionD": "app.request()",
+    "Answer": "A",
+    "Explanation": "`app.get()` is used to define a route that handles HTTP GET requests in Express."
+  },
+  {
+    "Q": 26,
+    "Question": "Which module in Node.js is used to create a server?",
+    "OptionA": "http",
+    "OptionB": "express",
+    "OptionC": "path",
+    "OptionD": "socket.io",
+    "Answer": "A",
+    "Explanation": "The `http` module in Node.js is used to create a basic server for handling HTTP requests and responses."
+  },
+  {
+    "Q": 27,
+    "Question": "What does the `fs.writeFile()` method do in Node.js?",
+    "OptionA": "Writes data to a file asynchronously",
+    "OptionB": "Reads a file asynchronously",
+    "OptionC": "Deletes a file asynchronously",
+    "OptionD": "Renames a file",
+    "Answer": "A",
+    "Explanation": "`fs.writeFile()` is used to write data to a file asynchronously."
+  },
+  {
+    "Q": 28,
+    "Question": "How do you create an Express middleware that handles errors?",
+    "OptionA": "By defining a middleware with four parameters",
+    "OptionB": "By using app.get()",
+    "OptionC": "By using app.use()",
+    "OptionD": "By setting the error property on app",
+    "Answer": "A",
+    "Explanation": "To create an error-handling middleware in Express, you define a middleware function with four parameters: (err, req, res, next)."
+  },
+  {
+    "Q": 29,
+    "Question": "What is the purpose of the `res.sendFile()` method in Express.js?",
+    "OptionA": "To send a file as a response to the client",
+    "OptionB": "To send an HTTP request to a server",
+    "OptionC": "To read a file from the server",
+    "OptionD": "To send a response in JSON format",
+    "Answer": "A",
+    "Explanation": "`res.sendFile()` is used to send a file as the HTTP response to the client."
+  },
+  {
+    "Q": 30,
+    "Question": "Which method is used to redirect a request to another URL in Express?",
+    "OptionA": "res.redirect()",
+    "OptionB": "res.send()",
+    "OptionC": "res.end()",
+    "OptionD": "res.json()",
+    "Answer": "A",
+    "Explanation": "`res.redirect()` is used to redirect an HTTP request to another URL in Express.js."
+  },
+  {
+    "Q": 31,
+    "Question": "What is the purpose of the `next()` function in Express middleware?",
+    "OptionA": "To pass control to the next middleware function",
+    "OptionB": "To stop the request-response cycle",
+    "OptionC": "To process the response",
+    "OptionD": "To send a JSON response",
+    "Answer": "A",
+    "Explanation": "In Express.js, `next()` is used to pass control to the next middleware function in the stack."
+  },
+  {
+    "Q": 32,
+    "Question": "Which of the following methods is used to handle HTTP POST requests in Express?",
+    "OptionA": "app.post()",
+    "OptionB": "app.get()",
+    "OptionC": "app.put()",
+    "OptionD": "app.delete()",
+    "Answer": "A",
+    "Explanation": "`app.post()` is used to define a route for handling HTTP POST requests in Express.js."
+  },
+  {
+    "Q": 33,
+    "Question": "Which function in Node.js is used to start a server?",
+    "OptionA": "server.listen()",
+    "OptionB": "server.start()",
+    "OptionC": "server.run()",
+    "OptionD": "server.open()",
+    "Answer": "A",
+    "Explanation": "`server.listen()` is used to start a server and make it listen for incoming requests on a specified port."
+  },
+  {
+    "Q": 34,
+    "Question": "What is the role of the `process.env` object in Node.js?",
+    "OptionA": "It holds environment variables",
+    "OptionB": "It manages file system operations",
+    "OptionC": "It handles HTTP requests",
+    "OptionD": "It executes server-side code",
+    "Answer": "A",
+    "Explanation": "`process.env` contains environment variables, which store configuration details and sensitive information for the application."
+  },
+  {
+    "Q": 35,
+    "Question": "Which function in Node.js is used to read environment variables from a `.env` file?",
+    "OptionA": "dotenv.config()",
+    "OptionB": "fs.readFile()",
+    "OptionC": "process.load()",
+    "OptionD": "env.read()",
+    "Answer": "A",
+    "Explanation": "The `dotenv.config()` function is used to load environment variables from a `.env` file into `process.env`."
+  },
+  {
+    "Q": 36,
+    "Question": "What is the default response status code for a successful HTTP request?",
+    "OptionA": "200",
+    "OptionB": "404",
+    "OptionC": "500",
+    "OptionD": "302",
+    "Answer": "A",
+    "Explanation": "A successful HTTP request typically returns a status code of 200."
+  },
+  {
+    "Q": 37,
+    "Question": "How do you handle multiple routes for the same HTTP method in Express?",
+    "OptionA": "By chaining route handlers",
+    "OptionB": "By using separate middleware",
+    "OptionC": "By using app.get() for each route",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "In Express, you can handle multiple routes for the same HTTP method by chaining route handlers, using middleware, or defining routes with `app.get()` for each specific URL."
+  },
+  {
+    "Q": 38,
+    "Question": "What does the `res.send()` method do in Express?",
+    "OptionA": "Sends a response to the client",
+    "OptionB": "Reads data from a file",
+    "OptionC": "Sends an HTTP request",
+    "OptionD": "Sets HTTP headers",
+    "Answer": "A",
+    "Explanation": "`res.send()` is used to send a response to the client in Express.js."
+  },
+  {
+    "Q": 39,
+    "Question": "Which function in Node.js is used to handle a response for an incoming request?",
+    "OptionA": "res.end()",
+    "OptionB": "res.send()",
+    "OptionC": "res.write()",
+    "OptionD": "res.writeHead()",
+    "Answer": "B",
+    "Explanation": "`res.send()` is used to send a response to the client in Node.js (with or without Express)."
+  },
+  {
+    "Q": 40,
+    "Question": "Which HTTP method is used to send data to the server to be processed?",
+    "OptionA": "POST",
+    "OptionB": "GET",
+    "OptionC": "DELETE",
+    "OptionD": "PUT",
+    "Answer": "A",
+    "Explanation": "The `POST` method is used to send data to the server to be processed, typically in the body of the request."
+  },
+
+  {
+    "Q": 41,
+    "Question": "What is the purpose of the `require()` function in Node.js?",
+    "OptionA": "To import modules or files",
+    "OptionB": "To handle HTTP requests",
+    "OptionC": "To initialize a server",
+    "OptionD": "To start a database",
+    "Answer": "A",
+    "Explanation": "`require()` is used in Node.js to import modules, files, or other resources into your application."
+  },
+  {
+    "Q": 42,
+    "Question": "Which of the following is used to read files asynchronously in Node.js?",
+    "OptionA": "fs.readFile()",
+    "OptionB": "fs.writeFile()",
+    "OptionC": "fs.createReadStream()",
+    "OptionD": "fs.createWriteStream()",
+    "Answer": "A",
+    "Explanation": "`fs.readFile()` is used to read files asynchronously in Node.js."
+  },
+  {
+    "Q": 43,
+    "Question": "Which method is used to handle HTTP PUT requests in Express.js?",
+    "OptionA": "app.put()",
+    "OptionB": "app.patch()",
+    "OptionC": "app.delete()",
+    "OptionD": "app.get()",
+    "Answer": "A",
+    "Explanation": "`app.put()` is used to define routes that handle HTTP PUT requests in Express.js."
+  },
+  {
+    "Q": 44,
+    "Question": "Which package in Node.js is used to parse incoming request bodies?",
+    "OptionA": "body-parser",
+    "OptionB": "express-session",
+    "OptionC": "cookie-parser",
+    "OptionD": "path",
+    "Answer": "A",
+    "Explanation": "The `body-parser` package is used to parse incoming request bodies in Express.js."
+  },
+  {
+    "Q": 45,
+    "Question": "What is the `console.log()` method used for in Node.js?",
+    "OptionA": "To print output to the console",
+    "OptionB": "To create a new console window",
+    "OptionC": "To execute JavaScript code",
+    "OptionD": "To trigger an HTTP request",
+    "Answer": "A",
+    "Explanation": "`console.log()` is used to print output to the console for debugging and logging purposes."
+  },
+  {
+    "Q": 46,
+    "Question": "Which of the following is used to define a route that handles HTTP DELETE requests in Express?",
+    "OptionA": "app.delete()",
+    "OptionB": "app.put()",
+    "OptionC": "app.patch()",
+    "OptionD": "app.get()",
+    "Answer": "A",
+    "Explanation": "`app.delete()` is used to define routes for handling HTTP DELETE requests in Express.js."
+  },
+  {
+    "Q": 47,
+    "Question": "What is the role of the `express.Router()` function in Express?",
+    "OptionA": "To define modular route handlers",
+    "OptionB": "To handle database connections",
+    "OptionC": "To parse incoming data",
+    "OptionD": "To start a server",
+    "Answer": "A",
+    "Explanation": "`express.Router()` is used to define modular route handlers in Express.js, which can be used in different parts of an application."
+  },
+  {
+    "Q": 48,
+    "Question": "How do you access query parameters in Express.js?",
+    "OptionA": "req.query",
+    "OptionB": "req.body",
+    "OptionC": "req.params",
+    "OptionD": "req.headers",
+    "Answer": "A",
+    "Explanation": "Query parameters can be accessed using `req.query` in Express.js."
+  },
+  {
+    "Q": 49,
+    "Question": "How do you define an asynchronous function in Node.js?",
+    "OptionA": "By using the `async` keyword",
+    "OptionB": "By using the `promise` keyword",
+    "OptionC": "By using the `await` keyword",
+    "OptionD": "By using the `setTimeout` method",
+    "Answer": "A",
+    "Explanation": "In Node.js, asynchronous functions are defined using the `async` keyword."
+  },
+  {
+    "Q": 50,
+    "Question": "Which method is used to serve static files in an Express.js application?",
+    "OptionA": "express.static()",
+    "OptionB": "app.static()",
+    "OptionC": "app.staticFiles()",
+    "OptionD": "serve.static()",
+    "Answer": "A",
+    "Explanation": "`express.static()` is a built-in middleware function in Express.js to serve static files such as images, CSS, and JavaScript."
+  }
+]

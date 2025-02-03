@@ -1,0 +1,503 @@
+[
+  {
+    "Q": 1,
+    "Question": "What is Tailwind CSS?",
+    "OptionA": "A utility-first CSS framework for creating custom designs",
+    "OptionB": "A pre-designed CSS framework with ready-to-use themes",
+    "OptionC": "A JavaScript library for styling web pages",
+    "OptionD": "A tool for compiling CSS into JavaScript",
+    "Answer": "A",
+    "Explanation": "Tailwind CSS is a utility-first CSS framework that provides utility classes to build custom designs."
+  },
+  {
+    "Q": 2,
+    "Question": "What is a utility-first approach in Tailwind CSS?",
+    "OptionA": "Using small, reusable utility classes to style elements directly in HTML",
+    "OptionB": "Using large pre-defined CSS classes for components",
+    "OptionC": "Using JavaScript to dynamically apply styles",
+    "OptionD": "Using external libraries for styling",
+    "Answer": "A",
+    "Explanation": "The utility-first approach in Tailwind CSS focuses on using small utility classes for styling rather than predefined components."
+  },
+  {
+    "Q": 3,
+    "Question": "How do you add Tailwind CSS to your project?",
+    "OptionA": "By installing it through npm or yarn and configuring it in a build process",
+    "OptionB": "By adding a link to the CDN in the HTML file",
+    "OptionC": "By downloading the CSS file and manually including it",
+    "OptionD": "By including a JavaScript file in the HTML head",
+    "Answer": "A",
+    "Explanation": "You can add Tailwind CSS to your project by installing it through npm or yarn and configuring it in the build process, or by using the CDN for simpler setups."
+  },
+  {
+    "Q": 4,
+    "Question": "Which configuration file is created when you set up Tailwind CSS?",
+    "OptionA": "tailwind.config.js",
+    "OptionB": "tailwind.json",
+    "OptionC": "tailwind.css",
+    "OptionD": "tailwind.config.json",
+    "Answer": "A",
+    "Explanation": "The `tailwind.config.js` file is created when you set up Tailwind CSS, which allows you to configure the framework."
+  },
+  {
+    "Q": 5,
+    "Question": "What does the `@apply` directive do in Tailwind CSS?",
+    "OptionA": "It allows you to apply utility classes directly to your CSS styles",
+    "OptionB": "It applies styles to the DOM using JavaScript",
+    "OptionC": "It applies CSS classes to all elements globally",
+    "OptionD": "It defines custom utilities",
+    "Answer": "A",
+    "Explanation": "The `@apply` directive is used to apply utility classes directly in your custom CSS files."
+  },
+  {
+    "Q": 6,
+    "Question": "Which of the following is a core feature of Tailwind CSS?",
+    "OptionA": "Utility-first approach to styling",
+    "OptionB": "Component-based design system",
+    "OptionC": "Pre-built themes and templates",
+    "OptionD": "JavaScript-based styling",
+    "Answer": "A",
+    "Explanation": "Tailwind CSS is known for its utility-first approach, which means you build designs using small utility classes."
+  },
+  {
+    "Q": 7,
+    "Question": "What does the `flex` utility in Tailwind CSS do?",
+    "OptionA": "It enables a flexbox layout on an element",
+    "OptionB": "It adds padding to an element",
+    "OptionC": "It creates a grid layout",
+    "OptionD": "It applies margin to an element",
+    "Answer": "A",
+    "Explanation": "The `flex` utility in Tailwind CSS is used to enable a flexbox layout on an element."
+  },
+  {
+    "Q": 8,
+    "Question": "Which Tailwind class is used to set the background color of an element?",
+    "OptionA": "bg-{color}",
+    "OptionB": "color-bg-{color}",
+    "OptionC": "background-{color}",
+    "OptionD": "bg-color-{color}",
+    "Answer": "A",
+    "Explanation": "In Tailwind CSS, the background color is set using classes like `bg-{color}`, where `{color}` is the desired color name."
+  },
+  {
+    "Q": 9,
+    "Question": "What does the `space-x-{size}` utility in Tailwind CSS do?",
+    "OptionA": "It sets horizontal spacing between child elements",
+    "OptionB": "It adds padding to an element",
+    "OptionC": "It adds margin to an element",
+    "OptionD": "It sets vertical spacing between child elements",
+    "Answer": "A",
+    "Explanation": "`space-x-{size}` in Tailwind CSS is used to apply horizontal spacing between child elements."
+  },
+  {
+    "Q": 10,
+    "Question": "Which class would you use to add a rounded border to an element in Tailwind CSS?",
+    "OptionA": "rounded",
+    "OptionB": "border-radius",
+    "OptionC": "round-border",
+    "OptionD": "border-rounded",
+    "Answer": "A",
+    "Explanation": "In Tailwind CSS, the `rounded` utility is used to add rounded borders to elements."
+  },
+  {
+    "Q": 11,
+    "Question": "Which of the following classes in Tailwind CSS is used for setting the font size?",
+    "OptionA": "text-{size}",
+    "OptionB": "font-size-{size}",
+    "OptionC": "size-font-{size}",
+    "OptionD": "font-{size}",
+    "Answer": "A",
+    "Explanation": "To set the font size in Tailwind CSS, you use the `text-{size}` class."
+  },
+  {
+    "Q": 12,
+    "Question": "What is the purpose of the `@layer` directive in Tailwind CSS?",
+    "OptionA": "It allows you to define custom layers like components and utilities in your CSS",
+    "OptionB": "It adds extra layers of styling for components",
+    "OptionC": "It defines a new custom theme",
+    "OptionD": "It creates a new grid layout",
+    "Answer": "A",
+    "Explanation": "The `@layer` directive is used to organize your custom styles into distinct layers such as `components`, `utilities`, and `base`."
+  },
+  {
+    "Q": 13,
+    "Question": "What is the purpose of the `purge` option in the Tailwind CSS configuration?",
+    "OptionA": "To remove unused CSS classes from the final build",
+    "OptionB": "To add custom classes to the build",
+    "OptionC": "To optimize the CSS for smaller screens",
+    "OptionD": "To automatically update the CSS with new classes",
+    "Answer": "A",
+    "Explanation": "The `purge` option in Tailwind CSS is used to remove unused CSS classes from the final build, optimizing the file size."
+  },
+  {
+    "Q": 14,
+    "Question": "Which Tailwind class is used to apply a fixed position to an element?",
+    "OptionA": "fixed",
+    "OptionB": "absolute",
+    "OptionC": "relative",
+    "OptionD": "sticky",
+    "Answer": "A",
+    "Explanation": "The `fixed` class in Tailwind CSS is used to apply a fixed position to an element."
+  },
+  {
+    "Q": 15,
+    "Question": "Which of the following is a valid Tailwind CSS utility class for controlling text alignment?",
+    "OptionA": "text-{alignment}",
+    "OptionB": "align-text-{alignment}",
+    "OptionC": "text-align-{alignment}",
+    "OptionD": "align-{alignment}",
+    "Answer": "A",
+    "Explanation": "Tailwind CSS uses `text-{alignment}` classes to control the text alignment, such as `text-center`, `text-left`, or `text-right`."
+  },
+  {
+    "Q": 16,
+    "Question": "What is the purpose of the `flex-grow` utility in Tailwind CSS?",
+    "OptionA": "It controls how much a flex item should grow relative to the other items",
+    "OptionB": "It sets the direction of flex items",
+    "OptionC": "It sets the gap between flex items",
+    "OptionD": "It adjusts the margin of flex items",
+    "Answer": "A",
+    "Explanation": "`flex-grow` controls how much a flex item should grow relative to the other items in the flex container."
+  },
+  {
+    "Q": 17,
+    "Question": "Which class in Tailwind CSS is used to set the width of an element to full?",
+    "OptionA": "w-full",
+    "OptionB": "width-full",
+    "OptionC": "w-100%",
+    "OptionD": "full-width",
+    "Answer": "A",
+    "Explanation": "`w-full` in Tailwind CSS sets the width of an element to 100% of its parent."
+  },
+  {
+    "Q": 18,
+    "Question": "How can you customize the colors in Tailwind CSS?",
+    "OptionA": "By modifying the `tailwind.config.js` file",
+    "OptionB": "By using inline styles",
+    "OptionC": "By writing custom CSS classes",
+    "OptionD": "By editing the global CSS file",
+    "Answer": "A",
+    "Explanation": "Tailwind CSS allows you to customize the default colors by modifying the `tailwind.config.js` file."
+  },
+  {
+    "Q": 19,
+    "Question": "Which class in Tailwind CSS sets the padding to 1rem on all sides?",
+    "OptionA": "p-4",
+    "OptionB": "p-1",
+    "OptionC": "pad-1",
+    "OptionD": "padding-4",
+    "Answer": "A",
+    "Explanation": "`p-4` in Tailwind CSS sets the padding to 1rem on all sides of the element."
+  },
+  {
+    "Q": 20,
+    "Question": "Which of the following is used to define a responsive design in Tailwind CSS?",
+    "OptionA": "Using breakpoint prefixes such as `sm:`, `md:`, `lg:`",
+    "OptionB": "Using media queries in custom CSS",
+    "OptionC": "Using JavaScript to detect screen size",
+    "OptionD": "Tailwind automatically adjusts based on the device size",
+    "Answer": "A",
+    "Explanation": "Tailwind CSS defines responsive breakpoints using prefixes such as `sm:`, `md:`, `lg:`, etc."
+  },
+
+  {
+    "Q": 21,
+    "Question": "Which Tailwind class can be used to center an element vertically within a flex container?",
+    "OptionA": "items-center",
+    "OptionB": "justify-center",
+    "OptionC": "align-middle",
+    "OptionD": "vertical-center",
+    "Answer": "A",
+    "Explanation": "The `items-center` class is used to center an element vertically within a flex container."
+  },
+  {
+    "Q": 22,
+    "Question": "How do you set the border radius of an element to 50% in Tailwind CSS?",
+    "OptionA": "rounded-full",
+    "OptionB": "rounded-50%",
+    "OptionC": "border-radius-full",
+    "OptionD": "full-rounded",
+    "Answer": "A",
+    "Explanation": "`rounded-full` in Tailwind CSS sets the border radius of an element to 50%, making it fully rounded."
+  },
+  {
+    "Q": 23,
+    "Question": "Which utility class in Tailwind CSS can you use to apply a shadow effect to an element?",
+    "OptionA": "shadow",
+    "OptionB": "box-shadow",
+    "OptionC": "shadow-lg",
+    "OptionD": "drop-shadow",
+    "Answer": "A",
+    "Explanation": "The `shadow` class is used in Tailwind CSS to apply a basic shadow effect to an element."
+  },
+  {
+    "Q": 24,
+    "Question": "Which class would you use to apply a large margin to the bottom of an element in Tailwind CSS?",
+    "OptionA": "mb-8",
+    "OptionB": "margin-bottom-lg",
+    "OptionC": "m-b-8",
+    "OptionD": "bottom-m-8",
+    "Answer": "A",
+    "Explanation": "`mb-8` in Tailwind CSS adds a large margin to the bottom of an element."
+  },
+  {
+    "Q": 25,
+    "Question": "What does the `flex-col` class in Tailwind CSS do?",
+    "OptionA": "It arranges flex items in a vertical column",
+    "OptionB": "It arranges flex items in a horizontal row",
+    "OptionC": "It sets the background color of flex items",
+    "OptionD": "It adjusts the padding between flex items",
+    "Answer": "A",
+    "Explanation": "`flex-col` in Tailwind CSS arranges flex items in a vertical column, opposite to the default horizontal row layout."
+  },
+  {
+    "Q": 26,
+    "Question": "What does the `space-y-{size}` utility do in Tailwind CSS?",
+    "OptionA": "It adds vertical space between child elements",
+    "OptionB": "It adds horizontal space between child elements",
+    "OptionC": "It applies padding to the parent container",
+    "OptionD": "It sets the gap for grid layouts",
+    "Answer": "A",
+    "Explanation": "`space-y-{size}` in Tailwind CSS adds vertical space between child elements, where `{size}` is the spacing value."
+  },
+  {
+    "Q": 27,
+    "Question": "Which class is used to hide an element in Tailwind CSS?",
+    "OptionA": "hidden",
+    "OptionB": "display-none",
+    "OptionC": "invisible",
+    "OptionD": "opacity-0",
+    "Answer": "A",
+    "Explanation": "The `hidden` class in Tailwind CSS is used to completely hide an element."
+  },
+  {
+    "Q": 28,
+    "Question": "Which utility class in Tailwind CSS is used to control the width of an element?",
+    "OptionA": "w-{size}",
+    "OptionB": "width-{size}",
+    "OptionC": "size-width-{size}",
+    "OptionD": "width-{value}",
+    "Answer": "A",
+    "Explanation": "`w-{size}` is used in Tailwind CSS to control the width of an element, where `{size}` represents values like `full`, `1/2`, or specific pixel values."
+  },
+  {
+    "Q": 29,
+    "Question": "Which Tailwind class is used to add padding to the top of an element?",
+    "OptionA": "pt-{size}",
+    "OptionB": "padding-top-{size}",
+    "OptionC": "top-padding-{size}",
+    "OptionD": "pt-size-{value}",
+    "Answer": "A",
+    "Explanation": "`pt-{size}` in Tailwind CSS is used to add padding to the top of an element."
+  },
+  {
+    "Q": 30,
+    "Question": "Which Tailwind class is used to set the text color of an element to red?",
+    "OptionA": "text-red-500",
+    "OptionB": "color-red-500",
+    "OptionC": "red-500-text",
+    "OptionD": "text-color-red-500",
+    "Answer": "A",
+    "Explanation": "`text-red-500` is used in Tailwind CSS to set the text color to red with a shade of 500."
+  },
+  {
+    "Q": 31,
+    "Question": "What does the `justify-center` class do in Tailwind CSS?",
+    "OptionA": "It centers flex items horizontally",
+    "OptionB": "It aligns items vertically in a flex container",
+    "OptionC": "It adds space between items in a flex container",
+    "OptionD": "It sets the flex container's padding",
+    "Answer": "A",
+    "Explanation": "`justify-center` is used to horizontally center the items within a flex container."
+  },
+  {
+    "Q": 32,
+    "Question": "Which class is used to control the text alignment of an element in Tailwind CSS?",
+    "OptionA": "text-{alignment}",
+    "OptionB": "align-{text}",
+    "OptionC": "text-align-{alignment}",
+    "OptionD": "align-text-{alignment}",
+    "Answer": "A",
+    "Explanation": "`text-{alignment}` classes like `text-center`, `text-left`, or `text-right` are used to control text alignment in Tailwind CSS."
+  },
+  {
+    "Q": 33,
+    "Question": "Which Tailwind utility is used to apply a hover effect to an element?",
+    "OptionA": "hover:{utility}",
+    "OptionB": "hover-effect:{utility}",
+    "OptionC": "hover-{utility}",
+    "OptionD": "apply-hover-{utility}",
+    "Answer": "A",
+    "Explanation": "In Tailwind CSS, the `hover:{utility}` syntax is used to apply styles when the element is hovered."
+  },
+  {
+    "Q": 34,
+    "Question": "How can you customize the spacing scale in Tailwind CSS?",
+    "OptionA": "By editing the `tailwind.config.js` file",
+    "OptionB": "By using inline styles",
+    "OptionC": "By modifying the CSS file",
+    "OptionD": "By installing additional plugins",
+    "Answer": "A",
+    "Explanation": "You can customize the spacing scale by modifying the `tailwind.config.js` file."
+  },
+  {
+    "Q": 35,
+    "Question": "Which class sets the height of an element to 100% of its parent in Tailwind CSS?",
+    "OptionA": "h-full",
+    "OptionB": "height-full",
+    "OptionC": "full-height",
+    "OptionD": "100vh",
+    "Answer": "A",
+    "Explanation": "`h-full` in Tailwind CSS sets the height of an element to 100% of its parent container."
+  },
+  {
+    "Q": 36,
+    "Question": "What class in Tailwind CSS is used to add a shadow effect with a larger blur?",
+    "OptionA": "shadow-lg",
+    "OptionB": "shadow-xl",
+    "OptionC": "shadow-2xl",
+    "OptionD": "shadow-xxl",
+    "Answer": "A",
+    "Explanation": "`shadow-lg` adds a larger blur shadow effect to an element in Tailwind CSS."
+  },
+  {
+    "Q": 37,
+    "Question": "Which class in Tailwind CSS is used to make text bold?",
+    "OptionA": "font-bold",
+    "OptionB": "text-bold",
+    "OptionC": "bold-text",
+    "OptionD": "bold-font",
+    "Answer": "A",
+    "Explanation": "`font-bold` is used to apply bold text styling in Tailwind CSS."
+  },
+  {
+    "Q": 38,
+    "Question": "What does the `overflow-hidden` class do in Tailwind CSS?",
+    "OptionA": "It hides content that overflows the bounds of an element",
+    "OptionB": "It adds a scrollable area to the element",
+    "OptionC": "It makes the element’s content scrollable",
+    "OptionD": "It increases the element's height automatically",
+    "Answer": "A",
+    "Explanation": "`overflow-hidden` hides any content that overflows the bounds of the element."
+  },
+  {
+    "Q": 39,
+    "Question": "Which class in Tailwind CSS is used to control the opacity of an element?",
+    "OptionA": "opacity-{value}",
+    "OptionB": "opacity-{level}",
+    "OptionC": "transparency-{value}",
+    "OptionD": "alpha-{value}",
+    "Answer": "A",
+    "Explanation": "The `opacity-{value}` class in Tailwind CSS is used to control the transparency of an element."
+  },
+  {
+    "Q": 40,
+    "Question": "Which class can you use to apply a transparent background in Tailwind CSS?",
+    "OptionA": "bg-transparent",
+    "OptionB": "transparent-bg",
+    "OptionC": "bg-clear",
+    "OptionD": "background-transparent",
+    "Answer": "A",
+    "Explanation": "`bg-transparent` in Tailwind CSS applies a transparent background to an element."
+  },
+  {
+    "Q": 41,
+    "Question": "Which utility class in Tailwind CSS is used to make text italic?",
+    "OptionA": "italic",
+    "OptionB": "font-italic",
+    "OptionC": "text-italic",
+    "OptionD": "style-italic",
+    "Answer": "A",
+    "Explanation": "`italic` is used in Tailwind CSS to make the text italic."
+  },
+  {
+    "Q": 42,
+    "Question": "Which class in Tailwind CSS is used to remove the underline from text?",
+    "OptionA": "no-underline",
+    "OptionB": "text-no-underline",
+    "OptionC": "remove-underline",
+    "OptionD": "underline-none",
+    "Answer": "A",
+    "Explanation": "`no-underline` removes the underline from text in Tailwind CSS."
+  },
+  {
+    "Q": 43,
+    "Question": "How do you create a responsive grid layout in Tailwind CSS?",
+    "OptionA": "By using the `grid` class and defining column sizes with breakpoints",
+    "OptionB": "By applying flexbox utilities to grid items",
+    "OptionC": "By using a container with a fixed width",
+    "OptionD": "By using custom media queries",
+    "Answer": "A",
+    "Explanation": "Tailwind CSS allows you to create a responsive grid layout by using the `grid` class and specifying column sizes at various breakpoints."
+  },
+  {
+    "Q": 44,
+    "Question": "Which class is used to display an element as a grid container in Tailwind CSS?",
+    "OptionA": "grid",
+    "OptionB": "display-grid",
+    "OptionC": "container-grid",
+    "OptionD": "grid-container",
+    "Answer": "A",
+    "Explanation": "`grid` is the class used in Tailwind CSS to display an element as a grid container."
+  },
+  {
+    "Q": 45,
+    "Question": "What is the purpose of the `object-cover` class in Tailwind CSS?",
+    "OptionA": "It scales the image to cover the entire area of its container while maintaining its aspect ratio",
+    "OptionB": "It centers the image within the container",
+    "OptionC": "It applies a rounded effect to images",
+    "OptionD": "It crops the image to fit the container",
+    "Answer": "A",
+    "Explanation": "`object-cover` is used in Tailwind CSS to scale an image to cover the entire area of its container, maintaining the image's aspect ratio."
+  },
+  {
+    "Q": 46,
+    "Question": "Which class in Tailwind CSS is used to set the z-index of an element?",
+    "OptionA": "z-{index}",
+    "OptionB": "index-{value}",
+    "OptionC": "z-index-{value}",
+    "OptionD": "z-order-{value}",
+    "Answer": "A",
+    "Explanation": "The `z-{index}` class in Tailwind CSS is used to control the stacking order of an element."
+  },
+  {
+    "Q": 47,
+    "Question": "Which utility class in Tailwind CSS can be used to make an element visible only on small screens?",
+    "OptionA": "sm:block",
+    "OptionB": "md:hidden",
+    "OptionC": "xl:block",
+    "OptionD": "block-on-sm",
+    "Answer": "A",
+    "Explanation": "`sm:block` displays an element only on small screens, as defined in the responsive design settings."
+  },
+  {
+    "Q": 48,
+    "Question": "Which class would you use to apply a fixed position to an element in Tailwind CSS?",
+    "OptionA": "fixed",
+    "OptionB": "absolute",
+    "OptionC": "sticky",
+    "OptionD": "relative",
+    "Answer": "A",
+    "Explanation": "`fixed` is used in Tailwind CSS to position an element relative to the viewport."
+  },
+  {
+    "Q": 49,
+    "Question": "Which Tailwind class is used to set the font size to 2xl?",
+    "OptionA": "text-2xl",
+    "OptionB": "text-2em",
+    "OptionC": "font-2xl",
+    "OptionD": "text-large-2",
+    "Answer": "A",
+    "Explanation": "`text-2xl` sets the font size to 2xl in Tailwind CSS."
+  },
+  {
+    "Q": 50,
+    "Question": "What does the `divide-y` class do in Tailwind CSS?",
+    "OptionA": "It divides a container into horizontal sections with a border between them",
+    "OptionB": "It divides a container into vertical sections with borders",
+    "OptionC": "It adds a border to the container",
+    "OptionD": "It applies padding to the container",
+    "Answer": "A",
+    "Explanation": "`divide-y` creates a horizontal border between the child elements of a container."
+  }
+]

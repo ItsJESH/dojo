@@ -1,0 +1,503 @@
+[
+  {
+    "Q": 1,
+    "Question": "What does Kubernetes manage?",
+    "OptionA": "Databases",
+    "OptionB": "Containers",
+    "OptionC": "Virtual Machines",
+    "OptionD": "Web Servers",
+    "Answer": "B",
+    "Explanation": "Kubernetes is a container orchestration tool that manages containerized applications."
+  },
+  {
+    "Q": 2,
+    "Question": "Which of the following is a key feature of Kubernetes?",
+    "OptionA": "Load Balancing",
+    "OptionB": "Distributed File Storage",
+    "OptionC": "Virtualization",
+    "OptionD": "Database Management",
+    "Answer": "A",
+    "Explanation": "Kubernetes provides load balancing to distribute traffic across containers."
+  },
+  {
+    "Q": 3,
+    "Question": "What is the purpose of a pod in Kubernetes?",
+    "OptionA": "It is a container for deploying applications",
+    "OptionB": "It stores application data",
+    "OptionC": "It handles user authentication",
+    "OptionD": "It manages the entire cluster",
+    "Answer": "A",
+    "Explanation": "A pod is the smallest deployable unit in Kubernetes that contains one or more containers."
+  },
+  {
+    "Q": 4,
+    "Question": "What is the Kubernetes control plane responsible for?",
+    "OptionA": "Running applications",
+    "OptionB": "Managing clusters",
+    "OptionC": "Storing data",
+    "OptionD": "Routing traffic",
+    "Answer": "B",
+    "Explanation": "The Kubernetes control plane is responsible for managing the cluster and making global decisions."
+  },
+  {
+    "Q": 5,
+    "Question": "Which Kubernetes component is responsible for ensuring that the desired state of a cluster is maintained?",
+    "OptionA": "Kubelet",
+    "OptionB": "Kube-Proxy",
+    "OptionC": "Scheduler",
+    "OptionD": "Controller Manager",
+    "Answer": "D",
+    "Explanation": "The Controller Manager ensures that the cluster's desired state is maintained."
+  },
+  {
+    "Q": 6,
+    "Question": "Which object in Kubernetes can be used to scale the number of pods running in a deployment?",
+    "OptionA": "ReplicaSet",
+    "OptionB": "Deployment",
+    "OptionC": "StatefulSet",
+    "OptionD": "Service",
+    "Answer": "B",
+    "Explanation": "A Deployment manages ReplicaSets and can scale the number of pods."
+  },
+  {
+    "Q": 7,
+    "Question": "What is a Kubernetes service used for?",
+    "OptionA": "To define network policies",
+    "OptionB": "To expose applications running on pods to external traffic",
+    "OptionC": "To manage security for the cluster",
+    "OptionD": "To monitor resources in the cluster",
+    "Answer": "B",
+    "Explanation": "A Service exposes applications running on pods to external traffic."
+  },
+  {
+    "Q": 8,
+    "Question": "Which Kubernetes resource is used to manage persistent storage?",
+    "OptionA": "Pod",
+    "OptionB": "PersistentVolume",
+    "OptionC": "ConfigMap",
+    "OptionD": "Deployment",
+    "Answer": "B",
+    "Explanation": "PersistentVolumes (PVs) are used to manage persistent storage in Kubernetes."
+  },
+  {
+    "Q": 9,
+    "Question": "Which command is used to check the status of a Kubernetes cluster?",
+    "OptionA": "kubectl cluster-status",
+    "OptionB": "kubectl get nodes",
+    "OptionC": "kubectl status",
+    "OptionD": "kubectl describe cluster",
+    "Answer": "B",
+    "Explanation": "The command `kubectl get nodes` provides the status of the cluster's nodes."
+  },
+  {
+    "Q": 10,
+    "Question": "What is the purpose of a ConfigMap in Kubernetes?",
+    "OptionA": "To manage application configurations",
+    "OptionB": "To expose services",
+    "OptionC": "To provide persistent storage",
+    "OptionD": "To manage the cluster state",
+    "Answer": "A",
+    "Explanation": "ConfigMaps are used to manage application configurations in Kubernetes."
+  },
+  {
+    "Q": 11,
+    "Question": "Which of the following is a type of Kubernetes controller?",
+    "OptionA": "ReplicaSet",
+    "OptionB": "ConfigMap",
+    "OptionC": "Deployment",
+    "OptionD": "Secret",
+    "Answer": "C",
+    "Explanation": "A Deployment is a controller used to manage stateless applications in Kubernetes."
+  },
+  {
+    "Q": 12,
+    "Question": "What is the role of the Kubernetes scheduler?",
+    "OptionA": "Schedules when the pods are created",
+    "OptionB": "Assigns pods to nodes in the cluster",
+    "OptionC": "Manages networking within the cluster",
+    "OptionD": "Monitors the health of pods",
+    "Answer": "B",
+    "Explanation": "The Kubernetes scheduler assigns pods to appropriate nodes based on resource availability."
+  },
+  {
+    "Q": 13,
+    "Question": "Which type of service in Kubernetes is used to expose a deployment to external traffic?",
+    "OptionA": "ClusterIP",
+    "OptionB": "NodePort",
+    "OptionC": "LoadBalancer",
+    "OptionD": "ExternalName",
+    "Answer": "C",
+    "Explanation": "A LoadBalancer service type is used to expose a deployment to external traffic."
+  },
+  {
+    "Q": 14,
+    "Question": "Which of the following is true about Kubernetes namespaces?",
+    "OptionA": "Namespaces are used for authentication",
+    "OptionB": "Namespaces are used for organizing resources within a cluster",
+    "OptionC": "Namespaces can only be used for services",
+    "OptionD": "Namespaces are used to define network policies",
+    "Answer": "B",
+    "Explanation": "Namespaces help organize resources within a cluster, especially in larger clusters."
+  },
+  {
+    "Q": 15,
+    "Question": "What does the `kubectl apply` command do?",
+    "OptionA": "Creates a new Kubernetes resource",
+    "OptionB": "Deletes a Kubernetes resource",
+    "OptionC": "Applies changes to a resource or creates it if it doesn't exist",
+    "OptionD": "Lists all the resources in the cluster",
+    "Answer": "C",
+    "Explanation": "`kubectl apply` is used to apply changes to a resource or create it if it does not exist."
+  },
+  {
+    "Q": 16,
+    "Question": "Which Kubernetes object ensures that a specified number of identical pods are running?",
+    "OptionA": "PodSet",
+    "OptionB": "ReplicaSet",
+    "OptionC": "Deployment",
+    "OptionD": "StatefulSet",
+    "Answer": "B",
+    "Explanation": "A ReplicaSet ensures that a specified number of identical pods are running."
+  },
+  {
+    "Q": 17,
+    "Question": "What does a Kubernetes ingress resource do?",
+    "OptionA": "Manages persistent storage",
+    "OptionB": "Manages external access to the services in a cluster",
+    "OptionC": "Manages pods",
+    "OptionD": "Monitors the cluster",
+    "Answer": "B",
+    "Explanation": "An ingress resource manages external access to services in a Kubernetes cluster."
+  },
+  {
+    "Q": 18,
+    "Question": "Which of the following is true about a StatefulSet?",
+    "OptionA": "It manages stateful applications",
+    "OptionB": "It is the same as a ReplicaSet",
+    "OptionC": "It is used for stateless applications",
+    "OptionD": "It cannot scale pods",
+    "Answer": "A",
+    "Explanation": "A StatefulSet is used to manage stateful applications that require persistent storage."
+  },
+  {
+    "Q": 19,
+    "Question": "How do you scale a deployment in Kubernetes?",
+    "OptionA": "By increasing the number of containers",
+    "OptionB": "By changing the pod specifications",
+    "OptionC": "By using the `kubectl scale` command",
+    "OptionD": "By updating the pod's YAML file",
+    "Answer": "C",
+    "Explanation": "The `kubectl scale` command is used to scale a deployment in Kubernetes."
+  },
+  {
+    "Q": 20,
+    "Question": "What is a Helm chart?",
+    "OptionA": "A container image",
+    "OptionB": "A way to manage Kubernetes configurations",
+    "OptionC": "A network protocol used in Kubernetes",
+    "OptionD": "A configuration management tool",
+    "Answer": "B",
+    "Explanation": "Helm charts are used to manage Kubernetes configurations and simplify deployments."
+  },
+  {
+    "Q": 21,
+    "Question": "What does the `kubectl logs` command do?",
+    "OptionA": "Fetches logs for a container",
+    "OptionB": "Deploys a container",
+    "OptionC": "Shows Kubernetes cluster logs",
+    "OptionD": "Shows the status of the cluster",
+    "Answer": "A",
+    "Explanation": "`kubectl logs` is used to fetch logs from a specific container in a pod."
+  },
+  {
+    "Q": 22,
+    "Question": "What is the purpose of Kubernetes namespaces?",
+    "OptionA": "To separate resources within the same cluster",
+    "OptionB": "To manage resources across different clusters",
+    "OptionC": "To monitor resource usage",
+    "OptionD": "To store configuration data",
+    "Answer": "A",
+    "Explanation": "Namespaces are used to logically separate resources within a Kubernetes cluster."
+  },
+  {
+    "Q": 23,
+    "Question": "What is the default namespace in Kubernetes?",
+    "OptionA": "default",
+    "OptionB": "kube-system",
+    "OptionC": "kube-public",
+    "OptionD": "none",
+    "Answer": "A",
+    "Explanation": "The default namespace in Kubernetes is `default`."
+  },
+  {
+    "Q": 24,
+    "Question": "What type of resource is used to persist configuration in Kubernetes?",
+    "OptionA": "ConfigMap",
+    "OptionB": "Secret",
+    "OptionC": "PersistentVolume",
+    "OptionD": "Deployment",
+    "Answer": "A",
+    "Explanation": "ConfigMaps are used to store non-sensitive configuration data in Kubernetes."
+  },
+  {
+    "Q": 25,
+    "Question": "How does Kubernetes perform self-healing of pods?",
+    "OptionA": "By restarting failed pods",
+    "OptionB": "By creating new nodes",
+    "OptionC": "By reallocating resources",
+    "OptionD": "By replicating pods",
+    "Answer": "A",
+    "Explanation": "Kubernetes automatically restarts failed pods to ensure that the desired state is met."
+  },
+  {
+    "Q": 26,
+    "Question": "Which of the following is true about a Kubernetes Deployment?",
+    "OptionA": "It ensures a specified number of pods are running",
+    "OptionB": "It only works with stateful applications",
+    "OptionC": "It manages persistent volumes",
+    "OptionD": "It is used for creating network services",
+    "Answer": "A",
+    "Explanation": "A Deployment ensures that a specified number of replicas of a pod are running in the cluster."
+  },
+  {
+    "Q": 27,
+    "Question": "Which Kubernetes object is used to expose an application to external traffic?",
+    "OptionA": "Service",
+    "OptionB": "Pod",
+    "OptionC": "Ingress",
+    "OptionD": "StatefulSet",
+    "Answer": "A",
+    "Explanation": "A Service exposes an application running in a pod to external traffic."
+  },
+  {
+    "Q": 28,
+    "Question": "What is the purpose of the Kubernetes Kubelet?",
+    "OptionA": "Manages the control plane",
+    "OptionB": "Monitors the cluster status",
+    "OptionC": "Runs on nodes and ensures containers are running in pods",
+    "OptionD": "Provides external access to applications",
+    "Answer": "C",
+    "Explanation": "The Kubelet runs on each node and ensures that containers are running as expected."
+  },
+  {
+    "Q": 29,
+    "Question": "Which type of Kubernetes controller is used to manage deployment strategies?",
+    "OptionA": "ReplicaSet",
+    "OptionB": "Deployment",
+    "OptionC": "StatefulSet",
+    "OptionD": "DaemonSet",
+    "Answer": "B",
+    "Explanation": "A Deployment controller is used to manage the rollout and rollback of application updates."
+  },
+  {
+    "Q": 30,
+    "Question": "What command is used to get detailed information about a Kubernetes pod?",
+    "OptionA": "kubectl describe pod <pod-name>",
+    "OptionB": "kubectl get pod <pod-name>",
+    "OptionC": "kubectl pod <pod-name>",
+    "OptionD": "kubectl show pod <pod-name>",
+    "Answer": "A",
+    "Explanation": "`kubectl describe pod` provides detailed information about a specific pod."
+  },
+
+  {
+    "Q": 31,
+    "Question": "What is the main difference between a Pod and a ReplicaSet in Kubernetes?",
+    "OptionA": "A Pod defines a container, while a ReplicaSet defines multiple replicas of that pod",
+    "OptionB": "A Pod is used to expose an application, while a ReplicaSet is used to manage storage",
+    "OptionC": "A Pod manages network policies, while a ReplicaSet manages traffic",
+    "OptionD": "A Pod is a configuration resource, while a ReplicaSet is a service type",
+    "Answer": "A",
+    "Explanation": "A Pod defines a container, and a ReplicaSet ensures that multiple replicas of that Pod are running in the cluster."
+  },
+  {
+    "Q": 32,
+    "Question": "Which Kubernetes resource can be used to manage sensitive data, such as passwords or API keys?",
+    "OptionA": "ConfigMap",
+    "OptionB": "Secret",
+    "OptionC": "PersistentVolume",
+    "OptionD": "Service",
+    "Answer": "B",
+    "Explanation": "Secrets are used to manage sensitive data such as passwords, API keys, and certificates."
+  },
+  {
+    "Q": 33,
+    "Question": "What is the primary function of the Kubernetes kube-proxy?",
+    "OptionA": "Manages external traffic to the cluster",
+    "OptionB": "Monitors cluster health",
+    "OptionC": "Keeps track of containers running in a pod",
+    "OptionD": "Maintains network rules for services",
+    "Answer": "D",
+    "Explanation": "The kube-proxy manages network rules to allow communication to pods from inside or outside the cluster."
+  },
+  {
+    "Q": 34,
+    "Question": "Which Kubernetes component ensures that a pod runs on an appropriate node based on resource requirements?",
+    "OptionA": "Scheduler",
+    "OptionB": "Kubelet",
+    "OptionC": "Controller Manager",
+    "OptionD": "ReplicaSet",
+    "Answer": "A",
+    "Explanation": "The Kubernetes scheduler is responsible for assigning pods to the correct nodes based on available resources."
+  },
+  {
+    "Q": 35,
+    "Question": "In Kubernetes, which object would you use to create a highly available application with multiple pods across different nodes?",
+    "OptionA": "Pod",
+    "OptionB": "Deployment",
+    "OptionC": "StatefulSet",
+    "OptionD": "ReplicaSet",
+    "Answer": "B",
+    "Explanation": "A Deployment is used to manage replicas of pods and ensures high availability."
+  },
+  {
+    "Q": 36,
+    "Question": "What is the function of a DaemonSet in Kubernetes?",
+    "OptionA": "Ensure that all nodes run a copy of a pod",
+    "OptionB": "Scale pods based on resource requirements",
+    "OptionC": "Ensure that only a single pod is running across the cluster",
+    "OptionD": "Provide persistent storage across nodes",
+    "Answer": "A",
+    "Explanation": "A DaemonSet ensures that a specific pod runs on all (or specific) nodes in the cluster."
+  },
+  {
+    "Q": 37,
+    "Question": "What is the primary use of Kubernetes' Horizontal Pod Autoscaler?",
+    "OptionA": "Automatically scales the number of pods based on CPU usage or other metrics",
+    "OptionB": "Automatically scales the number of nodes in the cluster",
+    "OptionC": "Automatically creates backups for pods",
+    "OptionD": "Automatically upgrades Kubernetes components",
+    "Answer": "A",
+    "Explanation": "The Horizontal Pod Autoscaler automatically adjusts the number of pods in a deployment based on resource usage."
+  },
+  {
+    "Q": 38,
+    "Question": "Which command is used to delete a pod in Kubernetes?",
+    "OptionA": "kubectl destroy pod <pod-name>",
+    "OptionB": "kubectl delete pod <pod-name>",
+    "OptionC": "kubectl remove pod <pod-name>",
+    "OptionD": "kubectl pod <pod-name> delete",
+    "Answer": "B",
+    "Explanation": "`kubectl delete pod` is used to delete a pod in Kubernetes."
+  },
+  {
+    "Q": 39,
+    "Question": "Which Kubernetes resource ensures that an application is deployed with an appropriate version?",
+    "OptionA": "Deployment",
+    "OptionB": "Pod",
+    "OptionC": "StatefulSet",
+    "OptionD": "ReplicaSet",
+    "Answer": "A",
+    "Explanation": "A Deployment is responsible for managing the deployment of applications, ensuring the correct version is running."
+  },
+  {
+    "Q": 40,
+    "Question": "What is the main difference between StatefulSet and Deployment in Kubernetes?",
+    "OptionA": "StatefulSet provides stable, unique network identities for pods, while Deployment does not",
+    "OptionB": "StatefulSet can scale horizontally, while Deployment cannot",
+    "OptionC": "StatefulSet is used for stateless applications, while Deployment is used for stateful applications",
+    "OptionD": "StatefulSet is used for services, while Deployment is used for pods",
+    "Answer": "A",
+    "Explanation": "StatefulSet ensures stable, unique network identities and persistent storage for each pod, whereas a Deployment is used for stateless applications."
+  },
+  {
+    "Q": 41,
+    "Question": "What is the purpose of the `kubectl get` command?",
+    "OptionA": "Creates a new resource",
+    "OptionB": "Lists resources in a cluster",
+    "OptionC": "Deletes resources from a cluster",
+    "OptionD": "Shows detailed information about a resource",
+    "Answer": "B",
+    "Explanation": "`kubectl get` is used to list resources like pods, deployments, or services in the Kubernetes cluster."
+  },
+  {
+    "Q": 42,
+    "Question": "What is the Kubernetes Master Node responsible for?",
+    "OptionA": "Running containers",
+    "OptionB": "Exposing services to external traffic",
+    "OptionC": "Managing the Kubernetes cluster",
+    "OptionD": "Storing persistent data",
+    "Answer": "C",
+    "Explanation": "The Master Node manages the control plane of the Kubernetes cluster and is responsible for cluster-wide management tasks."
+  },
+  {
+    "Q": 43,
+    "Question": "Which Kubernetes component is responsible for making sure that the desired state of the cluster is always maintained?",
+    "OptionA": "Controller Manager",
+    "OptionB": "Scheduler",
+    "OptionC": "Kubelet",
+    "OptionD": "Kube-Proxy",
+    "Answer": "A",
+    "Explanation": "The Controller Manager ensures that the desired state of the cluster (e.g., the number of replicas) is maintained."
+  },
+  {
+    "Q": 44,
+    "Question": "What Kubernetes object is used to define the network policies between pods?",
+    "OptionA": "Ingress",
+    "OptionB": "Service",
+    "OptionC": "NetworkPolicy",
+    "OptionD": "ConfigMap",
+    "Answer": "C",
+    "Explanation": "The NetworkPolicy object is used to define the network access policies between pods in a Kubernetes cluster."
+  },
+  {
+    "Q": 45,
+    "Question": "Which of the following is true about Kubernetes Secrets?",
+    "OptionA": "Secrets are used to store and manage sensitive information",
+    "OptionB": "Secrets are visible to all users in the cluster",
+    "OptionC": "Secrets cannot be encrypted in Kubernetes",
+    "OptionD": "Secrets are used to manage network policies",
+    "Answer": "A",
+    "Explanation": "Kubernetes Secrets are used to store sensitive data, such as passwords or API keys, securely in the cluster."
+  },
+  {
+    "Q": 46,
+    "Question": "Which of the following commands would you use to apply a configuration to a Kubernetes resource?",
+    "OptionA": "kubectl create",
+    "OptionB": "kubectl apply",
+    "OptionC": "kubectl set",
+    "OptionD": "kubectl configure",
+    "Answer": "B",
+    "Explanation": "`kubectl apply` is used to apply configurations to Kubernetes resources, whether they are being created or updated."
+  },
+  {
+    "Q": 47,
+    "Question": "What is a Kubernetes Node?",
+    "OptionA": "A container",
+    "OptionB": "A server running containers",
+    "OptionC": "A configuration file",
+    "OptionD": "A pod that runs multiple containers",
+    "Answer": "B",
+    "Explanation": "A Node is a worker machine in Kubernetes, which may be a physical or virtual machine where containers run."
+  },
+  {
+    "Q": 48,
+    "Question": "Which of the following is used to deploy applications in a Kubernetes cluster?",
+    "OptionA": "Pod",
+    "OptionB": "Deployment",
+    "OptionC": "Service",
+    "OptionD": "Ingress",
+    "Answer": "B",
+    "Explanation": "A Deployment is used to deploy and manage applications in a Kubernetes cluster."
+  },
+  {
+    "Q": 49,
+    "Question": "Which command is used to view the logs of a pod in Kubernetes?",
+    "OptionA": "kubectl show pod logs",
+    "OptionB": "kubectl logs pod <pod-name>",
+    "OptionC": "kubectl pod logs <pod-name>",
+    "OptionD": "kubectl get logs <pod-name>",
+    "Answer": "B",
+    "Explanation": "`kubectl logs` is used to view logs from a pod in Kubernetes."
+  },
+  {
+    "Q": 50,
+    "Question": "What is the primary benefit of Kubernetes' self-healing feature?",
+    "OptionA": "It automatically scales pods based on demand",
+    "OptionB": "It automatically restarts failed containers to maintain desired state",
+    "OptionC": "It allocates more resources to under-utilized nodes",
+    "OptionD": "It creates new clusters when failures occur",
+    "Answer": "B",
+    "Explanation": "Kubernetes' self-healing feature ensures that failed containers are automatically restarted to maintain the desired state."
+  }
+]

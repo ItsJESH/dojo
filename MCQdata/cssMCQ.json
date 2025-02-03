@@ -1,0 +1,502 @@
+[
+    {
+        "Q": 1,
+        "Question": "What does CSS stand for?",
+        "OptionA": "Cascading Style Sheets",
+        "OptionB": "Computer Style Sheets",
+        "OptionC": "Creative Style Sheets",
+        "OptionD": "Colorful Style Sheets",
+        "Answer": "A",
+        "Explanation": "CSS stands for Cascading Style Sheets."
+    },
+    {
+        "Q": 2,
+        "Question": "Which property is used to change the background color in CSS?",
+        "OptionA": "background-color",
+        "OptionB": "color",
+        "OptionC": "bgcolor",
+        "OptionD": "background",
+        "Answer": "A",
+        "Explanation": "The background-color property is used to change the background color in CSS."
+    },
+    {
+        "Q": 3,
+        "Question": "Which property is used to set the font of an element in CSS?",
+        "OptionA": "font-family",
+        "OptionB": "font-style",
+        "OptionC": "font-weight",
+        "OptionD": "font-size",
+        "Answer": "A",
+        "Explanation": "The font-family property is used to specify the font of an element in CSS."
+    },
+    {
+        "Q": 4,
+        "Question": "Which property is used to set the space between words in CSS?",
+        "OptionA": "word-spacing",
+        "OptionB": "letter-spacing",
+        "OptionC": "line-height",
+        "OptionD": "text-indent",
+        "Answer": "A",
+        "Explanation": "The word-spacing property is used to set the space between words in CSS."
+    },
+    {
+        "Q": 5,
+        "Question": "What is the default value of the `position` property in CSS?",
+        "OptionA": "static",
+        "OptionB": "relative",
+        "OptionC": "absolute",
+        "OptionD": "fixed",
+        "Answer": "A",
+        "Explanation": "The default value of the position property is static."
+    },
+    {
+        "Q": 6,
+        "Question": "Which CSS property controls the text size?",
+        "OptionA": "font-size",
+        "OptionB": "text-size",
+        "OptionC": "font-style",
+        "OptionD": "text-font",
+        "Answer": "A",
+        "Explanation": "The font-size property controls the size of the text in CSS."
+    },
+    {
+        "Q": 7,
+        "Question": "Which property is used to make text bold in CSS?",
+        "OptionA": "font-weight",
+        "OptionB": "font-style",
+        "OptionC": "text-bold",
+        "OptionD": "font-size",
+        "Answer": "A",
+        "Explanation": "The font-weight property is used to make text bold in CSS."
+    },
+    {
+        "Q": 8,
+        "Question": "Which of the following CSS properties is used to create space between the content of an element and its border?",
+        "OptionA": "padding",
+        "OptionB": "margin",
+        "OptionC": "border-spacing",
+        "OptionD": "border-width",
+        "Answer": "A",
+        "Explanation": "The padding property creates space between the content of an element and its border."
+    },
+    {
+        "Q": 9,
+        "Question": "What does the `float` property do in CSS?",
+        "OptionA": "Allows elements to float left or right",
+        "OptionB": "Aligns elements to the center",
+        "OptionC": "Adds a shadow effect",
+        "OptionD": "Adds a background color",
+        "Answer": "A",
+        "Explanation": "The float property allows elements to float left or right within a container."
+    },
+    {
+        "Q": 10,
+        "Question": "Which property is used to add space between the elements in a flex container?",
+        "OptionA": "justify-content",
+        "OptionB": "align-items",
+        "OptionC": "gap",
+        "OptionD": "margin",
+        "Answer": "C",
+        "Explanation": "The gap property is used to add space between the elements in a flex container."
+    },
+    {
+        "Q": 11,
+        "Question": "Which of the following CSS properties is used to control the visibility of an element?",
+        "OptionA": "visibility",
+        "OptionB": "display",
+        "OptionC": "opacity",
+        "OptionD": "hidden",
+        "Answer": "A",
+        "Explanation": "The visibility property is used to control the visibility of an element."
+    },
+    {
+        "Q": 12,
+        "Question": "Which property is used to define the line height in CSS?",
+        "OptionA": "line-height",
+        "OptionB": "height",
+        "OptionC": "font-size",
+        "OptionD": "spacing",
+        "Answer": "A",
+        "Explanation": "The line-height property is used to define the height between lines of text in CSS."
+    },
+    {
+        "Q": 13,
+        "Question": "What does the `z-index` property control in CSS?",
+        "OptionA": "Stacking order of elements",
+        "OptionB": "Width of elements",
+        "OptionC": "Visibility of elements",
+        "OptionD": "Height of elements",
+        "Answer": "A",
+        "Explanation": "The z-index property controls the stacking order of elements on the page."
+    },
+    {
+        "Q": 14,
+        "Question": "Which property is used to change the text color in CSS?",
+        "OptionA": "color",
+        "OptionB": "text-color",
+        "OptionC": "font-color",
+        "OptionD": "text-style",
+        "Answer": "A",
+        "Explanation": "The color property is used to change the text color in CSS."
+    },
+    {
+        "Q": 15,
+        "Question": "Which property is used to define the background image in CSS?",
+        "OptionA": "background-image",
+        "OptionB": "background-color",
+        "OptionC": "image-url",
+        "OptionD": "bg-image",
+        "Answer": "A",
+        "Explanation": "The background-image property is used to define the background image of an element in CSS."
+    },
+    {
+        "Q": 16,
+        "Question": "Which property is used to define the width of an element in CSS?",
+        "OptionA": "width",
+        "OptionB": "height",
+        "OptionC": "size",
+        "OptionD": "length",
+        "Answer": "A",
+        "Explanation": "The width property is used to define the width of an element in CSS."
+    },
+    {
+        "Q": 17,
+        "Question": "Which value is used to align text to the center in CSS?",
+        "OptionA": "center",
+        "OptionB": "middle",
+        "OptionC": "left",
+        "OptionD": "right",
+        "Answer": "A",
+        "Explanation": "The value center is used to align text to the center in CSS."
+    },
+    {
+        "Q": 18,
+        "Question": "Which property is used to display an element as a block-level element?",
+        "OptionA": "display: block",
+        "OptionB": "display: inline",
+        "OptionC": "display: flex",
+        "OptionD": "display: none",
+        "Answer": "A",
+        "Explanation": "The display: block property is used to display an element as a block-level element."
+    },
+    {
+        "Q": 19,
+        "Question": "What is the use of the `border-radius` property in CSS?",
+        "OptionA": "To add rounded corners to an element",
+        "OptionB": "To add a border to an element",
+        "OptionC": "To add shadow to an element",
+        "OptionD": "To set the height of an element",
+        "Answer": "A",
+        "Explanation": "The border-radius property is used to create rounded corners for an element in CSS."
+    },
+    {
+        "Q": 20,
+        "Question": "What is the use of the `opacity` property in CSS?",
+        "OptionA": "To change the transparency of an element",
+        "OptionB": "To change the color of an element",
+        "OptionC": "To add shadow to an element",
+        "OptionD": "To change the font of an element",
+        "Answer": "A",
+        "Explanation": "The opacity property is used to change the transparency level of an element in CSS."
+    },
+    {
+        "Q": 21,
+        "Question": "Which of the following is the correct way to include an external CSS file in HTML?",
+        "OptionA": "<link rel='stylesheet' href='style.css'>",
+        "OptionB": "<css src='style.css'>",
+        "OptionC": "<stylesheet src='style.css'>",
+        "OptionD": "<link href='style.css' rel='stylesheet'>",
+        "Answer": "A",
+        "Explanation": "The correct way to include an external CSS file is <link rel='stylesheet' href='style.css'>."
+    },
+    {
+        "Q": 22,
+        "Question": "What is the use of the `flex` property in CSS?",
+        "OptionA": "To define a flexible container for items",
+        "OptionB": "To make text bold",
+        "OptionC": "To set the height of an element",
+        "OptionD": "To change the background color",
+        "Answer": "A",
+        "Explanation": "The flex property is used to create flexible layouts, where items can grow or shrink inside a container."
+    },
+    {
+        "Q": 23,
+        "Question": "What is the `display: none;` property used for in CSS?",
+        "OptionA": "To hide an element from the webpage",
+        "OptionB": "To hide text within an element",
+        "OptionC": "To remove borders from an element",
+        "OptionD": "To make an element inline",
+        "Answer": "A",
+        "Explanation": "The display: none property is used to completely hide an element from the webpage."
+    },
+    {
+        "Q": 24,
+        "Question": "Which of the following CSS properties is used to specify the space between the content and the border of an element?",
+        "OptionA": "padding",
+        "OptionB": "margin",
+        "OptionC": "border-spacing",
+        "OptionD": "content-spacing",
+        "Answer": "A",
+        "Explanation": "The padding property is used to specify the space between the content and the border of an element."
+    },
+    {
+        "Q": 25,
+        "Question": "Which property is used to control the text alignment in CSS?",
+        "OptionA": "text-align",
+        "OptionB": "text-position",
+        "OptionC": "align-text",
+        "OptionD": "position-text",
+        "Answer": "A",
+        "Explanation": "The text-align property is used to control the alignment of text in CSS."
+    },
+    {
+        "Q": 26,
+        "Question": "Which of the following CSS properties is used to change the text color?",
+        "OptionA": "color",
+        "OptionB": "font-color",
+        "OptionC": "text-color",
+        "OptionD": "bg-color",
+        "Answer": "A",
+        "Explanation": "The color property is used to change the text color in CSS."
+    },
+    {
+        "Q": 27,
+        "Question": "Which CSS property is used to specify the height of an element?",
+        "OptionA": "height",
+        "OptionB": "width",
+        "OptionC": "size",
+        "OptionD": "box-sizing",
+        "Answer": "A",
+        "Explanation": "The height property is used to specify the height of an element in CSS."
+    },
+    {
+        "Q": 28,
+        "Question": "What is the default value of the `position` property in CSS?",
+        "OptionA": "static",
+        "OptionB": "relative",
+        "OptionC": "absolute",
+        "OptionD": "fixed",
+        "Answer": "A",
+        "Explanation": "The default value of the position property is static."
+    },
+    {
+        "Q": 29,
+        "Question": "Which property is used to change the font size in CSS?",
+        "OptionA": "font-size",
+        "OptionB": "text-size",
+        "OptionC": "font-weight",
+        "OptionD": "font-style",
+        "Answer": "A",
+        "Explanation": "The font-size property is used to set the font size of an element in CSS."
+    },
+    {
+        "Q": 30,
+        "Question": "Which of the following properties is used to apply an effect to an element in CSS?",
+        "OptionA": "box-shadow",
+        "OptionB": "background-image",
+        "OptionC": "border",
+        "OptionD": "opacity",
+        "Answer": "A",
+        "Explanation": "The box-shadow property is used to apply a shadow effect to an element in CSS."
+    },
+    {
+        "Q": 31,
+        "Question": "Which of the following is the correct way to apply CSS rules to an element?",
+        "OptionA": "p {color: blue;}",
+        "OptionB": "color: blue {p}",
+        "OptionC": "blue {color: p;}",
+        "OptionD": "color {blue; p}",
+        "Answer": "A",
+        "Explanation": "The correct syntax to apply CSS rules is: p {color: blue;}"
+    },
+    {
+        "Q": 32,
+        "Question": "What does the `flex-direction` property do in a flexbox layout?",
+        "OptionA": "It defines the direction of the flex items",
+        "OptionB": "It sets the spacing between flex items",
+        "OptionC": "It sets the alignment of flex items",
+        "OptionD": "It defines the size of flex items",
+        "Answer": "A",
+        "Explanation": "The flex-direction property specifies the direction of the flex items within a flex container."
+    },
+    {
+        "Q": 33,
+        "Question": "Which of the following is used to change the display style of an element in CSS?",
+        "OptionA": "display",
+        "OptionB": "position",
+        "OptionC": "style",
+        "OptionD": "visibility",
+        "Answer": "A",
+        "Explanation": "The display property is used to define how an element is displayed on the page."
+    },
+    {
+        "Q": 34,
+        "Question": "What does the `overflow` property do in CSS?",
+        "OptionA": "Controls how content that overflows an element is handled",
+        "OptionB": "Sets the width of an element",
+        "OptionC": "Aligns content inside an element",
+        "OptionD": "Applies padding to an element",
+        "Answer": "A",
+        "Explanation": "The overflow property is used to specify what happens when content overflows an element's box."
+    },
+    {
+        "Q": 35,
+        "Question": "What is the default value of the `display` property for a <div> element in CSS?",
+        "OptionA": "block",
+        "OptionB": "inline",
+        "OptionC": "inline-block",
+        "OptionD": "flex",
+        "Answer": "A",
+        "Explanation": "The default value of the display property for a <div> element is block."
+    },
+    {
+        "Q": 36,
+        "Question": "What does the `align-items` property do in CSS Flexbox?",
+        "OptionA": "Aligns flex items vertically",
+        "OptionB": "Aligns flex items horizontally",
+        "OptionC": "Justifies the content inside flex items",
+        "OptionD": "Sets the flex item size",
+        "Answer": "A",
+        "Explanation": "The align-items property is used to align flex items vertically within the flex container."
+    },
+    {
+        "Q": 37,
+        "Question": "Which of the following is the correct way to select all paragraphs inside a div in CSS?",
+        "OptionA": "div p {}",
+        "OptionB": "div > p {}",
+        "OptionC": "div.p {}",
+        "OptionD": "p.div {}",
+        "Answer": "A",
+        "Explanation": "The correct selector to select all paragraphs inside a div is div p {}."
+    },
+    {
+        "Q": 38,
+        "Question": "Which of the following CSS properties is used to set the border width of an element?",
+        "OptionA": "border-width",
+        "OptionB": "border-style",
+        "OptionC": "border-color",
+        "OptionD": "border-size",
+        "Answer": "A",
+        "Explanation": "The border-width property is used to set the width of an element's border."
+    },
+    {
+        "Q": 39,
+        "Question": "Which of the following CSS properties is used to set the text transformation?",
+        "OptionA": "text-transform",
+        "OptionB": "font-size",
+        "OptionC": "letter-spacing",
+        "OptionD": "word-spacing",
+        "Answer": "A",
+        "Explanation": "The text-transform property is used to set the text transformation such as uppercase, lowercase, or capitalize."
+    },
+    {
+        "Q": 40,
+        "Question": "Which property is used to create space between elements in a flex container?",
+        "OptionA": "gap",
+        "OptionB": "space-between",
+        "OptionC": "justify-content",
+        "OptionD": "align-items",
+        "Answer": "A",
+        "Explanation": "The gap property is used to create space between items in a flex container."
+    },
+    {
+        "Q": 41,
+        "Question": "Which of the following properties is used to align text inside an element?",
+        "OptionA": "text-align",
+        "OptionB": "vertical-align",
+        "OptionC": "align-text",
+        "OptionD": "font-align",
+        "Answer": "A",
+        "Explanation": "The text-align property is used to align text inside an element in CSS."
+    },
+    {
+        "Q": 42,
+        "Question": "What does the `box-sizing` property do in CSS?",
+        "OptionA": "Controls how the width and height of an element are calculated",
+        "OptionB": "Sets the padding of an element",
+        "OptionC": "Sets the border radius",
+        "OptionD": "Defines the size of the text",
+        "Answer": "A",
+        "Explanation": "The box-sizing property controls how the width and height of an element are calculated, including padding and border."
+    },
+    {
+        "Q": 43,
+        "Question": "Which of the following CSS properties is used to change the transparency of an element?",
+        "OptionA": "opacity",
+        "OptionB": "visibility",
+        "OptionC": "hidden",
+        "OptionD": "transparency",
+        "Answer": "A",
+        "Explanation": "The opacity property is used to control the transparency of an element in CSS."
+    },
+    {
+        "Q": 44,
+        "Question": "What does the `justify-content` property do in CSS Flexbox?",
+        "OptionA": "Aligns flex items along the main axis",
+        "OptionB": "Aligns flex items along the cross axis",
+        "OptionC": "Sets the size of flex items",
+        "OptionD": "Defines the direction of flex items",
+        "Answer": "A",
+        "Explanation": "The justify-content property is used to align flex items along the main axis in CSS Flexbox."
+    },
+    {
+        "Q": 45,
+        "Question": "Which of the following CSS properties is used to change the font weight of an element?",
+        "OptionA": "font-weight",
+        "OptionB": "font-size",
+        "OptionC": "font-style",
+        "OptionD": "font-family",
+        "Answer": "A",
+        "Explanation": "The font-weight property is used to change the weight of the font, such as bold, normal, or lighter."
+    },
+    {
+        "Q": 46,
+        "Question": "Which of the following is used to select all elements inside a specific class?",
+        "OptionA": ".class-name {}",
+        "OptionB": "#class-name {}",
+        "OptionC": "class-name {}",
+        "OptionD": "*class-name {}",
+        "Answer": "A",
+        "Explanation": "The correct way to select all elements inside a specific class is using .class-name {}."
+    },
+    {
+        "Q": 47,
+        "Question": "Which of the following CSS properties is used to create a box shadow effect?",
+        "OptionA": "box-shadow",
+        "OptionB": "shadow",
+        "OptionC": "text-shadow",
+        "OptionD": "border-shadow",
+        "Answer": "A",
+        "Explanation": "The box-shadow property is used to create shadow effects on an element in CSS."
+    },
+    {
+        "Q": 48,
+        "Question": "Which of the following properties is used to make a background image repeat horizontally and vertically?",
+        "OptionA": "background-repeat",
+        "OptionB": "background-size",
+        "OptionC": "background-position",
+        "OptionD": "background-attachment",
+        "Answer": "A",
+        "Explanation": "The background-repeat property is used to control the repetition of background images in CSS."
+    },
+    {
+        "Q": 49,
+        "Question": "What is the default value of the `display` property for a <span> element in CSS?",
+        "OptionA": "inline",
+        "OptionB": "block",
+        "OptionC": "inline-block",
+        "OptionD": "none",
+        "Answer": "A",
+        "Explanation": "The default value of the display property for a <span> element is inline."
+    },
+    {
+        "Q": 50,
+        "Question": "Which of the following CSS properties is used to set the border style of an element?",
+        "OptionA": "border-style",
+        "OptionB": "border-width",
+        "OptionC": "border-color",
+        "OptionD": "border-radius",
+        "Answer": "A",
+        "Explanation": "The border-style property is used to set the style (solid, dashed, etc.) of the border in CSS."
+    }
+]

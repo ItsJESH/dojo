@@ -1,0 +1,503 @@
+[
+  {
+    "Q": 1,
+    "Question": "What is the primary function of Postman?",
+    "OptionA": "API Development",
+    "OptionB": "Database Management",
+    "OptionC": "API Testing and Documentation",
+    "OptionD": "Web Development",
+    "Answer": "C",
+    "Explanation": "Postman is primarily used for API testing and documentation, allowing developers to create, test, and share APIs."
+  },
+  {
+    "Q": 2,
+    "Question": "Which HTTP method is used to request data from a server in Postman?",
+    "OptionA": "POST",
+    "OptionB": "PUT",
+    "OptionC": "GET",
+    "OptionD": "DELETE",
+    "Answer": "C",
+    "Explanation": "The GET method is used to retrieve data from a server."
+  },
+  {
+    "Q": 3,
+    "Question": "In Postman, what does the term 'Collection' refer to?",
+    "OptionA": "A group of environments",
+    "OptionB": "A group of API requests",
+    "OptionC": "A collection of databases",
+    "OptionD": "A group of servers",
+    "Answer": "B",
+    "Explanation": "A Collection in Postman refers to a group of API requests that can be organized and shared."
+  },
+  {
+    "Q": 4,
+    "Question": "Which file format is used to export a Postman collection?",
+    "OptionA": "CSV",
+    "OptionB": "JSON",
+    "OptionC": "XML",
+    "OptionD": "HTML",
+    "Answer": "B",
+    "Explanation": "Postman collections are exported in the JSON format."
+  },
+  {
+    "Q": 5,
+    "Question": "What is the purpose of Postman 'Environment Variables'?",
+    "OptionA": "To store different API keys and values",
+    "OptionB": "To manage server configurations",
+    "OptionC": "To export Postman collections",
+    "OptionD": "To create automated tests",
+    "Answer": "A",
+    "Explanation": "Environment variables in Postman allow users to store and reuse data like API keys, URLs, and other configurations."
+  },
+  {
+    "Q": 6,
+    "Question": "Which feature in Postman allows you to execute multiple requests in a sequence?",
+    "OptionA": "Mock Servers",
+    "OptionB": "Tests",
+    "OptionC": "Pre-request Scripts",
+    "OptionD": "Collection Runner",
+    "Answer": "D",
+    "Explanation": "The Collection Runner allows you to run multiple requests in a sequence, useful for testing workflows or scenarios."
+  },
+  {
+    "Q": 7,
+    "Question": "In Postman, which method is used to send data to the server to create a new resource?",
+    "OptionA": "POST",
+    "OptionB": "PUT",
+    "OptionC": "GET",
+    "OptionD": "DELETE",
+    "Answer": "A",
+    "Explanation": "The POST method is used to send data to the server to create a new resource."
+  },
+  {
+    "Q": 8,
+    "Question": "How can you organize your Postman workspace?",
+    "OptionA": "Using tags",
+    "OptionB": "Using folders",
+    "OptionC": "Using environments",
+    "OptionD": "Using requests",
+    "Answer": "B",
+    "Explanation": "You can organize your Postman workspace using folders to group related requests."
+  },
+  {
+    "Q": 9,
+    "Question": "What is a 'Pre-request Script' in Postman?",
+    "OptionA": "A script that runs before sending a request",
+    "OptionB": "A script that runs after receiving a response",
+    "OptionC": "A script to validate the response",
+    "OptionD": "A script for error handling",
+    "Answer": "A",
+    "Explanation": "A Pre-request Script is executed before a request is sent to the server, allowing users to set variables or modify the request."
+  },
+  {
+    "Q": 10,
+    "Question": "What type of test can you run in Postman?",
+    "OptionA": "Unit tests",
+    "OptionB": "Functional tests",
+    "OptionC": "Regression tests",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "Postman allows you to run unit, functional, and regression tests on APIs by writing test scripts in the 'Tests' tab."
+  },
+  {
+    "Q": 11,
+    "Question": "Which type of authentication is commonly used in Postman for API testing?",
+    "OptionA": "Basic Authentication",
+    "OptionB": "OAuth 2.0",
+    "OptionC": "Bearer Token",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "Postman supports multiple authentication methods like Basic Authentication, OAuth 2.0, and Bearer Token."
+  },
+  {
+    "Q": 12,
+    "Question": "What does the 'Tests' tab in Postman allow you to do?",
+    "OptionA": "Configure the request",
+    "OptionB": "Write scripts to validate responses",
+    "OptionC": "Manage environments",
+    "OptionD": "Monitor requests in real-time",
+    "Answer": "B",
+    "Explanation": "The 'Tests' tab is where you write JavaScript code to validate the responses of API requests."
+  },
+  {
+    "Q": 13,
+    "Question": "What is the function of Postman Mock Servers?",
+    "OptionA": "Simulate real API responses",
+    "OptionB": "Track API request history",
+    "OptionC": "Test API performance",
+    "OptionD": "Monitor server uptime",
+    "Answer": "A",
+    "Explanation": "Postman Mock Servers are used to simulate real API responses for testing and development purposes."
+  },
+  {
+    "Q": 14,
+    "Question": "Which Postman feature allows sharing collections and requests?",
+    "OptionA": "Postman Pro",
+    "OptionB": "Postman Collection Sharing",
+    "OptionC": "Postman Workspace",
+    "OptionD": "Postman Monitor",
+    "Answer": "B",
+    "Explanation": "Postman allows users to share collections and requests with others via the Postman Collection Sharing feature."
+  },
+  {
+    "Q": 15,
+    "Question": "What is the 'Monitor' feature in Postman used for?",
+    "OptionA": "Tracking server performance",
+    "OptionB": "Automating tests and running them on a schedule",
+    "OptionC": "Simulating traffic on APIs",
+    "OptionD": "Debugging requests",
+    "Answer": "B",
+    "Explanation": "The Monitor feature in Postman helps automate tests and run them on a scheduled basis to ensure API functionality."
+  },
+  {
+    "Q": 16,
+    "Question": "What is the purpose of a 'Runner' in Postman?",
+    "OptionA": "To run a sequence of API requests",
+    "OptionB": "To run mock servers",
+    "OptionC": "To simulate traffic spikes",
+    "OptionD": "To automate server deployments",
+    "Answer": "A",
+    "Explanation": "The Runner in Postman is used to run a sequence of API requests, usually as part of a testing or automation process."
+  },
+  {
+    "Q": 17,
+    "Question": "How does Postman handle API responses?",
+    "OptionA": "Displays the response in a user-friendly format",
+    "OptionB": "Stores responses in databases",
+    "OptionC": "Sends responses to external services",
+    "OptionD": "None of the above",
+    "Answer": "A",
+    "Explanation": "Postman displays API responses in a user-friendly format, allowing users to easily view and interpret the data."
+  },
+  {
+    "Q": 18,
+    "Question": "What is the default method used by Postman when sending requests?",
+    "OptionA": "POST",
+    "OptionB": "GET",
+    "OptionC": "PUT",
+    "OptionD": "DELETE",
+    "Answer": "B",
+    "Explanation": "The default HTTP method used by Postman for requests is GET."
+  },
+  {
+    "Q": 19,
+    "Question": "Which of the following is NOT a valid Postman request method?",
+    "OptionA": "HEAD",
+    "OptionB": "PATCH",
+    "OptionC": "BULK",
+    "OptionD": "DELETE",
+    "Answer": "C",
+    "Explanation": "BULK is not a valid HTTP method; valid methods include GET, POST, PUT, PATCH, DELETE, etc."
+  },
+  {
+    "Q": 20,
+    "Question": "What is the Postman 'Interceptor' used for?",
+    "OptionA": "Intercepting and modifying requests and responses",
+    "OptionB": "Interpreting API data",
+    "OptionC": "Managing API keys",
+    "OptionD": "Monitoring network traffic",
+    "Answer": "A",
+    "Explanation": "The Interceptor is used to capture and modify requests and responses between Postman and the browser or other services."
+  },
+  {
+    "Q": 21,
+    "Question": "What is an API?",
+    "OptionA": "Application Programming Interface",
+    "OptionB": "Advanced Programming Interface",
+    "OptionC": "Application Program Interface",
+    "OptionD": "All of the above",
+    "Answer": "A",
+    "Explanation": "API stands for Application Programming Interface, a set of protocols for building and interacting with software applications."
+  },
+  {
+    "Q": 22,
+    "Question": "In Postman, what is a 'Global Variable'?",
+    "OptionA": "A variable available in all environments",
+    "OptionB": "A variable that only exists in a single request",
+    "OptionC": "A variable that is shared between all users",
+    "OptionD": "A variable with no expiration",
+    "Answer": "A",
+    "Explanation": "Global Variables in Postman are available across all environments and collections, useful for storing common values like base URLs."
+  },
+  {
+    "Q": 23,
+    "Question": "What is the purpose of the 'Code' tab in Postman?",
+    "OptionA": "To view the API code documentation",
+    "OptionB": "To generate code snippets for different programming languages",
+    "OptionC": "To execute Postman scripts",
+    "OptionD": "To manage code repositories",
+    "Answer": "B",
+    "Explanation": "The 'Code' tab in Postman allows you to generate code snippets for making API requests in various programming languages."
+  },
+  {
+    "Q": 24,
+    "Question": "Which feature in Postman helps in testing how an API performs under different conditions?",
+    "OptionA": "Monitoring",
+    "OptionB": "Mock Server",
+    "OptionC": "Load Testing",
+    "OptionD": "Environment Variables",
+    "Answer": "C",
+    "Explanation": "Postman can integrate with external services to perform load testing, helping you analyze the performance of APIs under different conditions."
+  },
+  {
+    "Q": 25,
+    "Question": "What is the 'Console' tab in Postman used for?",
+    "OptionA": "Viewing error logs and request details",
+    "OptionB": "Viewing API documentation",
+    "OptionC": "Monitoring network traffic",
+    "OptionD": "Running tests",
+    "Answer": "A",
+    "Explanation": "The Console tab in Postman displays logs, errors, and detailed information about the requests made."
+  },
+
+  {
+    "Q": 26,
+    "Question": "What is the purpose of 'Collection Runner' in Postman?",
+    "OptionA": "To execute a collection of requests sequentially",
+    "OptionB": "To monitor API performance",
+    "OptionC": "To create mock API responses",
+    "OptionD": "To test database connections",
+    "Answer": "A",
+    "Explanation": "Collection Runner is used to execute a series of requests in a collection, which is helpful for testing APIs in sequences or loops."
+  },
+  {
+    "Q": 27,
+    "Question": "Which of the following can be tested in Postman?",
+    "OptionA": "API Endpoints",
+    "OptionB": "API Responses",
+    "OptionC": "HTTP Status Codes",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "Postman allows testing various aspects of APIs, including endpoints, responses, and HTTP status codes."
+  },
+  {
+    "Q": 28,
+    "Question": "What does the 'Tests' section in Postman allow users to do?",
+    "OptionA": "Write scripts to validate response data",
+    "OptionB": "Execute SQL queries",
+    "OptionC": "Check server performance",
+    "OptionD": "Write code to manipulate the request body",
+    "Answer": "A",
+    "Explanation": "The 'Tests' section in Postman lets you write scripts that validate the data received in the response of an API call."
+  },
+  {
+    "Q": 29,
+    "Question": "Which of the following is an example of a valid HTTP status code?",
+    "OptionA": "404",
+    "OptionB": "200",
+    "OptionC": "500",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "All of the options (404, 200, 500) are valid HTTP status codes used for different purposes (e.g., 404 for Not Found, 200 for OK, 500 for Server Error)."
+  },
+  {
+    "Q": 30,
+    "Question": "What type of testing can be automated with Postman?",
+    "OptionA": "Unit Testing",
+    "OptionB": "Integration Testing",
+    "OptionC": "Regression Testing",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "Postman can be used for automating unit, integration, and regression tests to validate the functionality of APIs."
+  },
+  {
+    "Q": 31,
+    "Question": "What is the purpose of the 'Environment' feature in Postman?",
+    "OptionA": "To define variables specific to a given environment like development, testing, or production",
+    "OptionB": "To simulate a different server environment",
+    "OptionC": "To manage database connections",
+    "OptionD": "To write code for API responses",
+    "Answer": "A",
+    "Explanation": "Environments in Postman allow users to define different variables based on environments such as development, testing, or production."
+  },
+  {
+    "Q": 32,
+    "Question": "In Postman, what is the function of the 'Pre-request Script'?",
+    "OptionA": "To run tests before the request is sent",
+    "OptionB": "To execute code before sending a request, like setting variables",
+    "OptionC": "To validate responses after the request",
+    "OptionD": "To format the response data",
+    "Answer": "B",
+    "Explanation": "Pre-request scripts in Postman are used to execute JavaScript code before sending the request, useful for setting up variables or modifying the request."
+  },
+  {
+    "Q": 33,
+    "Question": "Which of the following is NOT a valid HTTP method supported by Postman?",
+    "OptionA": "GET",
+    "OptionB": "PUT",
+    "OptionC": "POST",
+    "OptionD": "REWRITE",
+    "Answer": "D",
+    "Explanation": "REWRITE is not a valid HTTP method. Valid methods include GET, POST, PUT, PATCH, DELETE, etc."
+  },
+  {
+    "Q": 34,
+    "Question": "What does the 'Code' tab in Postman generate?",
+    "OptionA": "Code snippets to make requests in different programming languages",
+    "OptionB": "Database queries for APIs",
+    "OptionC": "API documentation",
+    "OptionD": "Code to simulate API traffic",
+    "Answer": "A",
+    "Explanation": "The 'Code' tab in Postman generates code snippets in various programming languages like JavaScript, Python, etc., to make API requests."
+  },
+  {
+    "Q": 35,
+    "Question": "Which of the following options is a valid test assertion in Postman?",
+    "OptionA": "pm.expect(response.status).to.equal(200);",
+    "OptionB": "pm.response.equal(200);",
+    "OptionC": "expect(response.status == 200);",
+    "OptionD": "assert(response.status === 200);",
+    "Answer": "A",
+    "Explanation": "In Postman, the valid assertion syntax is `pm.expect(response.status).to.equal(200);`, which checks if the response status is 200."
+  },
+  {
+    "Q": 36,
+    "Question": "In Postman, what is the primary purpose of using a 'Mock Server'?",
+    "OptionA": "To simulate API behavior without hitting the actual backend",
+    "OptionB": "To store and manage API data",
+    "OptionC": "To generate traffic for load testing",
+    "OptionD": "To monitor real-time data",
+    "Answer": "A",
+    "Explanation": "Mock Servers in Postman are used to simulate responses from an API, allowing developers to test API behavior without requiring the actual backend."
+  },
+  {
+    "Q": 37,
+    "Question": "What is the maximum number of requests that can be run in a Postman Collection Runner?",
+    "OptionA": "50",
+    "OptionB": "100",
+    "OptionC": "Unlimited",
+    "OptionD": "1000",
+    "Answer": "C",
+    "Explanation": "There is no strict limit to the number of requests you can run in Postman Collection Runner, as it can handle a large number of requests depending on system resources."
+  },
+  {
+    "Q": 38,
+    "Question": "Which Postman feature allows you to run tests automatically and on a schedule?",
+    "OptionA": "Monitors",
+    "OptionB": "Mock Servers",
+    "OptionC": "Postman CLI",
+    "OptionD": "Collections",
+    "Answer": "A",
+    "Explanation": "Monitors in Postman allow you to automate tests and run them on a schedule, useful for continuous integration and monitoring."
+  },
+  {
+    "Q": 39,
+    "Question": "What is the function of 'Assertions' in Postman?",
+    "OptionA": "To define pre-request script conditions",
+    "OptionB": "To check if the response from an API meets expected values",
+    "OptionC": "To simulate mock API responses",
+    "OptionD": "To generate code for external APIs",
+    "Answer": "B",
+    "Explanation": "Assertions in Postman are used to validate that the API response matches expected values such as status codes, response time, and content."
+  },
+  {
+    "Q": 40,
+    "Question": "In Postman, what is the 'History' tab used for?",
+    "OptionA": "To view past requests made in Postman",
+    "OptionB": "To keep track of collection changes",
+    "OptionC": "To view API response time",
+    "OptionD": "To manage mock servers",
+    "Answer": "A",
+    "Explanation": "The 'History' tab in Postman shows a list of previously sent requests, helping users revisit or rerun past tests."
+  },
+  {
+    "Q": 41,
+    "Question": "What is the purpose of the 'Authorization' tab in Postman?",
+    "OptionA": "To add authentication credentials to API requests",
+    "OptionB": "To set up mock servers for testing",
+    "OptionC": "To configure environment variables",
+    "OptionD": "To monitor request and response times",
+    "Answer": "A",
+    "Explanation": "The 'Authorization' tab in Postman is used to configure authentication methods like Basic Auth, OAuth, and Bearer Tokens for API requests."
+  },
+  {
+    "Q": 42,
+    "Question": "How do you send JSON data in a Postman request?",
+    "OptionA": "Select 'raw' in the Body tab and choose 'JSON' as the format",
+    "OptionB": "Choose the 'JSON' option in the URL bar",
+    "OptionC": "Enter the data in the 'Params' tab",
+    "OptionD": "Add a JSON file in the 'Tests' tab",
+    "Answer": "A",
+    "Explanation": "To send JSON data in Postman, you need to select 'raw' in the Body tab and then choose 'JSON' as the data format."
+  },
+  {
+    "Q": 43,
+    "Question": "Which HTTP status code represents 'Created'?",
+    "OptionA": "200",
+    "OptionB": "201",
+    "OptionC": "400",
+    "OptionD": "500",
+    "Answer": "B",
+    "Explanation": "HTTP status code 201 represents 'Created', which is returned when a resource is successfully created."
+  },
+  {
+    "Q": 44,
+    "Question": "In Postman, which of the following does 'Dynamic Variables' allow?",
+    "OptionA": "To generate random data for requests",
+    "OptionB": "To test multiple request environments",
+    "OptionC": "To execute requests in parallel",
+    "OptionD": "To track server usage statistics",
+    "Answer": "A",
+    "Explanation": "Dynamic Variables in Postman allow you to generate random values for things like user IDs, names, or dates to make requests more flexible."
+  },
+  {
+    "Q": 45,
+    "Question": "Which of the following is a valid way to share a Postman collection?",
+    "OptionA": "Export the collection as a JSON file",
+    "OptionB": "Share a link to the collection",
+    "OptionC": "Both A and B",
+    "OptionD": "None of the above",
+    "Answer": "C",
+    "Explanation": "You can share Postman collections by exporting them as JSON files or sharing a link to the collection in your workspace."
+  },
+  {
+    "Q": 46,
+    "Question": "In Postman, what is the use of 'Request Headers'?",
+    "OptionA": "To define custom data for the request",
+    "OptionB": "To configure authentication parameters",
+    "OptionC": "To set content types like JSON or XML",
+    "OptionD": "All of the above",
+    "Answer": "D",
+    "Explanation": "Request headers in Postman are used to define custom data, set content types, and configure authentication or other parameters for the API request."
+  },
+  {
+    "Q": 47,
+    "Question": "How can you run a set of Postman requests multiple times with different data?",
+    "OptionA": "Using Postman Collection Runner with CSV or JSON data files",
+    "OptionB": "By manually modifying request data",
+    "OptionC": "Using Postman Mock Server",
+    "OptionD": "None of the above",
+    "Answer": "A",
+    "Explanation": "Postman Collection Runner allows you to run requests multiple times using CSV or JSON data files for data-driven testing."
+  },
+  {
+    "Q": 48,
+    "Question": "What does the Postman 'Runner' allow you to do?",
+    "OptionA": "Run requests in a sequence with data",
+    "OptionB": "Run automated tests across multiple environments",
+    "OptionC": "Execute mock responses for API tests",
+    "OptionD": "Manage request headers dynamically",
+    "Answer": "A",
+    "Explanation": "The Postman Runner is used to execute requests in a sequence, often with data-driven testing using external CSV or JSON files."
+  },
+  {
+    "Q": 49,
+    "Question": "In Postman, what does the 'Request Body' allow you to do?",
+    "OptionA": "Add data to the request that is sent to the server",
+    "OptionB": "View the response body data",
+    "OptionC": "Set headers for the response",
+    "OptionD": "Define authentication credentials",
+    "Answer": "A",
+    "Explanation": "The Request Body in Postman allows you to send data with the request, such as in POST or PUT requests, to create or update resources."
+  },
+  {
+    "Q": 50,
+    "Question": "What is the 'Monitor' feature in Postman used for?",
+    "OptionA": "To monitor API performance and availability on a schedule",
+    "OptionB": "To manage team workspaces",
+    "OptionC": "To set environment variables",
+    "OptionD": "To simulate traffic for stress testing",
+    "Answer": "A",
+    "Explanation": "The Monitor feature in Postman allows you to automate API testing and monitor the performance and availability of APIs on a scheduled basis."
+  }
+]

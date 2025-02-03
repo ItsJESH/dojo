@@ -1,0 +1,503 @@
+[
+    {
+      "Q": 1,
+      "Question": "Which method is used to insert a document into a collection in MongoDB?",
+      "OptionA": "insert()",
+      "OptionB": "add()",
+      "OptionC": "push()",
+      "OptionD": "create()",
+      "Answer": "A",
+      "Explanation": "The 'insert()' method is used to insert a document into a MongoDB collection."
+    },
+    {
+      "Q": 2,
+      "Question": "Which operator is used for performing an 'OR' query in MongoDB?",
+      "OptionA": "$or",
+      "OptionB": "$and",
+      "OptionC": "$not",
+      "OptionD": "$equals",
+      "Answer": "A",
+      "Explanation": "The '$or' operator is used to perform an 'OR' query in MongoDB."
+    },
+    {
+      "Q": 3,
+      "Question": "What is the default port number for MongoDB?",
+      "OptionA": "27017",
+      "OptionB": "3306",
+      "OptionC": "5432",
+      "OptionD": "8080",
+      "Answer": "A",
+      "Explanation": "The default port number for MongoDB is 27017."
+    },
+    {
+      "Q": 4,
+      "Question": "Which MongoDB command is used to list all collections in a database?",
+      "OptionA": "show collections",
+      "OptionB": "list collections",
+      "OptionC": "show tables",
+      "OptionD": "list databases",
+      "Answer": "A",
+      "Explanation": "The 'show collections' command is used to list all collections in the current database."
+    },
+    {
+      "Q": 5,
+      "Question": "Which MongoDB operator is used to match documents with specific values of an array?",
+      "OptionA": "$in",
+      "OptionB": "$all",
+      "OptionC": "$elemMatch",
+      "OptionD": "$size",
+      "Answer": "C",
+      "Explanation": "The '$elemMatch' operator is used to match documents with specific values in an array."
+    },
+    {
+      "Q": 6,
+      "Question": "Which method is used to update a single document in MongoDB?",
+      "OptionA": "update()",
+      "OptionB": "modify()",
+      "OptionC": "set()",
+      "OptionD": "updateOne()",
+      "Answer": "D",
+      "Explanation": "The 'updateOne()' method is used to update a single document in MongoDB."
+    },
+    {
+      "Q": 7,
+      "Question": "What is the purpose of the $group operator in MongoDB?",
+      "OptionA": "To combine multiple documents based on a specified field",
+      "OptionB": "To filter the documents",
+      "OptionC": "To sort documents",
+      "OptionD": "To perform a join between collections",
+      "Answer": "A",
+      "Explanation": "The '$group' operator in MongoDB is used to group documents together based on a specified field."
+    },
+    {
+      "Q": 8,
+      "Question": "Which MongoDB method is used to retrieve all documents from a collection?",
+      "OptionA": "find()",
+      "OptionB": "getAll()",
+      "OptionC": "select()",
+      "OptionD": "fetch()",
+      "Answer": "A",
+      "Explanation": "The 'find()' method is used to retrieve documents from a MongoDB collection."
+    },
+    {
+      "Q": 9,
+      "Question": "In MongoDB, what is the BSON format?",
+      "OptionA": "Binary JSON",
+      "OptionB": "Basic Object Syntax Notation",
+      "OptionC": "Binary Object Syntax Notation",
+      "OptionD": "Binary String Object Notation",
+      "Answer": "A",
+      "Explanation": "BSON stands for Binary JSON and is the format used by MongoDB to store data."
+    },
+    {
+      "Q": 10,
+      "Question": "Which MongoDB method is used to remove a specific document from a collection?",
+      "OptionA": "remove()",
+      "OptionB": "delete()",
+      "OptionC": "deleteOne()",
+      "OptionD": "drop()",
+      "Answer": "C",
+      "Explanation": "The 'deleteOne()' method is used to remove a specific document from a MongoDB collection."
+    },
+    {
+      "Q": 11,
+      "Question": "Which operator is used to increment a field value in MongoDB?",
+      "OptionA": "$inc",
+      "OptionB": "$sum",
+      "OptionC": "$add",
+      "OptionD": "$increase",
+      "Answer": "A",
+      "Explanation": "The '$inc' operator is used to increment a field value by a specified amount in MongoDB."
+    },
+    {
+      "Q": 12,
+      "Question": "Which MongoDB command is used to view the current database?",
+      "OptionA": "use",
+      "OptionB": "current",
+      "OptionC": "db",
+      "OptionD": "show db",
+      "Answer": "C",
+      "Explanation": "The 'db' command is used to display the current database in MongoDB."
+    },
+    {
+      "Q": 13,
+      "Question": "In MongoDB, what does the _id field represent?",
+      "OptionA": "It is the primary key for a document",
+      "OptionB": "It represents the timestamp of document creation",
+      "OptionC": "It is used for indexing",
+      "OptionD": "It stores the size of the document",
+      "Answer": "A",
+      "Explanation": "The '_id' field is the unique identifier (primary key) for a document in MongoDB."
+    },
+    {
+      "Q": 14,
+      "Question": "Which MongoDB command is used to remove an entire database?",
+      "OptionA": "dropDatabase()",
+      "OptionB": "remove()",
+      "OptionC": "deleteDatabase()",
+      "OptionD": "clearDatabase()",
+      "Answer": "A",
+      "Explanation": "The 'dropDatabase()' command is used to remove an entire database in MongoDB."
+    },
+    {
+      "Q": 15,
+      "Question": "Which operator in MongoDB is used for sorting documents?",
+      "OptionA": "$sort",
+      "OptionB": "$orderBy",
+      "OptionC": "$arrange",
+      "OptionD": "$groupBy",
+      "Answer": "A",
+      "Explanation": "The '$sort' operator is used to sort documents in MongoDB by a specific field."
+    },
+    {
+      "Q": 16,
+      "Question": "In MongoDB, which method is used to create a new index?",
+      "OptionA": "createIndex()",
+      "OptionB": "addIndex()",
+      "OptionC": "newIndex()",
+      "OptionD": "insertIndex()",
+      "Answer": "A",
+      "Explanation": "The 'createIndex()' method is used to create an index on a MongoDB collection."
+    },
+    {
+      "Q": 17,
+      "Question": "Which of the following is the default write concern in MongoDB?",
+      "OptionA": "1",
+      "OptionB": "0",
+      "OptionC": "majority",
+      "OptionD": "unacknowledged",
+      "Answer": "A",
+      "Explanation": "The default write concern in MongoDB is 1, which means acknowledging the write operation after it is written to the primary."
+    },
+    {
+      "Q": 18,
+      "Question": "Which of the following is used to perform text searches in MongoDB?",
+      "OptionA": "$text",
+      "OptionB": "$search",
+      "OptionC": "$match",
+      "OptionD": "$find",
+      "Answer": "A",
+      "Explanation": "The '$text' operator is used to perform text search queries in MongoDB."
+    },
+    {
+      "Q": 19,
+      "Question": "What type of database is MongoDB?",
+      "OptionA": "NoSQL database",
+      "OptionB": "SQL database",
+      "OptionC": "Graph database",
+      "OptionD": "Relational database",
+      "Answer": "A",
+      "Explanation": "MongoDB is a NoSQL database, which stores data in flexible, JSON-like format."
+    },
+    {
+      "Q": 20,
+      "Question": "Which of the following methods is used to connect to a MongoDB database?",
+      "OptionA": "connect()",
+      "OptionB": "link()",
+      "OptionC": "open()",
+      "OptionD": "start()",
+      "Answer": "A",
+      "Explanation": "The 'connect()' method is used to connect to a MongoDB database."
+    },
+    {
+      "Q": 21,
+      "Question": "Which method is used to aggregate data in MongoDB?",
+      "OptionA": "aggregate()",
+      "OptionB": "group()",
+      "OptionC": "collect()",
+      "OptionD": "aggregateData()",
+      "Answer": "A",
+      "Explanation": "The 'aggregate()' method is used to perform aggregation operations on data in MongoDB."
+    },
+    {
+      "Q": 22,
+      "Question": "What is the use of the $match operator in MongoDB aggregation?",
+      "OptionA": "To filter the documents",
+      "OptionB": "To group the documents",
+      "OptionC": "To sort the documents",
+      "OptionD": "To join documents",
+      "Answer": "A",
+      "Explanation": "The '$match' operator in MongoDB aggregation is used to filter the documents."
+    },
+    {
+      "Q": 23,
+      "Question": "Which MongoDB method is used to close the connection to the database?",
+      "OptionA": "close()",
+      "OptionB": "disconnect()",
+      "OptionC": "terminate()",
+      "OptionD": "end()",
+      "Answer": "A",
+      "Explanation": "The 'close()' method is used to close the connection to a MongoDB database."
+    },
+    {
+      "Q": 24,
+      "Question": "Which MongoDB operator is used to check if a field exists?",
+      "OptionA": "$exists",
+      "OptionB": "$missing",
+      "OptionC": "$hasField",
+      "OptionD": "$notNull",
+      "Answer": "A",
+      "Explanation": "The '$exists' operator is used to check if a field exists in a MongoDB document."
+    },
+    {
+      "Q": 25,
+      "Question": "Which of the following is a valid data type in MongoDB?",
+      "OptionA": "String",
+      "OptionB": "Boolean",
+      "OptionC": "Date",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "MongoDB supports various data types, including String, Boolean, and Date."
+    },
+    {
+      "Q": 26,
+      "Question": "Which MongoDB method is used to update multiple documents in a collection?",
+      "OptionA": "updateMany()",
+      "OptionB": "modify()",
+      "OptionC": "update()",
+      "OptionD": "set()",
+      "Answer": "A",
+      "Explanation": "The 'updateMany()' method is used to update multiple documents in a MongoDB collection."
+    },
+    {
+      "Q": 27,
+      "Question": "Which MongoDB operator is used to limit the number of documents returned?",
+      "OptionA": "$limit",
+      "OptionB": "$max",
+      "OptionC": "$size",
+      "OptionD": "$top",
+      "Answer": "A",
+      "Explanation": "The '$limit' operator is used to limit the number of documents returned in a query."
+    },
+    {
+      "Q": 28,
+      "Question": "Which of the following methods is used to check whether a MongoDB database exists?",
+      "OptionA": "dbStats()",
+      "OptionB": "listDatabases()",
+      "OptionC": "show dbs",
+      "OptionD": "checkDb()",
+      "Answer": "B",
+      "Explanation": "The 'listDatabases()' method is used to list all databases and check if a specific database exists."
+    },
+    {
+      "Q": 29,
+      "Question": "Which MongoDB operator is used to perform a range query?",
+      "OptionA": "$gt",
+      "OptionB": "$gte",
+      "OptionC": "$lt",
+      "OptionD": "$lte",
+      "Answer": "A",
+      "Explanation": "The '$gt' operator is used for range queries to find values greater than a specified value."
+    },
+    {
+      "Q": 30,
+      "Question": "Which MongoDB method is used to drop a collection from a database?",
+      "OptionA": "drop()",
+      "OptionB": "deleteCollection()",
+      "OptionC": "removeCollection()",
+      "OptionD": "clear()",
+      "Answer": "A",
+      "Explanation": "The 'drop()' method is used to remove a collection from a MongoDB database."
+    },
+    {
+      "Q": 31,
+      "Question": "What is the MongoDB aggregation pipeline?",
+      "OptionA": "A sequence of stages that process documents",
+      "OptionB": "A query optimizer",
+      "OptionC": "A database replica",
+      "OptionD": "A method for securing data",
+      "Answer": "A",
+      "Explanation": "The aggregation pipeline is a framework for processing data through a series of stages in MongoDB."
+    },
+    {
+      "Q": 32,
+      "Question": "Which of the following is an example of a query operator in MongoDB?",
+      "OptionA": "$eq",
+      "OptionB": "$add",
+      "OptionC": "$multiply",
+      "OptionD": "$merge",
+      "Answer": "A",
+      "Explanation": "The '$eq' operator is used to match documents with a specified field value in MongoDB."
+    },
+    {
+      "Q": 33,
+      "Question": "Which MongoDB method is used to check the status of an ongoing operation?",
+      "OptionA": "currentOp()",
+      "OptionB": "status()",
+      "OptionC": "checkOp()",
+      "OptionD": "operationStatus()",
+      "Answer": "A",
+      "Explanation": "The 'currentOp()' method is used to check the status of an ongoing operation in MongoDB."
+    },
+    {
+      "Q": 34,
+      "Question": "Which MongoDB operator is used to specify a query condition for the array size?",
+      "OptionA": "$size",
+      "OptionB": "$length",
+      "OptionC": "$count",
+      "OptionD": "$arrayLength",
+      "Answer": "A",
+      "Explanation": "The '$size' operator is used to specify a query condition for the array size in MongoDB."
+    },
+    {
+      "Q": 35,
+      "Question": "What is the primary purpose of sharding in MongoDB?",
+      "OptionA": "To distribute data across multiple servers for scalability",
+      "OptionB": "To store data in a compact format",
+      "OptionC": "To compress data",
+      "OptionD": "To reduce network load",
+      "Answer": "A",
+      "Explanation": "Sharding in MongoDB distributes data across multiple servers to enable horizontal scaling."
+    },
+    {
+      "Q": 36,
+      "Question": "Which MongoDB operator is used to match documents that contain an exact string?",
+      "OptionA": "$eq",
+      "OptionB": "$regex",
+      "OptionC": "$contains",
+      "OptionD": "$exact",
+      "Answer": "A",
+      "Explanation": "The '$eq' operator is used to match documents containing an exact string in MongoDB."
+    },
+    {
+      "Q": 37,
+      "Question": "Which of the following is the default data format used for storing data in MongoDB?",
+      "OptionA": "BSON",
+      "OptionB": "JSON",
+      "OptionC": "XML",
+      "OptionD": "YAML",
+      "Answer": "A",
+      "Explanation": "MongoDB stores data in BSON (Binary JSON) format, a binary representation of JSON."
+    },
+    {
+      "Q": 38,
+      "Question": "Which operator is used to match documents with values greater than a specified value in MongoDB?",
+      "OptionA": "$gt",
+      "OptionB": "$lt",
+      "OptionC": "$eq",
+      "OptionD": "$gte",
+      "Answer": "A",
+      "Explanation": "The '$gt' operator is used to find documents with values greater than the specified value in MongoDB."
+    },
+    {
+      "Q": 39,
+      "Question": "Which method is used to create a new MongoDB database?",
+      "OptionA": "use dbName",
+      "OptionB": "createDatabase()",
+      "OptionC": "newDatabase()",
+      "OptionD": "db.create()",
+      "Answer": "A",
+      "Explanation": "In MongoDB, a new database is created implicitly by using the 'use' command."
+    },
+    {
+      "Q": 40,
+      "Question": "Which of the following is true about MongoDB?",
+      "OptionA": "It is a NoSQL database",
+      "OptionB": "It uses SQL queries",
+      "OptionC": "It is a graph database",
+      "OptionD": "It requires strict schema definitions",
+      "Answer": "A",
+      "Explanation": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents."
+    },
+    {
+      "Q": 41,
+      "Question": "Which method is used to connect to a MongoDB server using Node.js?",
+      "OptionA": "mongoose.connect()",
+      "OptionB": "mongodb.connect()",
+      "OptionC": "db.connect()",
+      "OptionD": "mongo.connect()",
+      "Answer": "A",
+      "Explanation": "In Node.js, 'mongoose.connect()' is used to connect to a MongoDB server."
+    },
+    {
+      "Q": 42,
+      "Question": "Which operator is used to match documents with a value in an array in MongoDB?",
+      "OptionA": "$in",
+      "OptionB": "$contains",
+      "OptionC": "$arrayContains",
+      "OptionD": "$arrayMatch",
+      "Answer": "A",
+      "Explanation": "The '$in' operator is used to find documents where the field value is in a specified array."
+    },
+    {
+      "Q": 43,
+      "Question": "Which MongoDB method is used to count the number of documents in a collection?",
+      "OptionA": "count()",
+      "OptionB": "size()",
+      "OptionC": "length()",
+      "OptionD": "countDocuments()",
+      "Answer": "D",
+      "Explanation": "The 'countDocuments()' method is used to count the number of documents in a MongoDB collection."
+    },
+    {
+      "Q": 44,
+      "Question": "Which of the following methods is used to validate MongoDB documents?",
+      "OptionA": "validate()",
+      "OptionB": "check()",
+      "OptionC": "verify()",
+      "OptionD": "validateDocuments()",
+      "Answer": "A",
+      "Explanation": "The 'validate()' method is used to validate documents in a MongoDB collection."
+    },
+    {
+      "Q": 45,
+      "Question": "Which of the following is used to perform a text search in MongoDB?",
+      "OptionA": "text index",
+      "OptionB": "string index",
+      "OptionC": "fullText index",
+      "OptionD": "search index",
+      "Answer": "A",
+      "Explanation": "MongoDB uses a text index to perform text search queries on string fields."
+    },
+    {
+      "Q": 46,
+      "Question": "Which of the following are supported data types in MongoDB?",
+      "OptionA": "Array",
+      "OptionB": "Binary Data",
+      "OptionC": "ObjectId",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "MongoDB supports various data types, including Array, Binary Data, and ObjectId."
+    },
+    {
+      "Q": 47,
+      "Question": "Which MongoDB method is used to drop an index from a collection?",
+      "OptionA": "dropIndex()",
+      "OptionB": "removeIndex()",
+      "OptionC": "deleteIndex()",
+      "OptionD": "clearIndex()",
+      "Answer": "A",
+      "Explanation": "The 'dropIndex()' method is used to remove an index from a MongoDB collection."
+    },
+    {
+      "Q": 48,
+      "Question": "Which MongoDB feature allows horizontal scaling of data across multiple machines?",
+      "OptionA": "Sharding",
+      "OptionB": "Replication",
+      "OptionC": "Indexing",
+      "OptionD": "Partitioning",
+      "Answer": "A",
+      "Explanation": "Sharding is the MongoDB feature used for horizontal scaling across multiple machines."
+    },
+    {
+      "Q": 49,
+      "Question": "Which MongoDB method is used to add a field to documents in a collection?",
+      "OptionA": "addField()",
+      "OptionB": "insertField()",
+      "OptionC": "update()",
+      "OptionD": "updateOne()",
+      "Answer": "D",
+      "Explanation": "The 'updateOne()' method can be used to add or update a field in a document."
+    },
+    {
+      "Q": 50,
+      "Question": "Which MongoDB operator is used to test whether a field is greater than or equal to a given value?",
+      "OptionA": "$gte",
+      "OptionB": "$gt",
+      "OptionC": "$eq",
+      "OptionD": "$lte",
+      "Answer": "A",
+      "Explanation": "The '$gte' operator is used to match values greater than or equal to the specified value."
+    }
+  ]
+  
