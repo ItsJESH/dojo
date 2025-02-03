@@ -1,0 +1,502 @@
+[
+    {
+        "Q": 1,
+        "Question": "What is the default branch name in Git for new repositories?",
+        "OptionA": "main",
+        "OptionB": "master",
+        "OptionC": "develop",
+        "OptionD": "root",
+        "Answer": "B",
+        "Explanation": "Historically, the default branch name for new Git repositories was 'master'. In 2020, GitHub changed it to 'main'."
+    },
+    {
+        "Q": 2,
+        "Question": "Which command is used to initialize a new Git repository?",
+        "OptionA": "git start",
+        "OptionB": "git init",
+        "OptionC": "git create",
+        "OptionD": "git new",
+        "Answer": "B",
+        "Explanation": "The `git init` command is used to initialize a new Git repository."
+    },
+    {
+        "Q": 3,
+        "Question": "What does the command `git clone <repository>` do?",
+        "OptionA": "Creates a new repository",
+        "OptionB": "Deletes a repository",
+        "OptionC": "Copies a repository from a remote location to the local machine",
+        "OptionD": "Adds a new remote repository",
+        "Answer": "C",
+        "Explanation": "`git clone` is used to copy an existing repository from a remote location to the local machine."
+    },
+    {
+        "Q": 4,
+        "Question": "Which command is used to add files to the staging area in Git?",
+        "OptionA": "git add",
+        "OptionB": "git stage",
+        "OptionC": "git commit",
+        "OptionD": "git push",
+        "Answer": "A",
+        "Explanation": "`git add` is used to add files to the staging area in Git before committing them."
+    },
+    {
+        "Q": 5,
+        "Question": "What does the command `git status` display?",
+        "OptionA": "Current status of the repository",
+        "OptionB": "Information about the current branch",
+        "OptionC": "The staged files for the next commit",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "`git status` shows the current branch, files that are staged, and changes that are not staged."
+    },
+    {
+        "Q": 6,
+        "Question": "Which Git command is used to check the commit history of a repository?",
+        "OptionA": "git log",
+        "OptionB": "git history",
+        "OptionC": "git commits",
+        "OptionD": "git status",
+        "Answer": "A",
+        "Explanation": "`git log` is used to view the commit history of a repository."
+    },
+    {
+        "Q": 7,
+        "Question": "How do you create a new branch in Git?",
+        "OptionA": "git branch <branch-name>",
+        "OptionB": "git new <branch-name>",
+        "OptionC": "git create <branch-name>",
+        "OptionD": "git checkout <branch-name>",
+        "Answer": "A",
+        "Explanation": "`git branch <branch-name>` creates a new branch in the repository."
+    },
+    {
+        "Q": 8,
+        "Question": "Which command is used to switch between branches in Git?",
+        "OptionA": "git checkout <branch-name>",
+        "OptionB": "git switch <branch-name>",
+        "OptionC": "git move <branch-name>",
+        "OptionD": "git change <branch-name>",
+        "Answer": "A",
+        "Explanation": "`git checkout <branch-name>` is used to switch between branches in Git."
+    },
+    {
+        "Q": 9,
+        "Question": "What does the command `git merge <branch-name>` do?",
+        "OptionA": "Combines changes from the specified branch into the current branch",
+        "OptionB": "Deletes the specified branch",
+        "OptionC": "Creates a new branch from the specified branch",
+        "OptionD": "Updates the current branch with remote changes",
+        "Answer": "A",
+        "Explanation": "`git merge` combines changes from the specified branch into the current branch."
+    },
+    {
+        "Q": 10,
+        "Question": "Which Git command is used to delete a branch?",
+        "OptionA": "git delete <branch-name>",
+        "OptionB": "git remove <branch-name>",
+        "OptionC": "git branch -d <branch-name>",
+        "OptionD": "git branch -r <branch-name>",
+        "Answer": "C",
+        "Explanation": "`git branch -d <branch-name>` deletes the specified branch in Git."
+    },
+    {
+        "Q": 11,
+        "Question": "What does the command `git diff` show?",
+        "OptionA": "Changes between two commits",
+        "OptionB": "The difference between the working directory and the staging area",
+        "OptionC": "The files that are in the repository",
+        "OptionD": "The status of the branch",
+        "Answer": "B",
+        "Explanation": "`git diff` shows the changes between the working directory and the staging area."
+    },
+    {
+        "Q": 12,
+        "Question": "Which Git command is used to commit changes to the repository?",
+        "OptionA": "git save",
+        "OptionB": "git commit",
+        "OptionC": "git submit",
+        "OptionD": "git push",
+        "Answer": "B",
+        "Explanation": "`git commit` is used to commit changes to the repository after staging them."
+    },
+    {
+        "Q": 13,
+        "Question": "What does the `git push` command do?",
+        "OptionA": "Pushes the changes from the local repository to the remote repository",
+        "OptionB": "Pushes the changes from the remote repository to the local repository",
+        "OptionC": "Commits changes to the local repository",
+        "OptionD": "Deletes a file in the remote repository",
+        "Answer": "A",
+        "Explanation": "`git push` uploads local changes to the remote repository."
+    },
+    {
+        "Q": 14,
+        "Question": "Which command is used to pull changes from the remote repository into the local repository?",
+        "OptionA": "git get",
+        "OptionB": "git fetch",
+        "OptionC": "git pull",
+        "OptionD": "git update",
+        "Answer": "C",
+        "Explanation": "`git pull` fetches changes from the remote repository and merges them into the current branch."
+    },
+    {
+        "Q": 15,
+        "Question": "What does the command `git reset` do?",
+        "OptionA": "Resets the repository to a previous commit",
+        "OptionB": "Removes untracked files",
+        "OptionC": "Resets the staging area to match the last commit",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "`git reset` can be used to reset the repository, remove untracked files, or reset the staging area."
+    },
+    {
+        "Q": 16,
+        "Question": "What is the purpose of `.gitignore` file?",
+        "OptionA": "To specify files and directories to exclude from Git version control",
+        "OptionB": "To store the repository's configuration settings",
+        "OptionC": "To list all the branches in the repository",
+        "OptionD": "To store commit history",
+        "Answer": "A",
+        "Explanation": "The `.gitignore` file specifies files and directories that should not be tracked by Git."
+    },
+    {
+        "Q": 17,
+        "Question": "Which command is used to view the configuration settings of a Git repository?",
+        "OptionA": "git config",
+        "OptionB": "git settings",
+        "OptionC": "git setup",
+        "OptionD": "git view-config",
+        "Answer": "A",
+        "Explanation": "`git config` is used to view and set configuration settings for a Git repository."
+    },
+    {
+        "Q": 18,
+        "Question": "What is the command for creating a new tag in Git?",
+        "OptionA": "git tag <tag-name>",
+        "OptionB": "git create-tag <tag-name>",
+        "OptionC": "git new-tag <tag-name>",
+        "OptionD": "git commit-tag <tag-name>",
+        "Answer": "A",
+        "Explanation": "`git tag <tag-name>` is used to create a new tag in Git."
+    },
+    {
+        "Q": 19,
+        "Question": "Which command is used to list all tags in a Git repository?",
+        "OptionA": "git list-tags",
+        "OptionB": "git tags",
+        "OptionC": "git show-tags",
+        "OptionD": "git tag",
+        "Answer": "D",
+        "Explanation": "`git tag` lists all the tags in the repository."
+    },
+    {
+        "Q": 20,
+        "Question": "Which Git command is used to rename a branch?",
+        "OptionA": "git branch -rename",
+        "OptionB": "git rename <old-branch> <new-branch>",
+        "OptionC": "git branch -m <new-branch>",
+        "OptionD": "git change-branch <old-branch> <new-branch>",
+        "Answer": "C",
+        "Explanation": "`git branch -m <new-branch>` is used to rename the current branch in Git."
+    },
+    {
+        "Q": 21,
+        "Question": "What is the purpose of `git fetch`?",
+        "OptionA": "To retrieve new commits from a remote repository but not merge them",
+        "OptionB": "To retrieve new commits and merge them with the current branch",
+        "OptionC": "To delete old branches",
+        "OptionD": "To fetch the status of the repository",
+        "Answer": "A",
+        "Explanation": "`git fetch` retrieves commits from a remote repository without merging them into the local branch."
+    },
+    {
+        "Q": 22,
+        "Question": "What does the command `git log --oneline` display?",
+        "OptionA": "A detailed history of commits",
+        "OptionB": "A summary of commits in a single line",
+        "OptionC": "The status of the repository",
+        "OptionD": "A graphical view of the commit tree",
+        "Answer": "B",
+        "Explanation": "`git log --oneline` shows the commit history with each commit summarized on a single line."
+    },
+    {
+        "Q": 23,
+        "Question": "Which command is used to discard changes in the working directory?",
+        "OptionA": "git checkout -- <file>",
+        "OptionB": "git discard <file>",
+        "OptionC": "git reset <file>",
+        "OptionD": "git remove <file>",
+        "Answer": "A",
+        "Explanation": "`git checkout -- <file>` is used to discard changes in a file in the working directory."
+    },
+    {
+        "Q": 24,
+        "Question": "What does `git stash` do?",
+        "OptionA": "Temporarily saves changes in the working directory without committing them",
+        "OptionB": "Commits changes to the repository",
+        "OptionC": "Deletes untracked files",
+        "OptionD": "Switches to a new branch",
+        "Answer": "A",
+        "Explanation": "`git stash` temporarily saves changes that are not ready to be committed."
+    },
+    {
+        "Q": 25,
+        "Question": "Which command can you use to view all remote repositories in Git?",
+        "OptionA": "git remote show",
+        "OptionB": "git remote list",
+        "OptionC": "git remote -v",
+        "OptionD": "git remotes",
+        "Answer": "C",
+        "Explanation": "`git remote -v` lists all remote repositories associated with the local repository."
+    },
+    {
+        "Q": 26,
+        "Question": "What is a 'fork' in GitHub?",
+        "OptionA": "A new branch",
+        "OptionB": "A copy of a repository under a different account",
+        "OptionC": "A merged pull request",
+        "OptionD": "A deleted repository",
+        "Answer": "B",
+        "Explanation": "A 'fork' is a copy of a repository that is created under your own GitHub account."
+    },
+    {
+        "Q": 27,
+        "Question": "How do you delete a file from both the working directory and Git history?",
+        "OptionA": "git rm <file>",
+        "OptionB": "git delete <file>",
+        "OptionC": "git remove <file>",
+        "OptionD": "git clean -f <file>",
+        "Answer": "A",
+        "Explanation": "`git rm <file>` removes the file from both the working directory and the staging area."
+    },
+    {
+        "Q": 28,
+        "Question": "Which command is used to create a new commit with a message in Git?",
+        "OptionA": "git commit -m <message>",
+        "OptionB": "git commit --message <message>",
+        "OptionC": "git commit -msg <message>",
+        "OptionD": "git commit --text <message>",
+        "Answer": "A",
+        "Explanation": "`git commit -m <message>` creates a new commit with the specified message."
+    },
+    {
+        "Q": 29,
+        "Question": "What is the purpose of `git rebase`?",
+        "OptionA": "To apply commits from one branch onto another branch",
+        "OptionB": "To delete a commit from the history",
+        "OptionC": "To create a new branch",
+        "OptionD": "To list all the commits",
+        "Answer": "A",
+        "Explanation": "`git rebase` is used to apply commits from one branch onto another, effectively rewritting history."
+    },
+    {
+        "Q": 30,
+        "Question": "Which command is used to view the changes made between commits?",
+        "OptionA": "git diff",
+        "OptionB": "git compare",
+        "OptionC": "git show",
+        "OptionD": "git changes",
+        "Answer": "A",
+        "Explanation": "`git diff` shows the changes made between two commits."
+    },
+    {
+        "Q": 31,
+        "Question": "Which Git command allows you to create a branch and immediately switch to it?",
+        "OptionA": "git branch <branch-name>",
+        "OptionB": "git checkout -b <branch-name>",
+        "OptionC": "git create <branch-name>",
+        "OptionD": "git switch <branch-name>",
+        "Answer": "B",
+        "Explanation": "`git checkout -b <branch-name>` creates a new branch and switches to it."
+    },
+    {
+        "Q": 32,
+        "Question": "What is the purpose of `git cherry-pick`?",
+        "OptionA": "To apply changes from a specific commit onto the current branch",
+        "OptionB": "To delete a commit",
+        "OptionC": "To merge two branches",
+        "OptionD": "To reset a commit",
+        "Answer": "A",
+        "Explanation": "`git cherry-pick` allows you to apply changes from a specific commit to your current branch."
+    },
+    {
+        "Q": 33,
+        "Question": "Which Git command is used to show changes between the staging area and the latest commit?",
+        "OptionA": "git diff --staged",
+        "OptionB": "git diff --commit",
+        "OptionC": "git commit --staged",
+        "OptionD": "git status",
+        "Answer": "A",
+        "Explanation": "`git diff --staged` shows the changes between the staging area and the latest commit."
+    },
+    {
+        "Q": 34,
+        "Question": "Which command is used to view a specific commit in Git?",
+        "OptionA": "git show <commit-hash>",
+        "OptionB": "git log <commit-hash>",
+        "OptionC": "git view <commit-hash>",
+        "OptionD": "git commit <commit-hash>",
+        "Answer": "A",
+        "Explanation": "`git show <commit-hash>` is used to view a specific commit by its hash."
+    },
+    {
+        "Q": 35,
+        "Question": "What does the command `git blame` do?",
+        "OptionA": "Shows the author of each line in a file",
+        "OptionB": "Blames the most recent commit",
+        "OptionC": "Blames the previous commit",
+        "OptionD": "Shows the history of the repository",
+        "Answer": "A",
+        "Explanation": "`git blame` shows the author of each line of a file."
+    },
+    {
+        "Q": 36,
+        "Question": "What does `git log --graph` do?",
+        "OptionA": "Shows the commit history as a graph",
+        "OptionB": "Lists all the branches in a repository",
+        "OptionC": "Shows the commit hashes",
+        "OptionD": "Shows the current branch",
+        "Answer": "A",
+        "Explanation": "`git log --graph` shows the commit history as a graph, allowing you to see the branch structure."
+    },
+    {
+        "Q": 37,
+        "Question": "What is the purpose of the `git commit --amend` command?",
+        "OptionA": "To modify the last commit",
+        "OptionB": "To remove the last commit",
+        "OptionC": "To create a new commit with a new message",
+        "OptionD": "To merge two commits",
+        "Answer": "A",
+        "Explanation": "`git commit --amend` allows you to modify the last commit by changing its message or adding files."
+    },
+    {
+        "Q": 38,
+        "Question": "What does `git rm --cached <file>` do?",
+        "OptionA": "Removes the file from the staging area but keeps it in the working directory",
+        "OptionB": "Deletes the file from the repository",
+        "OptionC": "Removes the file from both the repository and working directory",
+        "OptionD": "Renames the file in the repository",
+        "Answer": "A",
+        "Explanation": "`git rm --cached <file>` removes the file from the staging area but leaves it in the working directory."
+    },
+    {
+        "Q": 39,
+        "Question": "How do you undo a `git commit` and keep the changes in your working directory?",
+        "OptionA": "git reset --soft HEAD~1",
+        "OptionB": "git reset --hard HEAD~1",
+        "OptionC": "git checkout HEAD~1",
+        "OptionD": "git undo HEAD~1",
+        "Answer": "A",
+        "Explanation": "`git reset --soft HEAD~1` undoes the last commit but keeps the changes in the working directory."
+    },
+    {
+        "Q": 40,
+        "Question": "What is the purpose of the `.gitmodules` file?",
+        "OptionA": "To configure Git submodules",
+        "OptionB": "To store commit history",
+        "OptionC": "To list ignored files",
+        "OptionD": "To store Git configuration settings",
+        "Answer": "A",
+        "Explanation": "The `.gitmodules` file is used to configure Git submodules within a repository."
+    },
+    {
+        "Q": 41,
+        "Question": "What is a Git submodule?",
+        "OptionA": "A repository embedded inside another repository",
+        "OptionB": "A version of a branch",
+        "OptionC": "A branch that tracks another branch",
+        "OptionD": "A way to merge two repositories",
+        "Answer": "A",
+        "Explanation": "A Git submodule is a repository embedded inside another repository."
+    },
+    {
+        "Q": 42,
+        "Question": "What does the command `git remote add origin <url>` do?",
+        "OptionA": "Adds a new remote repository to the local repository",
+        "OptionB": "Pushes the changes to the remote repository",
+        "OptionC": "Renames the remote repository",
+        "OptionD": "Deletes the remote repository",
+        "Answer": "A",
+        "Explanation": "`git remote add origin <url>` adds a new remote repository (usually named 'origin') to the local repository."
+    },
+    {
+        "Q": 43,
+        "Question": "Which Git command is used to update the local repository with changes from a remote repository?",
+        "OptionA": "git push",
+        "OptionB": "git pull",
+        "OptionC": "git fetch",
+        "OptionD": "git merge",
+        "Answer": "B",
+        "Explanation": "`git pull` is used to update the local repository with changes from a remote repository."
+    },
+    {
+        "Q": 44,
+        "Question": "Which Git command is used to list all branches in the repository?",
+        "OptionA": "git branches",
+        "OptionB": "git branch",
+        "OptionC": "git list-branches",
+        "OptionD": "git show-branches",
+        "Answer": "B",
+        "Explanation": "`git branch` is used to list all branches in the repository."
+    },
+    {
+        "Q": 45,
+        "Question": "What does `git merge --no-ff` do?",
+        "OptionA": "Always creates a merge commit even if the merge can be fast-forwarded",
+        "OptionB": "Deletes the merged branch",
+        "OptionC": "Fast-forwards the merge",
+        "OptionD": "Shows a graphical representation of the merge",
+        "Answer": "A",
+        "Explanation": "`git merge --no-ff` forces the creation of a merge commit even if the merge could be fast-forwarded."
+    },
+    {
+        "Q": 46,
+        "Question": "How do you list all remote repositories in Git?",
+        "OptionA": "git remote -v",
+        "OptionB": "git remote list",
+        "OptionC": "git remotes",
+        "OptionD": "git show-remote",
+        "Answer": "A",
+        "Explanation": "`git remote -v` lists all remote repositories associated with the local Git repository."
+    },
+    {
+        "Q": 47,
+        "Question": "What is the purpose of `git stash pop`?",
+        "OptionA": "To apply the most recent stashed changes and remove them from the stash list",
+        "OptionB": "To permanently delete stashed changes",
+        "OptionC": "To apply stashed changes without removing them",
+        "OptionD": "To view the list of stashed changes",
+        "Answer": "A",
+        "Explanation": "`git stash pop` applies the most recent stashed changes and removes them from the stash list."
+    },
+    {
+        "Q": 48,
+        "Question": "What is the command to remove a Git remote?",
+        "OptionA": "git remote remove <remote-name>",
+        "OptionB": "git delete remote <remote-name>",
+        "OptionC": "git remove <remote-name>",
+        "OptionD": "git remove-remote <remote-name>",
+        "Answer": "A",
+        "Explanation": "`git remote remove <remote-name>` removes a remote repository from your local Git configuration."
+    },
+    {
+        "Q": 49,
+        "Question": "Which Git command is used to list the status of all remote tracking branches?",
+        "OptionA": "git remote show",
+        "OptionB": "git fetch",
+        "OptionC": "git status -r",
+        "OptionD": "git branch -r",
+        "Answer": "A",
+        "Explanation": "`git remote show` lists the status of all remote tracking branches."
+    },
+    {
+        "Q": 50,
+        "Question": "What is the purpose of `git pull --rebase`?",
+        "OptionA": "To fetch and reapply your local commits on top of the changes from the remote",
+        "OptionB": "To fetch and merge changes from the remote",
+        "OptionC": "To delete your local changes and replace them with remote changes",
+        "OptionD": "To view the changes between local and remote repositories",
+        "Answer": "A",
+        "Explanation": "`git pull --rebase` fetches changes from the remote and re-applies your local commits on top of them."
+    }
+]

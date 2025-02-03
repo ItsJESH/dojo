@@ -1,0 +1,502 @@
+[
+    {
+        "Q": 1,
+        "Question": "What is React?",
+        "OptionA": "A JavaScript library for building user interfaces",
+        "OptionB": "A CSS framework for designing websites",
+        "OptionC": "A web server",
+        "OptionD": "A database system",
+        "Answer": "A",
+        "Explanation": "React is a JavaScript library for building user interfaces, mainly for single-page applications."
+    },
+    {
+        "Q": 2,
+        "Question": "Who developed React?",
+        "OptionA": "Facebook",
+        "OptionB": "Google",
+        "OptionC": "Twitter",
+        "OptionD": "Microsoft",
+        "Answer": "A",
+        "Explanation": "React was developed and is maintained by Facebook."
+    },
+    {
+        "Q": 3,
+        "Question": "What is JSX in React?",
+        "OptionA": "A syntax extension for JavaScript that allows HTML to be written in JavaScript",
+        "OptionB": "A tool for compiling JavaScript",
+        "OptionC": "A special JavaScript function",
+        "OptionD": "A React component",
+        "Answer": "A",
+        "Explanation": "JSX is a syntax extension for JavaScript that allows writing HTML elements inside JavaScript code."
+    },
+    {
+        "Q": 4,
+        "Question": "What is a React component?",
+        "OptionA": "A reusable piece of the UI that can accept inputs and returns a React element",
+        "OptionB": "A styling mechanism",
+        "OptionC": "A database query",
+        "OptionD": "A function that creates HTML files",
+        "Answer": "A",
+        "Explanation": "A React component is a reusable part of the UI that accepts inputs (props) and returns a React element."
+    },
+    {
+        "Q": 5,
+        "Question": "Which method is used to update the state of a React component?",
+        "OptionA": "this.setState()",
+        "OptionB": "this.getState()",
+        "OptionC": "this.updateState()",
+        "OptionD": "this.changeState()",
+        "Answer": "A",
+        "Explanation": "`this.setState()` is used to update the state of a React component."
+    },
+    {
+        "Q": 6,
+        "Question": "What is the purpose of `render()` in React?",
+        "OptionA": "It returns the JSX that describes the UI of the component",
+        "OptionB": "It initializes the component",
+        "OptionC": "It handles API calls",
+        "OptionD": "It updates the component state",
+        "Answer": "A",
+        "Explanation": "The `render()` method is used to return the JSX that describes what should be displayed on the UI."
+    },
+    {
+        "Q": 7,
+        "Question": "What is the virtual DOM in React?",
+        "OptionA": "An in-memory representation of the actual DOM that React uses to optimize rendering",
+        "OptionB": "A new way to store data in JavaScript",
+        "OptionC": "A method for accessing the database",
+        "OptionD": "A library to handle routing",
+        "Answer": "A",
+        "Explanation": "The virtual DOM is an in-memory representation of the real DOM that React uses to improve performance by minimizing direct updates to the actual DOM."
+    },
+    {
+        "Q": 8,
+        "Question": "What are props in React?",
+        "OptionA": "Arguments passed to a component from its parent component",
+        "OptionB": "A method for handling state",
+        "OptionC": "Special functions in React",
+        "OptionD": "CSS styles applied to components",
+        "Answer": "A",
+        "Explanation": "Props (short for properties) are arguments passed to React components by their parent components."
+    },
+    {
+        "Q": 9,
+        "Question": "What is state in React?",
+        "OptionA": "A mutable object used to store data that can change over time",
+        "OptionB": "A static object used to store data",
+        "OptionC": "A function that returns data",
+        "OptionD": "An external JavaScript library for handling data",
+        "Answer": "A",
+        "Explanation": "State is a mutable object used to store data that can change over time within a React component."
+    },
+    {
+        "Q": 10,
+        "Question": "What is the purpose of the `componentDidMount()` lifecycle method?",
+        "OptionA": "It runs after the component has been rendered to the screen",
+        "OptionB": "It runs before the component renders",
+        "OptionC": "It updates the state of the component",
+        "OptionD": "It sends an API request",
+        "Answer": "A",
+        "Explanation": "`componentDidMount()` is a lifecycle method that runs after the component is rendered to the screen."
+    },
+    {
+        "Q": 11,
+        "Question": "Which of the following is used to create a React element?",
+        "OptionA": "React.createElement()",
+        "OptionB": "React.render()",
+        "OptionC": "React.newElement()",
+        "OptionD": "React.component()",
+        "Answer": "A",
+        "Explanation": "`React.createElement()` is used to create a React element in JavaScript."
+    },
+    {
+        "Q": 12,
+        "Question": "How do you bind a method to a component in React?",
+        "OptionA": "Using `this.methodName = this.methodName.bind(this)` in the constructor",
+        "OptionB": "Using `this.bind()` in the render method",
+        "OptionC": "Using the `bind()` method in JSX",
+        "OptionD": "Using `this.method()` in the constructor",
+        "Answer": "A",
+        "Explanation": "Binding a method to a component in React is typically done in the constructor using `this.methodName = this.methodName.bind(this)`."
+    },
+    {
+        "Q": 13,
+        "Question": "What is the use of keys in React?",
+        "OptionA": "To identify and track elements in a list efficiently",
+        "OptionB": "To assign unique IDs to components",
+        "OptionC": "To manage state in components",
+        "OptionD": "To handle events in components",
+        "Answer": "A",
+        "Explanation": "Keys are used to identify and track elements in a list in React, which helps optimize re-rendering."
+    },
+    {
+        "Q": 14,
+        "Question": "Which hook is used to handle state in a functional component?",
+        "OptionA": "useState",
+        "OptionB": "useEffect",
+        "OptionC": "useContext",
+        "OptionD": "useReducer",
+        "Answer": "A",
+        "Explanation": "`useState` is a React hook used to handle state in functional components."
+    },
+    {
+        "Q": 15,
+        "Question": "What is `useEffect` used for in React?",
+        "OptionA": "To perform side effects in functional components",
+        "OptionB": "To manage state in components",
+        "OptionC": "To render elements",
+        "OptionD": "To handle events",
+        "Answer": "A",
+        "Explanation": "`useEffect` is a hook used to perform side effects such as fetching data, subscribing to external events, or updating the DOM in functional components."
+    },
+    {
+        "Q": 16,
+        "Question": "What is React Router used for?",
+        "OptionA": "To manage routing in a React application",
+        "OptionB": "To manage state in React",
+        "OptionC": "To handle API requests",
+        "OptionD": "To render components",
+        "Answer": "A",
+        "Explanation": "React Router is used to manage routing in React applications, allowing for navigation between different views or components."
+    },
+    {
+        "Q": 17,
+        "Question": "What does `ReactDOM.render()` do?",
+        "OptionA": "Renders a React component to the DOM",
+        "OptionB": "Creates a React element",
+        "OptionC": "Creates a component",
+        "OptionD": "Updates the virtual DOM",
+        "Answer": "A",
+        "Explanation": "`ReactDOM.render()` is used to render a React component to the DOM."
+    },
+    {
+        "Q": 18,
+        "Question": "What is the purpose of `React.Fragment`?",
+        "OptionA": "To group multiple elements without adding extra nodes to the DOM",
+        "OptionB": "To define a new component",
+        "OptionC": "To create a wrapper element",
+        "OptionD": "To define a route",
+        "Answer": "A",
+        "Explanation": "`React.Fragment` is used to group multiple elements without adding an extra wrapper node to the DOM."
+    },
+    {
+        "Q": 19,
+        "Question": "How do you handle forms in React?",
+        "OptionA": "By using controlled components that manage the state of the form elements",
+        "OptionB": "By using uncontrolled components with DOM manipulation",
+        "OptionC": "By directly modifying the DOM",
+        "OptionD": "By using external libraries like jQuery",
+        "Answer": "A",
+        "Explanation": "In React, forms are typically handled using controlled components, where the state of form elements is managed by React."
+    },
+    {
+        "Q": 20,
+        "Question": "Which lifecycle method is called before a component is removed from the DOM?",
+        "OptionA": "componentWillUnmount()",
+        "OptionB": "componentDidMount()",
+        "OptionC": "componentDidUpdate()",
+        "OptionD": "componentWillUpdate()",
+        "Answer": "A",
+        "Explanation": "`componentWillUnmount()` is called just before a component is removed from the DOM."
+    },
+    {
+        "Q": 21,
+        "Question": "What is Context API used for in React?",
+        "OptionA": "To manage global state across components without prop drilling",
+        "OptionB": "To handle HTTP requests",
+        "OptionC": "To create components",
+        "OptionD": "To render lists of data",
+        "Answer": "A",
+        "Explanation": "The Context API is used to manage global state and allow components to share data without passing props down manually."
+    },
+    {
+        "Q": 22,
+        "Question": "Which function is used to trigger a re-render in React?",
+        "OptionA": "setState()",
+        "OptionB": "forceUpdate()",
+        "OptionC": "render()",
+        "OptionD": "useEffect()",
+        "Answer": "B",
+        "Explanation": "`forceUpdate()` is used to manually trigger a re-render in React components."
+    },
+    {
+        "Q": 23,
+        "Question": "Which method is used to define a pure component in React?",
+        "OptionA": "React.PureComponent",
+        "OptionB": "React.Component",
+        "OptionC": "React.FunctionComponent",
+        "OptionD": "React.PureFunctionComponent",
+        "Answer": "A",
+        "Explanation": "`React.PureComponent` is used to define a component that only re-renders when its props or state have changed."
+    },
+    {
+        "Q": 24,
+        "Question": "What does `shouldComponentUpdate()` do?",
+        "OptionA": "It controls whether a component should re-render based on changes in state or props",
+        "OptionB": "It handles updates to the DOM",
+        "OptionC": "It initializes the component",
+        "OptionD": "It updates the virtual DOM",
+        "Answer": "A",
+        "Explanation": "`shouldComponentUpdate()` is a lifecycle method that determines whether a component should re-render when state or props change."
+    },
+    {
+        "Q": 25,
+        "Question": "What is the default state of `useState` when it is called without an argument?",
+        "OptionA": "undefined",
+        "OptionB": "null",
+        "OptionC": "false",
+        "OptionD": "0",
+        "Answer": "A",
+        "Explanation": "When `useState` is called without an initial argument, the default state value is `undefined`."
+    },
+    {
+        "Q": 26,
+        "Question": "How do you handle event binding in a React functional component?",
+        "OptionA": "By using arrow functions or the `bind()` method in the JSX code",
+        "OptionB": "By using `this.bind()`",
+        "OptionC": "By calling the event function directly",
+        "OptionD": "By using a global event handler",
+        "Answer": "A",
+        "Explanation": "In React functional components, event binding is done using arrow functions or by binding methods in JSX."
+    },
+    {
+        "Q": 27,
+        "Question": "Which of the following is a valid way to pass props in React?",
+        "OptionA": "By using JSX syntax with attributes",
+        "OptionB": "By using JavaScript objects only",
+        "OptionC": "By using global state",
+        "OptionD": "By using `setState()` directly",
+        "Answer": "A",
+        "Explanation": "Props in React are passed by using JSX syntax, where attributes are set on components."
+    },
+    {
+        "Q": 28,
+        "Question": "What does `useRef` do in React?",
+        "OptionA": "It allows access to a DOM element or keeps a mutable reference across renders",
+        "OptionB": "It renders the component",
+        "OptionC": "It handles state changes",
+        "OptionD": "It manages context data",
+        "Answer": "A",
+        "Explanation": "`useRef` is a React hook that allows you to persist values across renders, including references to DOM elements."
+    },
+    {
+        "Q": 29,
+        "Question": "Which hook is used to share state between components?",
+        "OptionA": "useContext",
+        "OptionB": "useReducer",
+        "OptionC": "useEffect",
+        "OptionD": "useState",
+        "Answer": "A",
+        "Explanation": "`useContext` is used to share state or other values between components without prop drilling."
+    },
+    {
+        "Q": 30,
+        "Question": "What does the `key` prop help React do?",
+        "OptionA": "Efficiently update the DOM by tracking items in a list",
+        "OptionB": "Pass data to child components",
+        "OptionC": "Store state locally",
+        "OptionD": "Handle events",
+        "Answer": "A",
+        "Explanation": "The `key` prop helps React efficiently track and update items in a list by providing a unique identifier for each item."
+    },
+    {
+        "Q": 31,
+        "Question": "What is the purpose of React's `useReducer` hook?",
+        "OptionA": "It manages more complex state logic with reducers",
+        "OptionB": "It handles side effects in components",
+        "OptionC": "It stores state in the context",
+        "OptionD": "It optimizes rendering performance",
+        "Answer": "A",
+        "Explanation": "`useReducer` is used to manage complex state logic in functional components, typically with a reducer function."
+    },
+    {
+        "Q": 32,
+        "Question": "What is the purpose of `React.StrictMode`?",
+        "OptionA": "It helps identify potential problems in the app during development",
+        "OptionB": "It optimizes performance in production",
+        "OptionC": "It allows legacy components to work with React",
+        "OptionD": "It adds new features to React",
+        "Answer": "A",
+        "Explanation": "`React.StrictMode` is a tool used during development to help identify potential issues like unsafe lifecycle methods, deprecated APIs, and more."
+    },
+    {
+        "Q": 33,
+        "Question": "What is the difference between a class component and a functional component in React?",
+        "OptionA": "Class components have state and lifecycle methods, while functional components are stateless and simpler",
+        "OptionB": "Class components are faster than functional components",
+        "OptionC": "Functional components are used for styling, while class components are used for logic",
+        "OptionD": "There is no difference between them",
+        "Answer": "A",
+        "Explanation": "Class components in React can have state and lifecycle methods, while functional components are simpler and stateless by default."
+    },
+    {
+        "Q": 34,
+        "Question": "What is the purpose of the `defaultProps` property?",
+        "OptionA": "It sets default values for props that are not passed by the parent component",
+        "OptionB": "It handles events",
+        "OptionC": "It initializes state",
+        "OptionD": "It validates props",
+        "Answer": "A",
+        "Explanation": "`defaultProps` is used to set default values for props in case the parent component does not pass any value."
+    },
+    {
+        "Q": 35,
+        "Question": "What are controlled components in React?",
+        "OptionA": "Components that manage their own state and rely on React for state changes",
+        "OptionB": "Components that are not connected to the virtual DOM",
+        "OptionC": "Components that use default state values",
+        "OptionD": "Components that are only rendered on the server",
+        "Answer": "A",
+        "Explanation": "Controlled components are React components that manage their own state and rely on React to handle state changes and updates."
+    },
+    {
+        "Q": 36,
+        "Question": "How do you create a React app using the Create React App tool?",
+        "OptionA": "By running `npx create-react-app my-app`",
+        "OptionB": "By downloading React manually",
+        "OptionC": "By using the `react-create` command",
+        "OptionD": "By cloning a GitHub repository",
+        "Answer": "A",
+        "Explanation": "You can create a new React app using the Create React App tool by running `npx create-react-app my-app`."
+    },
+    {
+        "Q": 37,
+        "Question": "What is the purpose of `React.lazy`?",
+        "OptionA": "It allows you to lazily load components, improving performance",
+        "OptionB": "It makes components available globally",
+        "OptionC": "It helps to handle form input",
+        "OptionD": "It validates props",
+        "Answer": "A",
+        "Explanation": "`React.lazy` allows you to lazily load React components only when they are needed, improving the performance of your app."
+    },
+    {
+        "Q": 38,
+        "Question": "What is the correct syntax to import React in a React component?",
+        "OptionA": "import React from 'react';",
+        "OptionB": "import React from 'react.js';",
+        "OptionC": "import { React } from 'react';",
+        "OptionD": "import 'react';",
+        "Answer": "A",
+        "Explanation": "The correct syntax to import React in a component is `import React from 'react';`."
+    },
+    {
+        "Q": 39,
+        "Question": "Which of the following is used for global state management in React?",
+        "OptionA": "Context API",
+        "OptionB": "React Router",
+        "OptionC": "ReactDOM",
+        "OptionD": "React's useState hook",
+        "Answer": "A",
+        "Explanation": "The Context API is used in React for global state management, allowing state to be shared across components without prop drilling."
+    },
+    {
+        "Q": 40,
+        "Question": "What is the purpose of the `useCallback` hook?",
+        "OptionA": "It memoizes functions to avoid unnecessary re-renders",
+        "OptionB": "It stores state in the context",
+        "OptionC": "It defines lifecycle methods in functional components",
+        "OptionD": "It manages side effects in components",
+        "Answer": "A",
+        "Explanation": "`useCallback` is used to memoize functions in order to avoid unnecessary re-renders in functional components."
+    },
+    {
+        "Q": 41,
+        "Question": "What is the purpose of `useMemo` in React?",
+        "OptionA": "It memoizes expensive calculations to optimize performance",
+        "OptionB": "It stores the component's state",
+        "OptionC": "It handles side effects",
+        "OptionD": "It tracks component renders",
+        "Answer": "A",
+        "Explanation": "`useMemo` is used to memoize expensive calculations to avoid recalculating them on every render, improving performance."
+    },
+    {
+        "Q": 42,
+        "Question": "What is the purpose of `Suspense` in React?",
+        "OptionA": "To handle loading states for lazy-loaded components",
+        "OptionB": "To handle errors in the app",
+        "OptionC": "To initialize state in functional components",
+        "OptionD": "To render components sequentially",
+        "Answer": "A",
+        "Explanation": "`Suspense` is used in React to handle loading states for lazy-loaded components, allowing you to display a fallback UI while waiting."
+    },
+    {
+        "Q": 43,
+        "Question": "What is `React.createElement()` used for?",
+        "OptionA": "To create a React element that can be rendered by React",
+        "OptionB": "To define a React component",
+        "OptionC": "To render a component to the DOM",
+        "OptionD": "To set the state of a component",
+        "Answer": "A",
+        "Explanation": "`React.createElement()` is used to create a React element that can be rendered to the DOM by React."
+    },
+    {
+        "Q": 44,
+        "Question": "What is the purpose of `componentDidUpdate()` in React?",
+        "OptionA": "It is called after the component has updated",
+        "OptionB": "It initializes the component",
+        "OptionC": "It is called before the component is mounted",
+        "OptionD": "It handles errors in the component",
+        "Answer": "A",
+        "Explanation": "`componentDidUpdate()` is a lifecycle method that is called after a component's state or props have been updated."
+    },
+    {
+        "Q": 45,
+        "Question": "What is the function of `setState()` in React?",
+        "OptionA": "To update the state of a component and trigger a re-render",
+        "OptionB": "To pass props to child components",
+        "OptionC": "To render a component",
+        "OptionD": "To define a new component",
+        "Answer": "A",
+        "Explanation": "`setState()` is used to update a component's state and trigger a re-render to reflect the changes."
+    },
+    {
+        "Q": 46,
+        "Question": "What is the main advantage of React?",
+        "OptionA": "It efficiently updates the user interface with a virtual DOM",
+        "OptionB": "It is a CSS framework",
+        "OptionC": "It is used for managing databases",
+        "OptionD": "It automatically optimizes JavaScript code",
+        "Answer": "A",
+        "Explanation": "React's main advantage is its ability to efficiently update and render the user interface using the virtual DOM."
+    },
+    {
+        "Q": 47,
+        "Question": "What does `React.memo()` do?",
+        "OptionA": "It memoizes a functional component to avoid unnecessary re-renders",
+        "OptionB": "It stores the state of the component",
+        "OptionC": "It creates a new React component",
+        "OptionD": "It manages lifecycle events",
+        "Answer": "A",
+        "Explanation": "`React.memo()` is used to memoize functional components to prevent unnecessary re-renders when the props have not changed."
+    },
+    {
+        "Q": 48,
+        "Question": "What does the `useEffect()` hook do when passed an empty array as the second argument?",
+        "OptionA": "It runs once after the component mounts, simulating `componentDidMount()`",
+        "OptionB": "It runs every time the component's state changes",
+        "OptionC": "It runs every time the component is updated",
+        "OptionD": "It does nothing",
+        "Answer": "A",
+        "Explanation": "When `useEffect()` is passed an empty array as the second argument, it behaves like `componentDidMount()` and runs only once after the component mounts."
+    },
+    {
+        "Q": 49,
+        "Question": "What does `useState()` return?",
+        "OptionA": "An array with the current state and a function to update it",
+        "OptionB": "An object with methods to handle state",
+        "OptionC": "A function that updates the virtual DOM",
+        "OptionD": "A React component",
+        "Answer": "A",
+        "Explanation": "`useState()` returns an array with two elements: the current state value and a function to update it."
+    },
+    {
+        "Q": 50,
+        "Question": "What is the purpose of `React.StrictMode`?",
+        "OptionA": "It helps identify potential problems in the app during development",
+        "OptionB": "It optimizes performance in production",
+        "OptionC": "It allows legacy components to work with React",
+        "OptionD": "It adds new features to React",
+        "Answer": "A",
+        "Explanation": "`React.StrictMode` is a tool used during development to help identify potential issues like unsafe lifecycle methods, deprecated APIs, and more."
+    }
+]

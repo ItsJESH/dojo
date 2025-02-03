@@ -1,0 +1,502 @@
+[
+    {
+        "Q": 1,
+        "Question": "What is Vitest?",
+        "OptionA": "A JavaScript library for data visualization",
+        "OptionB": "A unit testing framework for JavaScript and TypeScript",
+        "OptionC": "A CSS preprocessor",
+        "OptionD": "A build tool for React applications",
+        "Answer": "B",
+        "Explanation": "Vitest is a modern unit testing framework that is fast, built for JavaScript and TypeScript applications."
+    },
+    {
+        "Q": 2,
+        "Question": "Which of the following is a primary feature of Vitest?",
+        "OptionA": "CSS automation",
+        "OptionB": "Unit testing with fast execution",
+        "OptionC": "UI testing for React applications",
+        "OptionD": "Real-time database management",
+        "Answer": "B",
+        "Explanation": "Vitest focuses on providing a fast and efficient testing framework for JavaScript and TypeScript."
+    },
+    {
+        "Q": 3,
+        "Question": "What command is used to run Vitest tests?",
+        "OptionA": "vitest run",
+        "OptionB": "vitest test",
+        "OptionC": "npm run test",
+        "OptionD": "npx vitest",
+        "Answer": "D",
+        "Explanation": "To run Vitest tests, the command `npx vitest` is used."
+    },
+    {
+        "Q": 4,
+        "Question": "Which type of tests can be run using Vitest?",
+        "OptionA": "Unit tests",
+        "OptionB": "Integration tests",
+        "OptionC": "E2E tests",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Vitest can be used for unit, integration, and even E2E testing depending on the configuration."
+    },
+    {
+        "Q": 5,
+        "Question": "Which testing assertion library is built-in with Vitest?",
+        "OptionA": "Chai",
+        "OptionB": "Jest assertions",
+        "OptionC": "expect",
+        "OptionD": "Mocha",
+        "Answer": "C",
+        "Explanation": "Vitest comes with the `expect` assertion library, which is similar to Jest's expect."
+    },
+    {
+        "Q": 6,
+        "Question": "Which testing runner is used by Vitest?",
+        "OptionA": "Jest",
+        "OptionB": "Mocha",
+        "OptionC": "Vite",
+        "OptionD": "Karma",
+        "Answer": "C",
+        "Explanation": "Vitest uses Vite as its testing runner, making it fast and efficient."
+    },
+    {
+        "Q": 7,
+        "Question": "What is the default test file extension for Vitest?",
+        "OptionA": ".test.js",
+        "OptionB": ".spec.js",
+        "OptionC": ".vitest.js",
+        "OptionD": ".test.ts",
+        "Answer": "A",
+        "Explanation": "By default, Vitest uses `.test.js` for test files, but you can configure it to use others."
+    },
+    {
+        "Q": 8,
+        "Question": "How do you install Vitest in your project?",
+        "OptionA": "npm install vitest",
+        "OptionB": "npm install --save-dev vitest",
+        "OptionC": "yarn add vitest",
+        "OptionD": "npm install vitest --global",
+        "Answer": "B",
+        "Explanation": "To install Vitest as a dev dependency, use `npm install --save-dev vitest`."
+    },
+    {
+        "Q": 9,
+        "Question": "How can you run a specific test in Vitest?",
+        "OptionA": "npx vitest <test-name>",
+        "OptionB": "npx vitest run <test-name>",
+        "OptionC": "npx vitest --run <test-name>",
+        "OptionD": "npx vitest --test <test-name>",
+        "Answer": "B",
+        "Explanation": "To run a specific test, use `npx vitest run <test-name>`."
+    },
+    {
+        "Q": 10,
+        "Question": "Which of the following can be mocked in Vitest?",
+        "OptionA": "Modules",
+        "OptionB": "Functions",
+        "OptionC": "Imports",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Vitest supports mocking modules, functions, and imports for tests."
+    },
+    {
+        "Q": 11,
+        "Question": "What is the command to run Vitest in watch mode?",
+        "OptionA": "npx vitest --watch",
+        "OptionB": "npx vitest watch",
+        "OptionC": "npm run test --watch",
+        "OptionD": "npx vitest -w",
+        "Answer": "A",
+        "Explanation": "To run Vitest in watch mode, you can use `npx vitest --watch`."
+    },
+    {
+        "Q": 12,
+        "Question": "Which command does Vitest use for coverage?",
+        "OptionA": "vitest coverage",
+        "OptionB": "vitest --coverage",
+        "OptionC": "npx vitest coverage",
+        "OptionD": "npx vitest --coverage",
+        "Answer": "D",
+        "Explanation": "`npx vitest --coverage` runs tests and provides a code coverage report."
+    },
+    {
+        "Q": 13,
+        "Question": "Which framework is Vitest commonly used with?",
+        "OptionA": "Vue.js",
+        "OptionB": "React",
+        "OptionC": "Angular",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Vitest is a flexible testing framework and can be used with any modern JavaScript framework like Vue.js, React, or Angular."
+    },
+    {
+        "Q": 14,
+        "Question": "What is the purpose of Vitest's `beforeAll` hook?",
+        "OptionA": "To run code before every individual test",
+        "OptionB": "To run code once before all tests in a suite",
+        "OptionC": "To run code after every individual test",
+        "OptionD": "To clean up resources after all tests",
+        "Answer": "B",
+        "Explanation": "`beforeAll` is used to run code once before all tests in a test suite."
+    },
+    {
+        "Q": 15,
+        "Question": "What is the purpose of Vitest's `afterAll` hook?",
+        "OptionA": "To run code after every individual test",
+        "OptionB": "To run code once after all tests in a suite",
+        "OptionC": "To clean up resources after each test",
+        "OptionD": "To skip tests conditionally",
+        "Answer": "B",
+        "Explanation": "`afterAll` is used to run cleanup code once after all tests in a suite have finished."
+    },
+    {
+        "Q": 16,
+        "Question": "How do you skip a test in Vitest?",
+        "OptionA": "test.skip()",
+        "OptionB": "it.skip()",
+        "OptionC": "skip()",
+        "OptionD": "test.ignore()",
+        "Answer": "A",
+        "Explanation": "To skip a test, you can use `test.skip()`."
+    },
+    {
+        "Q": 17,
+        "Question": "What command is used to run Vitest in parallel mode?",
+        "OptionA": "npx vitest --parallel",
+        "OptionB": "npx vitest -p",
+        "OptionC": "npx vitest parallel",
+        "OptionD": "Vitest automatically runs in parallel",
+        "Answer": "D",
+        "Explanation": "Vitest runs tests in parallel by default for faster execution."
+    },
+    {
+        "Q": 18,
+        "Question": "What is the default assertion library in Vitest?",
+        "OptionA": "expect",
+        "OptionB": "assert",
+        "OptionC": "chai",
+        "OptionD": "should.js",
+        "Answer": "A",
+        "Explanation": "Vitest uses the `expect` assertion library by default."
+    },
+    {
+        "Q": 19,
+        "Question": "Which of the following is a valid way to test asynchronous code in Vitest?",
+        "OptionA": "Using `done` callback",
+        "OptionB": "Returning a promise",
+        "OptionC": "Using `async`/`await`",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Vitest supports all of these methods to test asynchronous code."
+    },
+    {
+        "Q": 20,
+        "Question": "How do you define a test in Vitest?",
+        "OptionA": "test()",
+        "OptionB": "it()",
+        "OptionC": "describe()",
+        "OptionD": "Both A and B",
+        "Answer": "D",
+        "Explanation": "You can define tests using either `test()` or `it()`, both are valid."
+    },
+    {
+        "Q": 21,
+        "Question": "What is the purpose of the `describe` block in Vitest?",
+        "OptionA": "To group related tests together",
+        "OptionB": "To skip tests",
+        "OptionC": "To run code after each test",
+        "OptionD": "To set up resources before each test",
+        "Answer": "A",
+        "Explanation": "`describe` is used to group related tests together for better organization."
+    },
+    {
+        "Q": 22,
+        "Question": "Which of the following does Vitest use for speed optimization?",
+        "OptionA": "Hot Module Replacement (HMR)",
+        "OptionB": "Lazy loading",
+        "OptionC": "Vite's fast bundling",
+        "OptionD": "Pre-compilation",
+        "Answer": "C",
+        "Explanation": "Vitest is optimized with Vite's fast bundling to execute tests quickly."
+    },
+    {
+        "Q": 23,
+        "Question": "Which command is used to add Vitest as a development dependency?",
+        "OptionA": "npm install vitest",
+        "OptionB": "npm install --save-dev vitest",
+        "OptionC": "yarn add --dev vitest",
+        "OptionD": "npm add vitest",
+        "Answer": "B",
+        "Explanation": "To add Vitest as a dev dependency, use `npm install --save-dev vitest`."
+    },
+    {
+        "Q": 24,
+        "Question": "How do you configure Vitest for TypeScript?",
+        "OptionA": "Install ts-node",
+        "OptionB": "Configure `vitest.config.ts` file",
+        "OptionC": "Add `ts-jest` package",
+        "OptionD": "No configuration is required",
+        "Answer": "B",
+        "Explanation": "You need to configure `vitest.config.ts` for TypeScript support in Vitest."
+    },
+    {
+        "Q": 25,
+        "Question": "Which of the following is supported by Vitest for mocking?",
+        "OptionA": "Modules",
+        "OptionB": "Functions",
+        "OptionC": "Imports",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Vitest supports mocking modules, functions, and imports."
+    },
+    {
+        "Q": 26,
+        "Question": "Can Vitest be used with Babel for transpiling?",
+        "OptionA": "Yes, with Babel integration",
+        "OptionB": "No, it only supports TypeScript",
+        "OptionC": "Yes, but only with the `@babel/preset-env`",
+        "OptionD": "No, it uses Vite's native compiler",
+        "Answer": "A",
+        "Explanation": "Vitest can be used with Babel for transpiling JavaScript code."
+    },
+    {
+        "Q": 27,
+        "Question": "Which of the following is a correct usage of `beforeEach` in Vitest?",
+        "OptionA": "Runs before every test case",
+        "OptionB": "Runs once before all tests",
+        "OptionC": "Runs after each test case",
+        "OptionD": "Runs after all tests",
+        "Answer": "A",
+        "Explanation": "`beforeEach` runs before each individual test case."
+    },
+    {
+        "Q": 28,
+        "Question": "What is the purpose of the `expect` function in Vitest?",
+        "OptionA": "To mock a function",
+        "OptionB": "To define test behavior",
+        "OptionC": "To make assertions in tests",
+        "OptionD": "To simulate asynchronous operations",
+        "Answer": "C",
+        "Explanation": "`expect` is used to make assertions in Vitest tests."
+    },
+    {
+        "Q": 29,
+        "Question": "Which environment does Vitest run in?",
+        "OptionA": "Node.js",
+        "OptionB": "Browser",
+        "OptionC": "Both Node.js and Browser",
+        "OptionD": "Docker",
+        "Answer": "C",
+        "Explanation": "Vitest runs in both Node.js and browser environments."
+    },
+    {
+        "Q": 30,
+        "Question": "What command is used to generate a test coverage report in Vitest?",
+        "OptionA": "vitest --coverage",
+        "OptionB": "vitest coverage report",
+        "OptionC": "npx vitest --coverage",
+        "OptionD": "vitest report --coverage",
+        "Answer": "C",
+        "Explanation": "`npx vitest --coverage` generates a test coverage report."
+    },
+    {
+        "Q": 31,
+        "Question": "Which of the following is true about Vitest?",
+        "OptionA": "It is built on top of Mocha",
+        "OptionB": "It is part of the Vite ecosystem",
+        "OptionC": "It is a part of Jest",
+        "OptionD": "It is only compatible with Vue.js",
+        "Answer": "B",
+        "Explanation": "Vitest is a testing framework built on top of Vite for fast test execution."
+    },
+    {
+        "Q": 32,
+        "Question": "Which of the following is used to mark a test as a failing test in Vitest?",
+        "OptionA": "test.fail()",
+        "OptionB": "test.skip()",
+        "OptionC": "test.only()",
+        "OptionD": "test.todo()",
+        "Answer": "A",
+        "Explanation": "You can use `test.fail()` to force a test to fail."
+    },
+    {
+        "Q": 33,
+        "Question": "What is the correct way to run all tests with Vitest?",
+        "OptionA": "npx vitest run",
+        "OptionB": "npm test",
+        "OptionC": "npx vitest all",
+        "OptionD": "vitest run all",
+        "Answer": "A",
+        "Explanation": "`npx vitest run` will run all tests in the test suite."
+    },
+    {
+        "Q": 34,
+        "Question": "Can you use Vitest with a Vite-powered project?",
+        "OptionA": "Yes",
+        "OptionB": "No",
+        "OptionC": "Only if you install Jest",
+        "OptionD": "Only with React applications",
+        "Answer": "A",
+        "Explanation": "Vitest is designed to work seamlessly with Vite-powered projects."
+    },
+    {
+        "Q": 35,
+        "Question": "What is Vitest's default reporter?",
+        "OptionA": "JSON",
+        "OptionB": "Dot",
+        "OptionC": "Spec",
+        "OptionD": "Standard",
+        "Answer": "C",
+        "Explanation": "The default reporter for Vitest is `Spec`, which gives a detailed output."
+    },
+    {
+        "Q": 36,
+        "Question": "How can you make a test case asynchronous in Vitest?",
+        "OptionA": "Return a promise",
+        "OptionB": "Use async/await",
+        "OptionC": "Use done() callback",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "All of these methods can be used to handle asynchronous code in Vitest."
+    },
+    {
+        "Q": 37,
+        "Question": "What is the purpose of `vitest.config.ts` file?",
+        "OptionA": "To configure Jest settings",
+        "OptionB": "To configure test files and environment",
+        "OptionC": "To define global variables",
+        "OptionD": "To set up the Vite bundler",
+        "Answer": "B",
+        "Explanation": "`vitest.config.ts` is used to configure test files, environment, and other Vitest settings."
+    },
+    {
+        "Q": 38,
+        "Question": "Can Vitest run tests for a React project?",
+        "OptionA": "Yes",
+        "OptionB": "No",
+        "OptionC": "Only with Vite",
+        "OptionD": "Only with Jest",
+        "Answer": "A",
+        "Explanation": "Vitest can run tests for React projects without issues."
+    },
+    {
+        "Q": 39,
+        "Question": "Which of the following is true about `test.only()` in Vitest?",
+        "OptionA": "It skips the test",
+        "OptionB": "It runs only the test marked with `test.only()`",
+        "OptionC": "It runs all tests in a suite",
+        "OptionD": "It runs a failing test",
+        "Answer": "B",
+        "Explanation": "`test.only()` ensures that only the specified test is executed."
+    },
+    {
+        "Q": 40,
+        "Question": "What type of testing does Vitest support?",
+        "OptionA": "Unit testing",
+        "OptionB": "Integration testing",
+        "OptionC": "Functional testing",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Vitest supports unit, integration, and functional testing."
+    },
+    {
+        "Q": 41,
+        "Question": "How do you write an asynchronous test using async/await in Vitest?",
+        "OptionA": "test('Async test', async () => { ... })",
+        "OptionB": "test('Async test', () => async { ... })",
+        "OptionC": "test('Async test', () => { await ... })",
+        "OptionD": "test('Async test', done => { ... })",
+        "Answer": "A",
+        "Explanation": "You can write an asynchronous test by using `async/await` inside the test function."
+    },
+    {
+        "Q": 42,
+        "Question": "Which is the fastest way to run tests in Vitest?",
+        "OptionA": "Using Jest with parallel execution",
+        "OptionB": "Using Vitest with Vite",
+        "OptionC": "Running tests sequentially",
+        "OptionD": "Running tests with external build tools",
+        "Answer": "B",
+        "Explanation": "Vitest is optimized with Vite, making it faster than other test runners."
+    },
+    {
+        "Q": 43,
+        "Question": "What is the purpose of `test.todo()` in Vitest?",
+        "OptionA": "It defines a test that will fail",
+        "OptionB": "It marks a test to be written later",
+        "OptionC": "It runs a test without assertions",
+        "OptionD": "It skips the test",
+        "Answer": "B",
+        "Explanation": "`test.todo()` is used to define a test that you plan to implement in the future."
+    },
+    {
+        "Q": 44,
+        "Question": "Can Vitest be used for testing Vue.js applications?",
+        "OptionA": "Yes",
+        "OptionB": "No",
+        "OptionC": "Only with the Jest adapter",
+        "OptionD": "Only with the Vue Test Utils library",
+        "Answer": "A",
+        "Explanation": "Vitest can be used for testing Vue.js applications as well."
+    },
+    {
+        "Q": 45,
+        "Question": "Which method is used for assertions in Vitest?",
+        "OptionA": "assert()",
+        "OptionB": "check()",
+        "OptionC": "expect()",
+        "OptionD": "verify()",
+        "Answer": "C",
+        "Explanation": "Vitest uses `expect()` for assertions."
+    },
+    {
+        "Q": 46,
+        "Question": "What file type does Vitest support for test configuration?",
+        "OptionA": ".js",
+        "OptionB": ".ts",
+        "OptionC": ".json",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Vitest supports configuration files in `.js`, `.ts`, and `.json` formats."
+    },
+    {
+        "Q": 47,
+        "Question": "Which method is used for mocking functions in Vitest?",
+        "OptionA": "jest.fn()",
+        "OptionB": "vitest.fn()",
+        "OptionC": "sinon.spy()",
+        "OptionD": "mockFunction()",
+        "Answer": "B",
+        "Explanation": "Vitest uses `vitest.fn()` for mocking functions."
+    },
+    {
+        "Q": 48,
+        "Question": "What is the output format for `vitest` coverage?",
+        "OptionA": "JSON",
+        "OptionB": "HTML",
+        "OptionC": "Text",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Vitest's coverage output can be in JSON, HTML, or text formats."
+    },
+    {
+        "Q": 49,
+        "Question": "What is the `beforeEach` hook used for in Vitest?",
+        "OptionA": "To run code after every test",
+        "OptionB": "To run code before each test",
+        "OptionC": "To set up resources",
+        "OptionD": "To clean up after tests",
+        "Answer": "B",
+        "Explanation": "`beforeEach` runs code before each individual test."
+    },
+    {
+        "Q": 50,
+        "Question": "What command is used to run tests in watch mode in Vitest?",
+        "OptionA": "npx vitest watch",
+        "OptionB": "npx vitest --watch",
+        "OptionC": "npm run test --watch",
+        "OptionD": "npx vitest -w",
+        "Answer": "B",
+        "Explanation": "The correct command to run tests in watch mode is `npx vitest --watch`."
+    }
+]

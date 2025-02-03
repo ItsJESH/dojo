@@ -1,0 +1,502 @@
+[
+    {
+        "Q": 1,
+        "Question": "What does HTML stand for?",
+        "OptionA": "HyperText Markup Language",
+        "OptionB": "HyperText Markdown Language",
+        "OptionC": "Hyper Transfer Markup Language",
+        "OptionD": "HighText Markup Language",
+        "Answer": "A",
+        "Explanation": "HTML stands for HyperText Markup Language."
+    },
+    {
+        "Q": 2,
+        "Question": "Which tag is used to define an HTML paragraph?",
+        "OptionA": "<p>",
+        "OptionB": "<para>",
+        "OptionC": "<paragraph>",
+        "OptionD": "<div>",
+        "Answer": "A",
+        "Explanation": "The <p> tag is used to define a paragraph in HTML."
+    },
+    {
+        "Q": 3,
+        "Question": "Which tag is used to define an HTML heading?",
+        "OptionA": "<h1>",
+        "OptionB": "<head>",
+        "OptionC": "<heading>",
+        "OptionD": "<h6>",
+        "Answer": "A",
+        "Explanation": "The <h1> tag is used to define the main heading in HTML."
+    },
+    {
+        "Q": 4,
+        "Question": "Which attribute is used to specify the URL in an anchor tag?",
+        "OptionA": "src",
+        "OptionB": "href",
+        "OptionC": "link",
+        "OptionD": "url",
+        "Answer": "B",
+        "Explanation": "The href attribute is used to specify the URL in an anchor tag (<a>)."
+    },
+    {
+        "Q": 5,
+        "Question": "Which tag is used to create an unordered list?",
+        "OptionA": "<ul>",
+        "OptionB": "<ol>",
+        "OptionC": "<list>",
+        "OptionD": "<li>",
+        "Answer": "A",
+        "Explanation": "The <ul> tag is used to create an unordered list in HTML."
+    },
+    {
+        "Q": 6,
+        "Question": "Which tag is used to create a table in HTML?",
+        "OptionA": "<table>",
+        "OptionB": "<tab>",
+        "OptionC": "<tr>",
+        "OptionD": "<td>",
+        "Answer": "A",
+        "Explanation": "The <table> tag is used to define a table in HTML."
+    },
+    {
+        "Q": 7,
+        "Question": "Which attribute is used to specify the image source in HTML?",
+        "OptionA": "src",
+        "OptionB": "href",
+        "OptionC": "alt",
+        "OptionD": "image",
+        "Answer": "A",
+        "Explanation": "The src attribute is used to specify the source of the image in an <img> tag."
+    },
+    {
+        "Q": 8,
+        "Question": "Which tag is used to create a dropdown list?",
+        "OptionA": "<select>",
+        "OptionB": "<input>",
+        "OptionC": "<dropdown>",
+        "OptionD": "<list>",
+        "Answer": "A",
+        "Explanation": "The <select> tag is used to create a dropdown list in HTML."
+    },
+    {
+        "Q": 9,
+        "Question": "Which of the following is the correct way to link an external CSS file in HTML?",
+        "OptionA": "<link rel='stylesheet' href='styles.css'>",
+        "OptionB": "<style src='styles.css'>",
+        "OptionC": "<css link='styles.css'>",
+        "OptionD": "<external stylesheet='styles.css'>",
+        "Answer": "A",
+        "Explanation": "The correct way to link an external CSS file is using <link rel='stylesheet' href='styles.css'>."
+    },
+    {
+        "Q": 10,
+        "Question": "What is the correct HTML element to define important text?",
+        "OptionA": "<strong>",
+        "OptionB": "<b>",
+        "OptionC": "<important>",
+        "OptionD": "<em>",
+        "Answer": "A",
+        "Explanation": "The <strong> tag is used to define important text, which typically appears bold."
+    },
+    {
+        "Q": 11,
+        "Question": "Which tag is used to define a hyperlink?",
+        "OptionA": "<link>",
+        "OptionB": "<a>",
+        "OptionC": "<href>",
+        "OptionD": "<hyperlink>",
+        "Answer": "B",
+        "Explanation": "The <a> tag is used to define a hyperlink in HTML."
+    },
+    {
+        "Q": 12,
+        "Question": "What does the <br> tag do in HTML?",
+        "OptionA": "It creates a line break.",
+        "OptionB": "It creates a new paragraph.",
+        "OptionC": "It creates a horizontal rule.",
+        "OptionD": "It adds space between elements.",
+        "Answer": "A",
+        "Explanation": "The <br> tag is used to insert a line break in the text."
+    },
+    {
+        "Q": 13,
+        "Question": "Which of the following is the correct tag to define a division or section in HTML?",
+        "OptionA": "<div>",
+        "OptionB": "<section>",
+        "OptionC": "<group>",
+        "OptionD": "<block>",
+        "Answer": "A",
+        "Explanation": "The <div> tag is used to define a division or section in HTML."
+    },
+    {
+        "Q": 14,
+        "Question": "Which HTML tag is used to define an input field?",
+        "OptionA": "<input>",
+        "OptionB": "<text>",
+        "OptionC": "<inputfield>",
+        "OptionD": "<textarea>",
+        "Answer": "A",
+        "Explanation": "The <input> tag is used to define an input field in HTML."
+    },
+    {
+        "Q": 15,
+        "Question": "Which of the following tags is used to create a checkbox?",
+        "OptionA": "<input type='checkbox'>",
+        "OptionB": "<checkbox>",
+        "OptionC": "<check>",
+        "OptionD": "<input type='radio'>",
+        "Answer": "A",
+        "Explanation": "The <input type='checkbox'> tag is used to create a checkbox."
+    },
+    {
+        "Q": 16,
+        "Question": "Which HTML tag is used to define a list item?",
+        "OptionA": "<li>",
+        "OptionB": "<item>",
+        "OptionC": "<list-item>",
+        "OptionD": "<ul-item>",
+        "Answer": "A",
+        "Explanation": "The <li> tag is used to define a list item in both ordered and unordered lists."
+    },
+    {
+        "Q": 17,
+        "Question": "What is the default value of the <input type='radio'>?",
+        "OptionA": "Checked",
+        "OptionB": "Unchecked",
+        "OptionC": "Disabled",
+        "OptionD": "Hidden",
+        "Answer": "B",
+        "Explanation": "By default, the <input type='radio'> is unchecked unless specified."
+    },
+    {
+        "Q": 18,
+        "Question": "Which tag is used to define the metadata of an HTML document?",
+        "OptionA": "<meta>",
+        "OptionB": "<head>",
+        "OptionC": "<info>",
+        "OptionD": "<title>",
+        "Answer": "A",
+        "Explanation": "The <meta> tag is used to define metadata (such as author, keywords) in HTML."
+    },
+    {
+        "Q": 19,
+        "Question": "What does the <title> tag define in HTML?",
+        "OptionA": "The title of the web page, shown in the browser tab",
+        "OptionB": "The main title of the webpage",
+        "OptionC": "The title of a table",
+        "OptionD": "The title of a heading",
+        "Answer": "A",
+        "Explanation": "The <title> tag defines the title of the web page, which appears in the browser tab."
+    },
+    {
+        "Q": 20,
+        "Question": "Which tag is used to define a form in HTML?",
+        "OptionA": "<form>",
+        "OptionB": "<input>",
+        "OptionC": "<button>",
+        "OptionD": "<action>",
+        "Answer": "A",
+        "Explanation": "The <form> tag is used to define a form in HTML."
+    },
+    {
+        "Q": 21,
+        "Question": "Which tag is used to define a comment in HTML?",
+        "OptionA": "<!-- -->",
+        "OptionB": "<comment>",
+        "OptionC": "<#>",
+        "OptionD": "<commented>",
+        "Answer": "A",
+        "Explanation": "The <!-- --> tag is used to define comments in HTML."
+    },
+    {
+        "Q": 22,
+        "Question": "Which of the following is the correct tag to create a horizontal line in HTML?",
+        "OptionA": "<hr>",
+        "OptionB": "<line>",
+        "OptionC": "<hrule>",
+        "OptionD": "<rule>",
+        "Answer": "A",
+        "Explanation": "The <hr> tag is used to create a horizontal line in HTML."
+    },
+    {
+        "Q": 23,
+        "Question": "What is the correct HTML element for inserting a line break?",
+        "OptionA": "<br>",
+        "OptionB": "<break>",
+        "OptionC": "<line>",
+        "OptionD": "<newline>",
+        "Answer": "A",
+        "Explanation": "The <br> tag is used for line breaks in HTML."
+    },
+    {
+        "Q": 24,
+        "Question": "What is the default value of the `display` property in CSS for an <a> tag?",
+        "OptionA": "inline",
+        "OptionB": "block",
+        "OptionC": "inline-block",
+        "OptionD": "none",
+        "Answer": "A",
+        "Explanation": "The default display value for an <a> tag is inline."
+    },
+    {
+        "Q": 25,
+        "Question": "Which HTML tag is used to define a bold text?",
+        "OptionA": "<b>",
+        "OptionB": "<strong>",
+        "OptionC": "<bold>",
+        "OptionD": "<em>",
+        "Answer": "A",
+        "Explanation": "The <b> tag is used to define bold text in HTML."
+    },
+    {
+        "Q": 26,
+        "Question": "Which tag is used to define the footer in HTML?",
+        "OptionA": "<footer>",
+        "OptionB": "<bottom>",
+        "OptionC": "<foot>",
+        "OptionD": "<end>",
+        "Answer": "A",
+        "Explanation": "The <footer> tag is used to define a footer in HTML."
+    },
+    {
+        "Q": 27,
+        "Question": "Which HTML tag is used to define a table row?",
+        "OptionA": "<tr>",
+        "OptionB": "<table-row>",
+        "OptionC": "<row>",
+        "OptionD": "<th>",
+        "Answer": "A",
+        "Explanation": "The <tr> tag is used to define a row in an HTML table."
+    },
+    {
+        "Q": 28,
+        "Question": "Which tag is used to define a table cell in HTML?",
+        "OptionA": "<td>",
+        "OptionB": "<th>",
+        "OptionC": "<cell>",
+        "OptionD": "<column>",
+        "Answer": "A",
+        "Explanation": "The <td> tag is used to define a cell in an HTML table."
+    },
+    {
+        "Q": 29,
+        "Question": "Which tag is used to define the header for a table cell in HTML?",
+        "OptionA": "<th>",
+        "OptionB": "<td>",
+        "OptionC": "<thead>",
+        "OptionD": "<head>",
+        "Answer": "A",
+        "Explanation": "The <th> tag is used to define a header cell in an HTML table."
+    },
+    {
+        "Q": 30,
+        "Question": "Which tag is used to define an ordered list in HTML?",
+        "OptionA": "<ol>",
+        "OptionB": "<ul>",
+        "OptionC": "<list>",
+        "OptionD": "<order>",
+        "Answer": "A",
+        "Explanation": "The <ol> tag is used to define an ordered list in HTML."
+    },
+    {
+        "Q": 31,
+        "Question": "Which tag is used to define a container for external content in HTML?",
+        "OptionA": "<object>",
+        "OptionB": "<embed>",
+        "OptionC": "<content>",
+        "OptionD": "<div>",
+        "Answer": "A",
+        "Explanation": "The <object> tag is used to define a container for external content, such as multimedia."
+    },
+    {
+        "Q": 32,
+        "Question": "Which tag is used to define a definition list in HTML?",
+        "OptionA": "<dl>",
+        "OptionB": "<list>",
+        "OptionC": "<ol>",
+        "OptionD": "<ul>",
+        "Answer": "A",
+        "Explanation": "The <dl> tag is used to define a definition list in HTML."
+    },
+    {
+        "Q": 33,
+        "Question": "Which tag is used to define a definition term in HTML?",
+        "OptionA": "<dt>",
+        "OptionB": "<dd>",
+        "OptionC": "<dl>",
+        "OptionD": "<def>",
+        "Answer": "A",
+        "Explanation": "The <dt> tag is used to define a term in a definition list."
+    },
+    {
+        "Q": 34,
+        "Question": "What is the purpose of the `alt` attribute in an <img> tag?",
+        "OptionA": "To provide alternative text for images",
+        "OptionB": "To define the image height",
+        "OptionC": "To specify the image URL",
+        "OptionD": "To define the image width",
+        "Answer": "A",
+        "Explanation": "The `alt` attribute is used to provide alternative text for an image if it cannot be displayed."
+    },
+    {
+        "Q": 35,
+        "Question": "Which tag is used to embed a video in HTML?",
+        "OptionA": "<video>",
+        "OptionB": "<embed>",
+        "OptionC": "<movie>",
+        "OptionD": "<media>",
+        "Answer": "A",
+        "Explanation": "The <video> tag is used to embed a video in HTML."
+    },
+    {
+        "Q": 36,
+        "Question": "Which of the following is the correct way to include an external JavaScript file in HTML?",
+        "OptionA": "<script src='script.js'></script>",
+        "OptionB": "<javascript src='script.js'></javascript>",
+        "OptionC": "<script file='script.js'></script>",
+        "OptionD": "<link src='script.js'></link>",
+        "Answer": "A",
+        "Explanation": "The correct way to include an external JavaScript file is using the <script src='script.js'></script> tag."
+    },
+    {
+        "Q": 37,
+        "Question": "What is the purpose of the `<head>` tag in HTML?",
+        "OptionA": "To define meta-information about the document",
+        "OptionB": "To define the content of the page",
+        "OptionC": "To define the footer of the page",
+        "OptionD": "To define the main structure of the page",
+        "Answer": "A",
+        "Explanation": "The <head> tag is used to define meta-information about the HTML document such as the title, links to stylesheets, etc."
+    },
+    {
+        "Q": 38,
+        "Question": "Which tag is used to specify a background image in HTML?",
+        "OptionA": "<background>",
+        "OptionB": "<img>",
+        "OptionC": "<body>",
+        "OptionD": "<style>",
+        "Answer": "C",
+        "Explanation": "The background image is typically specified in the <body> tag or using CSS in the background property."
+    },
+    {
+        "Q": 39,
+        "Question": "What is the correct HTML tag to include a comment?",
+        "OptionA": "<!-- comment -->",
+        "OptionB": "<-- comment -->",
+        "OptionC": "<comment> comment </comment>",
+        "OptionD": "<--! comment -->",
+        "Answer": "A",
+        "Explanation": "The correct way to add a comment in HTML is using the <!-- comment --> syntax."
+    },
+    {
+        "Q": 40,
+        "Question": "Which tag is used to define an unordered list in HTML?",
+        "OptionA": "<ul>",
+        "OptionB": "<ol>",
+        "OptionC": "<list>",
+        "OptionD": "<unordered>",
+        "Answer": "A",
+        "Explanation": "The <ul> tag is used to define an unordered list in HTML."
+    },
+    {
+        "Q": 41,
+        "Question": "What does the `target='_blank'` attribute in an anchor (<a>) tag do?",
+        "OptionA": "Opens the link in a new tab",
+        "OptionB": "Opens the link in the same tab",
+        "OptionC": "Opens the link in the same frame",
+        "OptionD": "Opens the link in a new window",
+        "Answer": "A",
+        "Explanation": "The `target='_blank'` attribute opens the linked document in a new tab."
+    },
+    {
+        "Q": 42,
+        "Question": "Which of the following is correct for creating a link to an external website?",
+        "OptionA": "<a href='https://www.example.com'>Click here</a>",
+        "OptionB": "<link href='https://www.example.com'>Click here</link>",
+        "OptionC": "<url href='https://www.example.com'>Click here</url>",
+        "OptionD": "<a url='https://www.example.com'>Click here</a>",
+        "Answer": "A",
+        "Explanation": "The <a href='https://www.example.com'> tag is used to create a link to an external website."
+    },
+    {
+        "Q": 43,
+        "Question": "What is the default font size for text in an HTML document?",
+        "OptionA": "16px",
+        "OptionB": "12px",
+        "OptionC": "14px",
+        "OptionD": "18px",
+        "Answer": "A",
+        "Explanation": "The default font size in an HTML document is 16px."
+    },
+    {
+        "Q": 44,
+        "Question": "Which tag is used to define a clickable button in HTML?",
+        "OptionA": "<button>",
+        "OptionB": "<click>",
+        "OptionC": "<input type='button'>",
+        "OptionD": "<btn>",
+        "Answer": "A",
+        "Explanation": "The <button> tag is used to define a clickable button in HTML."
+    },
+    {
+        "Q": 45,
+        "Question": "Which HTML tag is used to define the title of the document, visible on the browser's title bar or tab?",
+        "OptionA": "<title>",
+        "OptionB": "<head>",
+        "OptionC": "<meta>",
+        "OptionD": "<header>",
+        "Answer": "A",
+        "Explanation": "The <title> tag defines the title of the document, which appears on the browser's title bar or tab."
+    },
+    {
+        "Q": 46,
+        "Question": "Which HTML attribute is used to specify the source of an image?",
+        "OptionA": "src",
+        "OptionB": "href",
+        "OptionC": "source",
+        "OptionD": "imgsrc",
+        "Answer": "A",
+        "Explanation": "The src attribute is used to specify the source of an image in an <img> tag."
+    },
+    {
+        "Q": 47,
+        "Question": "Which element is used to define a dropdown list in HTML?",
+        "OptionA": "<select>",
+        "OptionB": "<dropdown>",
+        "OptionC": "<option>",
+        "OptionD": "<list>",
+        "Answer": "A",
+        "Explanation": "The <select> element is used to define a dropdown list in HTML."
+    },
+    {
+        "Q": 48,
+        "Question": "What does the `rel='noopener noreferrer'` attribute in a link do?",
+        "OptionA": "Prevents the new page from accessing the previous page's window object",
+        "OptionB": "Allows the new page to access the previous page's window object",
+        "OptionC": "Disables the link",
+        "OptionD": "Closes the previous page after opening the link",
+        "Answer": "A",
+        "Explanation": "The `rel='noopener noreferrer'` attribute ensures that the new page cannot access the previous page’s window object for security purposes."
+    },
+    {
+        "Q": 49,
+        "Question": "Which HTML element is used to define an inline frame?",
+        "OptionA": "<iframe>",
+        "OptionB": "<frame>",
+        "OptionC": "<inline>",
+        "OptionD": "<object>",
+        "Answer": "A",
+        "Explanation": "The <iframe> tag is used to define an inline frame, which allows embedding another document within the current page."
+    },
+    {
+        "Q": 50,
+        "Question": "Which HTML tag is used to define a definition description in a definition list?",
+        "OptionA": "<dd>",
+        "OptionB": "<dt>",
+        "OptionC": "<dl>",
+        "OptionD": "<def>",
+        "Answer": "A",
+        "Explanation": "The <dd> tag is used to define a description in a definition list in HTML."
+    }
+]

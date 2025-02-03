@@ -1,0 +1,502 @@
+[
+    {
+        "Q": 1,
+        "Question": "What is Docker?",
+        "OptionA": "A cloud platform for deploying web applications",
+        "OptionB": "A containerization platform for developing and running applications",
+        "OptionC": "A web server",
+        "OptionD": "A programming language",
+        "Answer": "B",
+        "Explanation": "Docker is a platform used to develop, ship, and run applications using containers."
+    },
+    {
+        "Q": 2,
+        "Question": "What is a Docker container?",
+        "OptionA": "A virtual machine",
+        "OptionB": "A lightweight, standalone, and executable package of software",
+        "OptionC": "A cloud server",
+        "OptionD": "A programming framework",
+        "Answer": "B",
+        "Explanation": "A Docker container is a lightweight and executable package that contains everything needed to run a piece of software, such as the code, libraries, and dependencies."
+    },
+    {
+        "Q": 3,
+        "Question": "Which command is used to list all Docker containers?",
+        "OptionA": "docker containers",
+        "OptionB": "docker ps",
+        "OptionC": "docker list",
+        "OptionD": "docker show",
+        "Answer": "B",
+        "Explanation": "`docker ps` lists all the running containers. To list all containers (including stopped), use `docker ps -a`."
+    },
+    {
+        "Q": 4,
+        "Question": "What is the purpose of the Docker image?",
+        "OptionA": "To represent a running container",
+        "OptionB": "To store the container's metadata",
+        "OptionC": "To package an application and its dependencies in a reusable format",
+        "OptionD": "To run multiple containers at once",
+        "Answer": "C",
+        "Explanation": "A Docker image contains all the necessary components to run an application, including code, libraries, and settings."
+    },
+    {
+        "Q": 5,
+        "Question": "Which command is used to create a new Docker container?",
+        "OptionA": "docker create",
+        "OptionB": "docker build",
+        "OptionC": "docker start",
+        "OptionD": "docker run",
+        "Answer": "D",
+        "Explanation": "`docker run` is used to create and start a new Docker container from an image."
+    },
+    {
+        "Q": 6,
+        "Question": "What does the Docker command `docker build` do?",
+        "OptionA": "Starts a new container",
+        "OptionB": "Creates a new image from a Dockerfile",
+        "OptionC": "Lists all containers",
+        "OptionD": "Removes a container",
+        "Answer": "B",
+        "Explanation": "`docker build` is used to create a Docker image from a Dockerfile."
+    },
+    {
+        "Q": 7,
+        "Question": "What is the purpose of a Dockerfile?",
+        "OptionA": "To configure Docker container settings",
+        "OptionB": "To specify the instructions for creating a Docker image",
+        "OptionC": "To run commands inside a container",
+        "OptionD": "To store logs of Docker operations",
+        "Answer": "B",
+        "Explanation": "A Dockerfile is a text file that contains a set of instructions for building a Docker image."
+    },
+    {
+        "Q": 8,
+        "Question": "Which command is used to remove a Docker container?",
+        "OptionA": "docker delete <container-id>",
+        "OptionB": "docker rm <container-id>",
+        "OptionC": "docker remove <container-id>",
+        "OptionD": "docker stop <container-id>",
+        "Answer": "B",
+        "Explanation": "`docker rm <container-id>` is used to remove a container that is no longer needed."
+    },
+    {
+        "Q": 9,
+        "Question": "What does the `docker pull` command do?",
+        "OptionA": "Uploads a Docker image to the repository",
+        "OptionB": "Pulls an image from a Docker registry",
+        "OptionC": "Starts a Docker container",
+        "OptionD": "Deletes an image from a local system",
+        "Answer": "B",
+        "Explanation": "`docker pull` is used to download an image from a Docker registry (e.g., Docker Hub) to the local machine."
+    },
+    {
+        "Q": 10,
+        "Question": "What does `docker run -d` do?",
+        "OptionA": "Runs a container in the background",
+        "OptionB": "Runs a container interactively",
+        "OptionC": "Runs a container with debugging output",
+        "OptionD": "Starts a container in a paused state",
+        "Answer": "A",
+        "Explanation": "`docker run -d` starts a container in detached mode, which means the container runs in the background."
+    },
+    {
+        "Q": 11,
+        "Question": "Which command is used to stop a running Docker container?",
+        "OptionA": "docker kill <container-id>",
+        "OptionB": "docker pause <container-id>",
+        "OptionC": "docker stop <container-id>",
+        "OptionD": "docker shutdown <container-id>",
+        "Answer": "C",
+        "Explanation": "`docker stop <container-id>` is used to stop a running Docker container."
+    },
+    {
+        "Q": 12,
+        "Question": "What does `docker exec` allow you to do?",
+        "OptionA": "Execute a command inside a running container",
+        "OptionB": "Exit a container",
+        "OptionC": "Execute a command to create a new image",
+        "OptionD": "Exit Docker CLI",
+        "Answer": "A",
+        "Explanation": "`docker exec` allows you to run commands inside a running container."
+    },
+    {
+        "Q": 13,
+        "Question": "What is Docker Compose used for?",
+        "OptionA": "To create multiple containers from a single image",
+        "OptionB": "To manage Docker containers with a graphical interface",
+        "OptionC": "To define and manage multi-container Docker applications",
+        "OptionD": "To monitor container performance",
+        "Answer": "C",
+        "Explanation": "Docker Compose is a tool used to define and run multi-container Docker applications."
+    },
+    {
+        "Q": 14,
+        "Question": "Which file is used by Docker Compose to define services, networks, and volumes?",
+        "OptionA": "docker.yml",
+        "OptionB": "docker-compose.yaml",
+        "OptionC": "dockerfile",
+        "OptionD": "docker-compose.json",
+        "Answer": "B",
+        "Explanation": "Docker Compose uses the `docker-compose.yaml` file to define services, networks, and volumes."
+    },
+    {
+        "Q": 15,
+        "Question": "What is Docker Swarm?",
+        "OptionA": "A tool for building Docker images",
+        "OptionB": "A container orchestration tool for Docker",
+        "OptionC": "A Docker registry service",
+        "OptionD": "A command line interface for managing Docker containers",
+        "Answer": "B",
+        "Explanation": "Docker Swarm is a native clustering and orchestration tool for Docker containers."
+    },
+    {
+        "Q": 16,
+        "Question": "What is the default networking mode for containers in Docker?",
+        "OptionA": "Bridge",
+        "OptionB": "Host",
+        "OptionC": "None",
+        "OptionD": "Overlay",
+        "Answer": "A",
+        "Explanation": "The default networking mode for Docker containers is 'bridge', which creates a private network on the host system."
+    },
+    {
+        "Q": 17,
+        "Question": "What is the purpose of Docker volumes?",
+        "OptionA": "To store container configuration",
+        "OptionB": "To allow sharing data between containers and the host system",
+        "OptionC": "To define network settings",
+        "OptionD": "To manage Docker container logs",
+        "Answer": "B",
+        "Explanation": "Docker volumes are used to persist and share data between containers and the host machine."
+    },
+    {
+        "Q": 18,
+        "Question": "Which command is used to view the logs of a Docker container?",
+        "OptionA": "docker logs <container-id>",
+        "OptionB": "docker show logs <container-id>",
+        "OptionC": "docker logs -v <container-id>",
+        "OptionD": "docker view <container-id>",
+        "Answer": "A",
+        "Explanation": "`docker logs <container-id>` is used to view the logs of a running or stopped Docker container."
+    },
+    {
+        "Q": 19,
+        "Question": "What does `docker network ls` do?",
+        "OptionA": "Lists all Docker networks",
+        "OptionB": "Lists all containers",
+        "OptionC": "Lists all volumes",
+        "OptionD": "Lists all images",
+        "Answer": "A",
+        "Explanation": "`docker network ls` lists all the networks available in Docker."
+    },
+    {
+        "Q": 20,
+        "Question": "What does the `docker inspect` command do?",
+        "OptionA": "Provides detailed information about a container or image",
+        "OptionB": "Runs a security scan on a container",
+        "OptionC": "Inspect the Docker host system",
+        "OptionD": "Shows real-time stats of containers",
+        "Answer": "A",
+        "Explanation": "`docker inspect` provides detailed information (in JSON format) about a container, image, volume, or network."
+    },
+    {
+        "Q": 21,
+        "Question": "Which Docker command is used to tag an image?",
+        "OptionA": "docker tag <image-id> <new-name>",
+        "OptionB": "docker image-tag <image-id> <new-name>",
+        "OptionC": "docker label <image-id> <new-name>",
+        "OptionD": "docker tag <new-name> <image-id>",
+        "Answer": "A",
+        "Explanation": "`docker tag <image-id> <new-name>` is used to create a new tag for an existing image."
+    },
+    {
+        "Q": 22,
+        "Question": "Which of the following Docker components can be used to scale applications in a production environment?",
+        "OptionA": "Docker Swarm",
+        "OptionB": "Docker CLI",
+        "OptionC": "Docker Desktop",
+        "OptionD": "Docker Compose",
+        "Answer": "A",
+        "Explanation": "Docker Swarm is used for container orchestration, enabling you to scale applications across multiple Docker hosts in a production environment."
+    },
+    {
+        "Q": 23,
+        "Question": "How do you view detailed information about a Docker image?",
+        "OptionA": "docker inspect <image-id>",
+        "OptionB": "docker image-info <image-id>",
+        "OptionC": "docker image-show <image-id>",
+        "OptionD": "docker info <image-id>",
+        "Answer": "A",
+        "Explanation": "`docker inspect <image-id>` provides detailed information about a Docker image."
+    },
+    {
+        "Q": 24,
+        "Question": "What does `docker rm -f` do?",
+        "OptionA": "Removes a container forcefully, even if it's running",
+        "OptionB": "Forces the removal of an image",
+        "OptionC": "Removes a Docker network",
+        "OptionD": "Stops a running container",
+        "Answer": "A",
+        "Explanation": "`docker rm -f` forcefully removes a container, even if it's currently running."
+    },
+    {
+        "Q": 25,
+        "Question": "What is the default behavior of a Docker container when its entrypoint finishes executing?",
+        "OptionA": "The container continues to run",
+        "OptionB": "The container exits",
+        "OptionC": "The container pauses",
+        "OptionD": "The container restarts",
+        "Answer": "B",
+        "Explanation": "By default, Docker containers stop when the main process (entry point) inside the container finishes executing."
+    },
+    {
+        "Q": 26,
+        "Question": "Which Docker command is used to see a real-time stream of container logs?",
+        "OptionA": "docker logs -f <container-id>",
+        "OptionB": "docker logs --stream <container-id>",
+        "OptionC": "docker show logs -f <container-id>",
+        "OptionD": "docker logs -t <container-id>",
+        "Answer": "A",
+        "Explanation": "`docker logs -f <container-id>` follows (streams) the log output of a container."
+    },
+    {
+        "Q": 27,
+        "Question": "What is the use of Docker's `--rm` flag?",
+        "OptionA": "Automatically remove the container when it stops",
+        "OptionB": "Remove the image after it is built",
+        "OptionC": "Remove all unused images",
+        "OptionD": "Remove containers that are in the background",
+        "Answer": "A",
+        "Explanation": "`--rm` flag automatically removes a container when it stops."
+    },
+    {
+        "Q": 28,
+        "Question": "What is the default storage driver for Docker on most systems?",
+        "OptionA": "aufs",
+        "OptionB": "overlay2",
+        "OptionC": "devicemapper",
+        "OptionD": "btrfs",
+        "Answer": "B",
+        "Explanation": "`overlay2` is the default storage driver for Docker on most systems."
+    },
+    {
+        "Q": 29,
+        "Question": "Which Docker command is used to stop a container without removing it?",
+        "OptionA": "docker pause <container-id>",
+        "OptionB": "docker stop <container-id>",
+        "OptionC": "docker terminate <container-id>",
+        "OptionD": "docker exit <container-id>",
+        "Answer": "B",
+        "Explanation": "`docker stop <container-id>` stops a running container without removing it."
+    },
+    {
+        "Q": 30,
+        "Question": "Which of the following is true about Docker images?",
+        "OptionA": "Docker images are read-only",
+        "OptionB": "Docker images are mutable",
+        "OptionC": "Docker images are not portable",
+        "OptionD": "Docker images are deleted after each run",
+        "Answer": "A",
+        "Explanation": "Docker images are immutable and read-only once created."
+    },
+    {
+        "Q": 31,
+        "Question": "Which command is used to create a Docker network?",
+        "OptionA": "docker create network <network-name>",
+        "OptionB": "docker network create <network-name>",
+        "OptionC": "docker net create <network-name>",
+        "OptionD": "docker add network <network-name>",
+        "Answer": "B",
+        "Explanation": "`docker network create <network-name>` is used to create a custom Docker network."
+    },
+    {
+        "Q": 32,
+        "Question": "What is the purpose of the Docker `-p` flag?",
+        "OptionA": "To define the port mapping between the container and the host",
+        "OptionB": "To define the container's port number",
+        "OptionC": "To specify the Dockerfile path",
+        "OptionD": "To specify the name of the image",
+        "Answer": "A",
+        "Explanation": "`-p` is used to map a container's port to a port on the host machine."
+    },
+    {
+        "Q": 33,
+        "Question": "Which of the following is a valid Docker image repository?",
+        "OptionA": "my-application:latest",
+        "OptionB": "my-application:docker",
+        "OptionC": "my-application:1.0.0",
+        "OptionD": "my-application:tag",
+        "Answer": "A",
+        "Explanation": "A valid Docker image repository uses the format `repository:tag`, for example, `my-application:latest`."
+    },
+    {
+        "Q": 34,
+        "Question": "What is Docker's `docker-compose up` command used for?",
+        "OptionA": "To build the images defined in a Compose file",
+        "OptionB": "To stop the running Compose services",
+        "OptionC": "To start all services defined in a Compose file",
+        "OptionD": "To view the Compose file configuration",
+        "Answer": "C",
+        "Explanation": "`docker-compose up` starts all the services defined in a `docker-compose.yml` file."
+    },
+    {
+        "Q": 35,
+        "Question": "What is the purpose of the `--build` flag in Docker Compose?",
+        "OptionA": "It forces Docker Compose to build images before starting the containers",
+        "OptionB": "It builds a container from an image",
+        "OptionC": "It stops all running containers before building new images",
+        "OptionD": "It cleans up unused images before starting containers",
+        "Answer": "A",
+        "Explanation": "The `--build` flag ensures that Docker Compose builds images before starting containers."
+    },
+    {
+        "Q": 36,
+        "Question": "What command is used to update an image in Docker?",
+        "OptionA": "docker upgrade <image-id>",
+        "OptionB": "docker pull <image-id>",
+        "OptionC": "docker update <image-id>",
+        "OptionD": "docker fetch <image-id>",
+        "Answer": "B",
+        "Explanation": "`docker pull <image-id>` is used to update an image to its latest version from a registry."
+    },
+    {
+        "Q": 37,
+        "Question": "Which of the following Docker commands will help you troubleshoot issues with containers?",
+        "OptionA": "docker logs <container-id>",
+        "OptionB": "docker stats <container-id>",
+        "OptionC": "docker inspect <container-id>",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "All these commands can be used to troubleshoot issues with containers."
+    },
+    {
+        "Q": 38,
+        "Question": "What is Docker's `--volumes` flag used for?",
+        "OptionA": "To mount volumes into a container",
+        "OptionB": "To list all volumes",
+        "OptionC": "To remove volumes from the container",
+        "OptionD": "To update volumes in a container",
+        "Answer": "A",
+        "Explanation": "The `--volumes` flag is used to mount volumes from the host system into the container."
+    },
+    {
+        "Q": 39,
+        "Question": "How can you remove unused Docker images?",
+        "OptionA": "docker rm-unused",
+        "OptionB": "docker prune-images",
+        "OptionC": "docker image prune",
+        "OptionD": "docker delete-unused",
+        "Answer": "C",
+        "Explanation": "`docker image prune` removes unused images from your local Docker system."
+    },
+    {
+        "Q": 40,
+        "Question": "What does `docker-compose down` do?",
+        "OptionA": "Stops the running containers and removes them along with networks",
+        "OptionB": "Stops and removes only the containers",
+        "OptionC": "Removes all unused Docker images",
+        "OptionD": "Stops the Docker daemon",
+        "Answer": "A",
+        "Explanation": "`docker-compose down` stops all the containers and removes them, along with any networks."
+    },
+    {
+        "Q": 41,
+        "Question": "Which of the following commands will allow you to see resource usage for running containers?",
+        "OptionA": "docker resource",
+        "OptionB": "docker stats",
+        "OptionC": "docker usage",
+        "OptionD": "docker show stats",
+        "Answer": "B",
+        "Explanation": "`docker stats` provides real-time performance metrics for running containers."
+    },
+    {
+        "Q": 42,
+        "Question": "What does Docker's `--network` flag do?",
+        "OptionA": "Specifies the network settings for a container",
+        "OptionB": "Defines the volume mount points",
+        "OptionC": "Lists available networks",
+        "OptionD": "Shows container logs",
+        "Answer": "A",
+        "Explanation": "The `--network` flag specifies the network settings to use when creating a container."
+    },
+    {
+        "Q": 43,
+        "Question": "What is the purpose of the `docker push` command?",
+        "OptionA": "To upload a Docker image to a registry",
+        "OptionB": "To pull an image from a registry",
+        "OptionC": "To update a running container",
+        "OptionD": "To remove a container from the host system",
+        "Answer": "A",
+        "Explanation": "`docker push` uploads a Docker image to a registry like Docker Hub."
+    },
+    {
+        "Q": 44,
+        "Question": "What is the benefit of using Docker containers?",
+        "OptionA": "They allow easy scaling and isolation of applications",
+        "OptionB": "They are always faster than virtual machines",
+        "OptionC": "They do not require networking",
+        "OptionD": "They cannot run on different operating systems",
+        "Answer": "A",
+        "Explanation": "Docker containers provide lightweight, isolated environments for applications, making them easy to scale and manage."
+    },
+    {
+        "Q": 45,
+        "Question": "What is Docker Hub?",
+        "OptionA": "A Docker registry service for sharing and distributing images",
+        "OptionB": "A command-line interface for managing Docker containers",
+        "OptionC": "A GUI tool for Docker management",
+        "OptionD": "A Docker image that runs web applications",
+        "Answer": "A",
+        "Explanation": "Docker Hub is an online registry service that allows developers to store and share Docker images."
+    },
+    {
+        "Q": 46,
+        "Question": "What is the `docker pull` command used for?",
+        "OptionA": "To push Docker images to a registry",
+        "OptionB": "To remove Docker images from the local machine",
+        "OptionC": "To download Docker images from a registry",
+        "OptionD": "To start a container from an image",
+        "Answer": "C",
+        "Explanation": "`docker pull` downloads Docker images from a registry such as Docker Hub."
+    },
+    {
+        "Q": 47,
+        "Question": "What is Docker's `--memory` flag used for?",
+        "OptionA": "To limit the memory usage of a container",
+        "OptionB": "To allocate memory to Docker images",
+        "OptionC": "To allocate memory to the Docker daemon",
+        "OptionD": "To set a memory value for the Docker registry",
+        "Answer": "A",
+        "Explanation": "The `--memory` flag is used to limit the memory usage of a container."
+    },
+    {
+        "Q": 48,
+        "Question": "Which command is used to start a stopped Docker container?",
+        "OptionA": "docker start <container-id>",
+        "OptionB": "docker run <container-id>",
+        "OptionC": "docker create <container-id>",
+        "OptionD": "docker resume <container-id>",
+        "Answer": "A",
+        "Explanation": "`docker start <container-id>` is used to start a stopped container."
+    },
+    {
+        "Q": 49,
+        "Question": "What is a Docker registry?",
+        "OptionA": "A storage location for Docker images",
+        "OptionB": "A Docker container that stores log files",
+        "OptionC": "A command-line tool for managing Docker containers",
+        "OptionD": "A network configuration for containers",
+        "Answer": "A",
+        "Explanation": "A Docker registry is a repository for storing Docker images."
+    },
+    {
+        "Q": 50,
+        "Question": "Which command is used to remove a Docker image?",
+        "OptionA": "docker remove-image <image-id>",
+        "OptionB": "docker delete-image <image-id>",
+        "OptionC": "docker rmi <image-id>",
+        "OptionD": "docker remove <image-id>",
+        "Answer": "C",
+        "Explanation": "`docker rmi <image-id>` is used to remove a Docker image from the local system."
+    }
+]

@@ -1,0 +1,503 @@
+[
+    {
+      "Q": 1,
+      "Question": "Which SQL statement is used to extract data from a database?",
+      "OptionA": "SELECT",
+      "OptionB": "GET",
+      "OptionC": "EXTRACT",
+      "OptionD": "OPEN",
+      "Answer": "A",
+      "Explanation": "The 'SELECT' statement is used to query and extract data from a database."
+    },
+    {
+      "Q": 2,
+      "Question": "Which SQL statement is used to update data in a database?",
+      "OptionA": "UPDATE",
+      "OptionB": "MODIFY",
+      "OptionC": "CHANGE",
+      "OptionD": "SET",
+      "Answer": "A",
+      "Explanation": "The 'UPDATE' statement is used to modify existing records in a database."
+    },
+    {
+      "Q": 3,
+      "Question": "Which SQL statement is used to delete data from a database?",
+      "OptionA": "REMOVE",
+      "OptionB": "DELETE",
+      "OptionC": "DROP",
+      "OptionD": "CLEAR",
+      "Answer": "B",
+      "Explanation": "The 'DELETE' statement is used to remove records from a database table."
+    },
+    {
+      "Q": 4,
+      "Question": "Which clause is used to filter records in SQL?",
+      "OptionA": "ORDER BY",
+      "OptionB": "GROUP BY",
+      "OptionC": "WHERE",
+      "OptionD": "HAVING",
+      "Answer": "C",
+      "Explanation": "The 'WHERE' clause is used to filter records based on specified conditions."
+    },
+    {
+      "Q": 5,
+      "Question": "Which operator is used to check whether a value is within a range in SQL?",
+      "OptionA": "BETWEEN",
+      "OptionB": "IN",
+      "OptionC": "WITHIN",
+      "OptionD": "RANGE",
+      "Answer": "A",
+      "Explanation": "The 'BETWEEN' operator is used to check if a value is within a range of values."
+    },
+    {
+      "Q": 6,
+      "Question": "Which SQL function is used to find the maximum value in a column?",
+      "OptionA": "MAX()",
+      "OptionB": "MIN()",
+      "OptionC": "SUM()",
+      "OptionD": "AVG()",
+      "Answer": "A",
+      "Explanation": "The 'MAX()' function is used to find the highest value in a column."
+    },
+    {
+      "Q": 7,
+      "Question": "Which SQL clause is used to sort the result-set?",
+      "OptionA": "ORDER BY",
+      "OptionB": "SORT",
+      "OptionC": "GROUP BY",
+      "OptionD": "DISTINCT",
+      "Answer": "A",
+      "Explanation": "The 'ORDER BY' clause is used to sort the result set in ascending or descending order."
+    },
+    {
+      "Q": 8,
+      "Question": "Which SQL keyword is used to retrieve distinct values from a column?",
+      "OptionA": "DISTINCT",
+      "OptionB": "UNIQUE",
+      "OptionC": "ONLY",
+      "OptionD": "EXCLUSIVE",
+      "Answer": "A",
+      "Explanation": "The 'DISTINCT' keyword is used to return only unique values from a column."
+    },
+    {
+      "Q": 9,
+      "Question": "Which SQL function is used to count the number of rows in a table?",
+      "OptionA": "COUNT()",
+      "OptionB": "TOTAL()",
+      "OptionC": "SUM()",
+      "OptionD": "NUMBER()",
+      "Answer": "A",
+      "Explanation": "The 'COUNT()' function is used to count the number of rows that match a specific criterion."
+    },
+    {
+      "Q": 10,
+      "Question": "Which SQL statement is used to create a new table?",
+      "OptionA": "CREATE TABLE",
+      "OptionB": "NEW TABLE",
+      "OptionC": "MAKE TABLE",
+      "OptionD": "ADD TABLE",
+      "Answer": "A",
+      "Explanation": "The 'CREATE TABLE' statement is used to create a new table in the database."
+    },
+    {
+      "Q": 11,
+      "Question": "Which command is used to remove a table from a database?",
+      "OptionA": "DROP TABLE",
+      "OptionB": "REMOVE TABLE",
+      "OptionC": "DELETE TABLE",
+      "OptionD": "CLEAR TABLE",
+      "Answer": "A",
+      "Explanation": "The 'DROP TABLE' command is used to delete a table from the database along with all its data."
+    },
+    {
+      "Q": 12,
+      "Question": "Which SQL function is used to calculate the total sum of a numeric column?",
+      "OptionA": "SUM()",
+      "OptionB": "COUNT()",
+      "OptionC": "AVG()",
+      "OptionD": "TOTAL()",
+      "Answer": "A",
+      "Explanation": "The 'SUM()' function is used to calculate the total sum of a numeric column."
+    },
+    {
+      "Q": 13,
+      "Question": "Which SQL keyword is used to combine the results of two or more SELECT statements?",
+      "OptionA": "COMBINE",
+      "OptionB": "UNION",
+      "OptionC": "JOIN",
+      "OptionD": "MERGE",
+      "Answer": "B",
+      "Explanation": "The 'UNION' operator is used to combine the results of two or more SELECT statements."
+    },
+    {
+      "Q": 14,
+      "Question": "Which SQL clause is used to group rows that have the same values?",
+      "OptionA": "GROUP BY",
+      "OptionB": "ORDER BY",
+      "OptionC": "DISTINCT",
+      "OptionD": "HAVING",
+      "Answer": "A",
+      "Explanation": "The 'GROUP BY' clause is used to group rows that have the same values into summary rows."
+    },
+    {
+      "Q": 15,
+      "Question": "Which SQL statement is used to remove all rows from a table without removing the table itself?",
+      "OptionA": "TRUNCATE TABLE",
+      "OptionB": "DROP TABLE",
+      "OptionC": "DELETE TABLE",
+      "OptionD": "CLEAR TABLE",
+      "Answer": "A",
+      "Explanation": "The 'TRUNCATE TABLE' statement is used to remove all rows from a table, but not the table itself."
+    },
+    {
+      "Q": 16,
+      "Question": "Which SQL operator is used to search for a specified pattern in a column?",
+      "OptionA": "LIKE",
+      "OptionB": "SEARCH",
+      "OptionC": "MATCH",
+      "OptionD": "PATTERN",
+      "Answer": "A",
+      "Explanation": "The 'LIKE' operator is used to search for a specified pattern in a column."
+    },
+    {
+      "Q": 17,
+      "Question": "Which SQL clause is used to limit the number of records returned?",
+      "OptionA": "LIMIT",
+      "OptionB": "FETCH",
+      "OptionC": "TOP",
+      "OptionD": "MAX",
+      "Answer": "A",
+      "Explanation": "The 'LIMIT' clause is used to specify the number of records to return in the result set."
+    },
+    {
+      "Q": 18,
+      "Question": "Which SQL function is used to get the current date?",
+      "OptionA": "CURRENT_DATE",
+      "OptionB": "GETDATE()",
+      "OptionC": "NOW()",
+      "OptionD": "DATE()",
+      "Answer": "A",
+      "Explanation": "The 'CURRENT_DATE' function is used to return the current date."
+    },
+    {
+      "Q": 19,
+      "Question": "Which SQL statement is used to add a new row to a table?",
+      "OptionA": "INSERT INTO",
+      "OptionB": "ADD INTO",
+      "OptionC": "UPDATE INTO",
+      "OptionD": "INSERT ROW",
+      "Answer": "A",
+      "Explanation": "The 'INSERT INTO' statement is used to add new records to a table."
+    },
+    {
+      "Q": 20,
+      "Question": "Which SQL function is used to return the length of a string?",
+      "OptionA": "LEN()",
+      "OptionB": "LENGTH()",
+      "OptionC": "SIZE()",
+      "OptionD": "COUNT()",
+      "Answer": "B",
+      "Explanation": "The 'LENGTH()' function is used to return the length of a string."
+    },
+    {
+      "Q": 21,
+      "Question": "Which SQL clause is used to filter records after grouping them?",
+      "OptionA": "WHERE",
+      "OptionB": "HAVING",
+      "OptionC": "GROUP BY",
+      "OptionD": "DISTINCT",
+      "Answer": "B",
+      "Explanation": "The 'HAVING' clause is used to filter records after the 'GROUP BY' operation."
+    },
+    {
+      "Q": 22,
+      "Question": "Which SQL keyword is used to retrieve the unique values in a column?",
+      "OptionA": "UNIQUE",
+      "OptionB": "DISTINCT",
+      "OptionC": "ONLY",
+      "OptionD": "SEL DISTINCT",
+      "Answer": "B",
+      "Explanation": "The 'DISTINCT' keyword is used to return unique values from a column."
+    },
+    {
+      "Q": 23,
+      "Question": "Which SQL statement is used to remove a column from a table?",
+      "OptionA": "ALTER TABLE DROP COLUMN",
+      "OptionB": "REMOVE COLUMN",
+      "OptionC": "DELETE COLUMN",
+      "OptionD": "MODIFY COLUMN",
+      "Answer": "A",
+      "Explanation": "The 'ALTER TABLE DROP COLUMN' statement is used to remove a column from a table."
+    },
+    {
+      "Q": 24,
+      "Question": "Which SQL clause is used to sort records in descending order?",
+      "OptionA": "DESC",
+      "OptionB": "ASC",
+      "OptionC": "ORDER BY DESC",
+      "OptionD": "SORT BY",
+      "Answer": "A",
+      "Explanation": "The 'DESC' keyword is used to sort the result set in descending order."
+    },
+    {
+      "Q": 25,
+      "Question": "Which SQL statement is used to modify a table's structure?",
+      "OptionA": "ALTER TABLE",
+      "OptionB": "MODIFY TABLE",
+      "OptionC": "CHANGE TABLE",
+      "OptionD": "EDIT TABLE",
+      "Answer": "A",
+      "Explanation": "The 'ALTER TABLE' statement is used to modify the structure of an existing table."
+    },
+    {
+      "Q": 26,
+      "Question": "Which SQL operator is used to combine multiple conditions in a WHERE clause?",
+      "OptionA": "AND",
+      "OptionB": "OR",
+      "OptionC": "NOT",
+      "OptionD": "BETWEEN",
+      "Answer": "A",
+      "Explanation": "The 'AND' operator is used to combine multiple conditions in a WHERE clause."
+    },
+    {
+      "Q": 27,
+      "Question": "Which SQL keyword is used to return the number of rows that match a condition?",
+      "OptionA": "COUNT()",
+      "OptionB": "SUM()",
+      "OptionC": "NUMBER()",
+      "OptionD": "TOTAL()",
+      "Answer": "A",
+      "Explanation": "The 'COUNT()' function is used to return the number of rows that match a given condition."
+    },
+    {
+      "Q": 28,
+      "Question": "Which SQL statement is used to define a relationship between two tables?",
+      "OptionA": "JOIN",
+      "OptionB": "LINK",
+      "OptionC": "RELATE",
+      "OptionD": "MERGE",
+      "Answer": "A",
+      "Explanation": "The 'JOIN' statement is used to combine rows from two or more tables based on a related column."
+    },
+    {
+      "Q": 29,
+      "Question": "Which SQL function is used to convert a string to uppercase?",
+      "OptionA": "UPPER()",
+      "OptionB": "LOWER()",
+      "OptionC": "CAPS()",
+      "OptionD": "TOUPPER()",
+      "Answer": "A",
+      "Explanation": "The 'UPPER()' function is used to convert a string to uppercase."
+    },
+    {
+      "Q": 30,
+      "Question": "Which SQL function is used to round a numeric value to a specified number of decimal places?",
+      "OptionA": "ROUND()",
+      "OptionB": "DECIMAL()",
+      "OptionC": "TRUNCATE()",
+      "OptionD": "FLOOR()",
+      "Answer": "A",
+      "Explanation": "The 'ROUND()' function is used to round a numeric value to a specified number of decimal places."
+    },
+    {
+      "Q": 31,
+      "Question": "Which SQL function is used to concatenate two or more strings?",
+      "OptionA": "CONCAT()",
+      "OptionB": "MERGE()",
+      "OptionC": "JOIN()",
+      "OptionD": "COMBINE()",
+      "Answer": "A",
+      "Explanation": "The 'CONCAT()' function is used to combine two or more strings into one."
+    },
+    {
+      "Q": 32,
+      "Question": "Which SQL clause is used to filter records before grouping them?",
+      "OptionA": "HAVING",
+      "OptionB": "WHERE",
+      "OptionC": "DISTINCT",
+      "OptionD": "GROUP BY",
+      "Answer": "B",
+      "Explanation": "The 'WHERE' clause is used to filter records before any grouping is done."
+    },
+    {
+      "Q": 33,
+      "Question": "Which SQL operator is used to check for null values?",
+      "OptionA": "IS NULL",
+      "OptionB": "NULL",
+      "OptionC": "IS NOT NULL",
+      "OptionD": "IS NOTHING",
+      "Answer": "A",
+      "Explanation": "The 'IS NULL' operator is used to check whether a value is null."
+    },
+    {
+      "Q": 34,
+      "Question": "Which SQL function is used to remove spaces from both ends of a string?",
+      "OptionA": "TRIM()",
+      "OptionB": "REMOVE()",
+      "OptionC": "CLEAN()",
+      "OptionD": "CLEAR()",
+      "Answer": "A",
+      "Explanation": "The 'TRIM()' function is used to remove spaces from both ends of a string."
+    },
+    {
+      "Q": 35,
+      "Question": "Which SQL keyword is used to return the first row of a result set?",
+      "OptionA": "FIRST",
+      "OptionB": "TOP",
+      "OptionC": "LIMIT 1",
+      "OptionD": "FETCH FIRST",
+      "Answer": "B",
+      "Explanation": "The 'TOP' keyword is used to return a specific number of rows from a query result."
+    },
+    {
+      "Q": 36,
+      "Question": "Which SQL function is used to find the number of characters in a string?",
+      "OptionA": "LEN()",
+      "OptionB": "LENGTH()",
+      "OptionC": "SIZE()",
+      "OptionD": "COUNT()",
+      "Answer": "B",
+      "Explanation": "The 'LENGTH()' function returns the number of characters in a string."
+    },
+    {
+      "Q": 37,
+      "Question": "Which SQL clause is used to combine multiple result sets into one?",
+      "OptionA": "UNION",
+      "OptionB": "INTERSECT",
+      "OptionC": "JOIN",
+      "OptionD": "MERGE",
+      "Answer": "A",
+      "Explanation": "The 'UNION' operator is used to combine multiple result sets into a single result."
+    },
+    {
+      "Q": 38,
+      "Question": "Which SQL function is used to remove duplicate records from a result set?",
+      "OptionA": "DISTINCT",
+      "OptionB": "REMOVE",
+      "OptionC": "DELETE",
+      "OptionD": "UNIQUE",
+      "Answer": "A",
+      "Explanation": "The 'DISTINCT' keyword is used to remove duplicate records from the result set."
+    },
+    {
+      "Q": 39,
+      "Question": "Which SQL statement is used to add a new column to an existing table?",
+      "OptionA": "ALTER TABLE ADD COLUMN",
+      "OptionB": "MODIFY TABLE COLUMN",
+      "OptionC": "UPDATE TABLE ADD COLUMN",
+      "OptionD": "ADD COLUMN",
+      "Answer": "A",
+      "Explanation": "The 'ALTER TABLE ADD COLUMN' statement is used to add a new column to an existing table."
+    },
+    {
+      "Q": 40,
+      "Question": "Which SQL clause is used to return records that match one of several possible conditions?",
+      "OptionA": "IN",
+      "OptionB": "BETWEEN",
+      "OptionC": "OR",
+      "OptionD": "MATCH",
+      "Answer": "A",
+      "Explanation": "The 'IN' operator is used to specify multiple values in a WHERE clause."
+    },
+    {
+      "Q": 41,
+      "Question": "Which SQL statement is used to create a new database?",
+      "OptionA": "CREATE DATABASE",
+      "OptionB": "NEW DATABASE",
+      "OptionC": "MAKE DATABASE",
+      "OptionD": "ADD DATABASE",
+      "Answer": "A",
+      "Explanation": "The 'CREATE DATABASE' statement is used to create a new database."
+    },
+    {
+      "Q": 42,
+      "Question": "Which SQL function is used to return the smallest value in a column?",
+      "OptionA": "MIN()",
+      "OptionB": "MAX()",
+      "OptionC": "COUNT()",
+      "OptionD": "SUM()",
+      "Answer": "A",
+      "Explanation": "The 'MIN()' function is used to return the smallest value from a column."
+    },
+    {
+      "Q": 43,
+      "Question": "Which SQL statement is used to change a column's data type?",
+      "OptionA": "ALTER COLUMN",
+      "OptionB": "CHANGE COLUMN",
+      "OptionC": "MODIFY COLUMN",
+      "OptionD": "UPDATE COLUMN",
+      "Answer": "A",
+      "Explanation": "The 'ALTER COLUMN' statement is used to change a column's data type in a table."
+    },
+    {
+      "Q": 44,
+      "Question": "Which SQL statement is used to remove a database?",
+      "OptionA": "DROP DATABASE",
+      "OptionB": "DELETE DATABASE",
+      "OptionC": "REMOVE DATABASE",
+      "OptionD": "CLEAR DATABASE",
+      "Answer": "A",
+      "Explanation": "The 'DROP DATABASE' statement is used to remove a database from the system."
+    },
+    {
+      "Q": 45,
+      "Question": "Which SQL function is used to find the average value of a column?",
+      "OptionA": "AVG()",
+      "OptionB": "SUM()",
+      "OptionC": "COUNT()",
+      "OptionD": "MAX()",
+      "Answer": "A",
+      "Explanation": "The 'AVG()' function is used to calculate the average value of a numeric column."
+    },
+    {
+      "Q": 46,
+      "Question": "Which SQL statement is used to modify an existing column's properties?",
+      "OptionA": "ALTER TABLE MODIFY COLUMN",
+      "OptionB": "UPDATE COLUMN",
+      "OptionC": "CHANGE COLUMN",
+      "OptionD": "MODIFY COLUMN",
+      "Answer": "A",
+      "Explanation": "The 'ALTER TABLE MODIFY COLUMN' statement is used to modify the properties of an existing column."
+    },
+    {
+      "Q": 47,
+      "Question": "Which SQL function is used to calculate the absolute value of a number?",
+      "OptionA": "ABS()",
+      "OptionB": "ROUND()",
+      "OptionC": "SIGN()",
+      "OptionD": "FLOOR()",
+      "Answer": "A",
+      "Explanation": "The 'ABS()' function is used to calculate the absolute value of a number."
+    },
+    {
+      "Q": 48,
+      "Question": "Which SQL operator is used to check whether a value matches a specific pattern?",
+      "OptionA": "LIKE",
+      "OptionB": "IN",
+      "OptionC": "MATCH",
+      "OptionD": "PATTERN",
+      "Answer": "A",
+      "Explanation": "The 'LIKE' operator is used to search for a pattern in a column."
+    },
+    {
+      "Q": 49,
+      "Question": "Which SQL keyword is used to ensure no duplicate rows are returned?",
+      "OptionA": "DISTINCT",
+      "OptionB": "UNIQUE",
+      "OptionC": "ONLY",
+      "OptionD": "EXCLUSIVE",
+      "Answer": "A",
+      "Explanation": "The 'DISTINCT' keyword ensures that no duplicate rows are returned."
+    },
+    {
+      "Q": 50,
+      "Question": "Which SQL statement is used to rename a table?",
+      "OptionA": "RENAME TABLE",
+      "OptionB": "ALTER TABLE RENAME",
+      "OptionC": "CHANGE TABLE NAME",
+      "OptionD": "MODIFY TABLE NAME",
+      "Answer": "B",
+      "Explanation": "The 'ALTER TABLE RENAME' statement is used to rename an existing table."
+    }
+  ]
+  

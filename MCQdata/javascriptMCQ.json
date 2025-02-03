@@ -1,0 +1,502 @@
+[
+    {
+        "Q": 1,
+        "Question": "What does JavaScript stand for?",
+        "OptionA": "Java Syntax for Applications",
+        "OptionB": "Just Some Application Script",
+        "OptionC": "JavaScript",
+        "OptionD": "Java Style Application Script",
+        "Answer": "C",
+        "Explanation": "JavaScript is a programming language used for web development."
+    },
+    {
+        "Q": 2,
+        "Question": "Which company developed JavaScript?",
+        "OptionA": "Netscape",
+        "OptionB": "Microsoft",
+        "OptionC": "Oracle",
+        "OptionD": "Sun Microsystems",
+        "Answer": "A",
+        "Explanation": "JavaScript was developed by Netscape Communications Corporation."
+    },
+    {
+        "Q": 3,
+        "Question": "Which of the following is a JavaScript data type?",
+        "OptionA": "String",
+        "OptionB": "Array",
+        "OptionC": "Boolean",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "JavaScript has various data types including String, Array, and Boolean."
+    },
+    {
+        "Q": 4,
+        "Question": "How do you declare a variable in JavaScript?",
+        "OptionA": "var variableName",
+        "OptionB": "let variableName",
+        "OptionC": "const variableName",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "JavaScript allows the declaration of variables using var, let, and const."
+    },
+    {
+        "Q": 5,
+        "Question": "Which of the following is a method of an array in JavaScript?",
+        "OptionA": "push()",
+        "OptionB": "pop()",
+        "OptionC": "shift()",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "JavaScript arrays have several methods including push(), pop(), and shift()."
+    },
+    {
+        "Q": 6,
+        "Question": "Which of the following operators is used for equality comparison in JavaScript?",
+        "OptionA": "==",
+        "OptionB": "===",
+        "OptionC": "=",
+        "OptionD": "!=",
+        "Answer": "A",
+        "Explanation": "The == operator is used for equality comparison in JavaScript."
+    },
+    {
+        "Q": 7,
+        "Question": "How can you create a new object in JavaScript?",
+        "OptionA": "let obj = new Object()",
+        "OptionB": "let obj = {}",
+        "OptionC": "let obj = Object.create()",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "There are various ways to create an object in JavaScript including using new Object(), {}, or Object.create()."
+    },
+    {
+        "Q": 8,
+        "Question": "Which function is used to parse a string and convert it into a number in JavaScript?",
+        "OptionA": "parseInt()",
+        "OptionB": "parseFloat()",
+        "OptionC": "Number()",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "parseInt(), parseFloat(), and Number() all can be used to convert a string into a number in JavaScript."
+    },
+    {
+        "Q": 9,
+        "Question": "What will the following code return? console.log(3 + 2 + '5');",
+        "OptionA": "55",
+        "OptionB": "25",
+        "OptionC": "35",
+        "OptionD": "NaN",
+        "Answer": "A",
+        "Explanation": "JavaScript will perform the addition first, then concatenate '5', returning '55'."
+    },
+    {
+        "Q": 10,
+        "Question": "Which of the following is used to define a function in JavaScript?",
+        "OptionA": "function functionName() {}",
+        "OptionB": "def functionName() {}",
+        "OptionC": "functionName() => {}",
+        "OptionD": "function functionName[] {}",
+        "Answer": "A",
+        "Explanation": "The correct way to define a function in JavaScript is by using the function keyword."
+    },
+    {
+        "Q": 11,
+        "Question": "What is the output of the following JavaScript code: console.log(10 + '10');",
+        "OptionA": "'1010'",
+        "OptionB": "'20'",
+        "OptionC": "'NaN'",
+        "OptionD": "'110'",
+        "Answer": "A",
+        "Explanation": "When you add a number and a string in JavaScript, it concatenates them as strings."
+    },
+    {
+        "Q": 12,
+        "Question": "Which method is used to add an element at the end of an array?",
+        "OptionA": "push()",
+        "OptionB": "pop()",
+        "OptionC": "unshift()",
+        "OptionD": "shift()",
+        "Answer": "A",
+        "Explanation": "The push() method adds an element to the end of an array in JavaScript."
+    },
+    {
+        "Q": 13,
+        "Question": "Which method is used to remove an element from the beginning of an array?",
+        "OptionA": "shift()",
+        "OptionB": "pop()",
+        "OptionC": "push()",
+        "OptionD": "unshift()",
+        "Answer": "A",
+        "Explanation": "The shift() method removes an element from the beginning of an array."
+    },
+    {
+        "Q": 14,
+        "Question": "Which of the following is a valid JavaScript comment?",
+        "OptionA": "// This is a comment",
+        "OptionB": "/* This is a comment */",
+        "OptionC": "<!-- This is a comment -->",
+        "OptionD": "A and B",
+        "Answer": "D",
+        "Explanation": "In JavaScript, both // and /* */ can be used for comments."
+    },
+    {
+        "Q": 15,
+        "Question": "What will be the value of the variable x in the following code? let x = (10 > 5) ? 100 : 200;",
+        "OptionA": "100",
+        "OptionB": "200",
+        "OptionC": "true",
+        "OptionD": "false",
+        "Answer": "A",
+        "Explanation": "The condition (10 > 5) is true, so the value of x is 100."
+    },
+    {
+        "Q": 16,
+        "Question": "How do you write a single-line comment in JavaScript?",
+        "OptionA": "// This is a comment",
+        "OptionB": "/* This is a comment */",
+        "OptionC": "<!-- This is a comment -->",
+        "OptionD": "/* This is a comment",
+        "Answer": "A",
+        "Explanation": "In JavaScript, single-line comments are written with //."
+    },
+    {
+        "Q": 17,
+        "Question": "Which of the following is true about JavaScript variables?",
+        "OptionA": "JavaScript variables can hold any type of data",
+        "OptionB": "JavaScript variables are case-sensitive",
+        "OptionC": "JavaScript variables are dynamically typed",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "JavaScript variables can hold any data type, are case-sensitive, and are dynamically typed."
+    },
+    {
+        "Q": 18,
+        "Question": "Which method is used to combine two arrays in JavaScript?",
+        "OptionA": "concat()",
+        "OptionB": "join()",
+        "OptionC": "combine()",
+        "OptionD": "merge()",
+        "Answer": "A",
+        "Explanation": "The concat() method is used to combine two arrays in JavaScript."
+    },
+    {
+        "Q": 19,
+        "Question": "Which of the following can be used to create an array in JavaScript?",
+        "OptionA": "let arr = []",
+        "OptionB": "let arr = new Array()",
+        "OptionC": "let arr = Array()",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "You can create an array in JavaScript using [], new Array(), or Array()."
+    },
+    {
+        "Q": 20,
+        "Question": "How do you define a constant in JavaScript?",
+        "OptionA": "const constantName",
+        "OptionB": "let constantName",
+        "OptionC": "var constantName",
+        "OptionD": "constant constantName",
+        "Answer": "A",
+        "Explanation": "You define a constant in JavaScript using the const keyword."
+    },
+    {
+        "Q": 21,
+        "Question": "What will the following JavaScript code output? console.log(2 + '2');",
+        "OptionA": "'22'",
+        "OptionB": "4",
+        "OptionC": "NaN",
+        "OptionD": "'2'2'",
+        "Answer": "A",
+        "Explanation": "When adding a number to a string, JavaScript converts the number to a string and concatenates them."
+    },
+    {
+        "Q": 22,
+        "Question": "How do you create a new date object in JavaScript?",
+        "OptionA": "let date = new Date()",
+        "OptionB": "let date = Date()",
+        "OptionC": "let date = new Date()",
+        "OptionD": "let date = Date.now()",
+        "Answer": "A",
+        "Explanation": "The correct way to create a new Date object in JavaScript is using the new Date() constructor."
+    },
+    {
+        "Q": 23,
+        "Question": "Which function is used to convert a value to a string in JavaScript?",
+        "OptionA": "String()",
+        "OptionB": "toString()",
+        "OptionC": "convertToString()",
+        "OptionD": "Both A and B",
+        "Answer": "D",
+        "Explanation": "Both String() and toString() can be used to convert a value to a string in JavaScript."
+    },
+    {
+        "Q": 24,
+        "Question": "What is the result of 5 + '5' in JavaScript?",
+        "OptionA": "55",
+        "OptionB": "10",
+        "OptionC": "Error",
+        "OptionD": "5",
+        "Answer": "A",
+        "Explanation": "In JavaScript, when you add a number to a string, it concatenates them as strings, returning '55'."
+    },
+    {
+        "Q": 25,
+        "Question": "Which of the following methods is used to remove the last element from an array?",
+        "OptionA": "pop()",
+        "OptionB": "push()",
+        "OptionC": "shift()",
+        "OptionD": "unshift()",
+        "Answer": "A",
+        "Explanation": "The pop() method removes the last element from an array."
+    },
+    {
+        "Q": 26,
+        "Question": "What does the `typeof` operator do in JavaScript?",
+        "OptionA": "Returns the data type of a variable",
+        "OptionB": "Checks if a variable is defined",
+        "OptionC": "Returns the length of a variable",
+        "OptionD": "Converts a variable to a different type",
+        "Answer": "A",
+        "Explanation": "The `typeof` operator returns the data type of a variable."
+    },
+    {
+        "Q": 27,
+        "Question": "How can you check if an element exists in an array in JavaScript?",
+        "OptionA": "Using the includes() method",
+        "OptionB": "Using the indexOf() method",
+        "OptionC": "Using the exists() method",
+        "OptionD": "Both A and B",
+        "Answer": "D",
+        "Explanation": "Both includes() and indexOf() methods can be used to check if an element exists in an array."
+    },
+    {
+        "Q": 28,
+        "Question": "Which of the following is the correct way to define a function expression in JavaScript?",
+        "OptionA": "const myFunc = function() {}",
+        "OptionB": "function myFunc() {}",
+        "OptionC": "function = myFunc() {}",
+        "OptionD": "function myFunc() = {}",
+        "Answer": "A",
+        "Explanation": "A function expression is defined by assigning a function to a variable, like: const myFunc = function() {}."
+    },
+    {
+        "Q": 29,
+        "Question": "What is the result of 2 == '2' in JavaScript?",
+        "OptionA": "true",
+        "OptionB": "false",
+        "OptionC": "undefined",
+        "OptionD": "NaN",
+        "Answer": "A",
+        "Explanation": "The == operator in JavaScript performs type coercion, so 2 == '2' returns true."
+    },
+    {
+        "Q": 30,
+        "Question": "Which of the following methods is used to convert an array to a string in JavaScript?",
+        "OptionA": "join()",
+        "OptionB": "toString()",
+        "OptionC": "concat()",
+        "OptionD": "Both A and B",
+        "Answer": "D",
+        "Explanation": "Both join() and toString() can be used to convert an array to a string in JavaScript."
+    },
+    {
+        "Q": 31,
+        "Question": "Which of the following is used to compare values and types in JavaScript?",
+        "OptionA": "===",
+        "OptionB": "==",
+        "OptionC": "!=",
+        "OptionD": "!==",
+        "Answer": "A",
+        "Explanation": "The `===` operator compares both values and types in JavaScript."
+    },
+    {
+        "Q": 32,
+        "Question": "What does the `forEach()` method do in JavaScript?",
+        "OptionA": "Executes a function on each item in an array",
+        "OptionB": "Creates a new array from an existing one",
+        "OptionC": "Sorts an array",
+        "OptionD": "Adds an item to an array",
+        "Answer": "A",
+        "Explanation": "The `forEach()` method executes a provided function once for each array element."
+    },
+    {
+        "Q": 33,
+        "Question": "What does the `filter()` method do in JavaScript?",
+        "OptionA": "Creates a new array with all elements that pass a test",
+        "OptionB": "Removes elements from an array",
+        "OptionC": "Changes all elements in an array",
+        "OptionD": "Sorts an array",
+        "Answer": "A",
+        "Explanation": "The `filter()` method creates a new array with elements that pass a provided test."
+    },
+    {
+        "Q": 34,
+        "Question": "What will the following code output? console.log('5' - 3);",
+        "OptionA": "2",
+        "OptionB": "53",
+        "OptionC": "Error",
+        "OptionD": "NaN",
+        "Answer": "A",
+        "Explanation": "In JavaScript, the '-' operator performs arithmetic and coerces '5' to a number, returning 2."
+    },
+    {
+        "Q": 35,
+        "Question": "What is the purpose of the `setTimeout()` function in JavaScript?",
+        "OptionA": "Executes a function after a specified delay",
+        "OptionB": "Executes a function immediately",
+        "OptionC": "Repeats a function periodically",
+        "OptionD": "Pauses the execution of code",
+        "Answer": "A",
+        "Explanation": "The `setTimeout()` function in JavaScript is used to execute a function after a specified delay."
+    },
+    {
+        "Q": 36,
+        "Question": "Which of the following is true about JavaScript arrays?",
+        "OptionA": "Arrays are ordered collections",
+        "OptionB": "Arrays can hold different types of data",
+        "OptionC": "Arrays are zero-indexed",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "Arrays in JavaScript are ordered, can hold different types of data, and are zero-indexed."
+    },
+    {
+        "Q": 37,
+        "Question": "Which of the following will return the number of characters in a string?",
+        "OptionA": "length",
+        "OptionB": "size",
+        "OptionC": "count",
+        "OptionD": "getLength()",
+        "Answer": "A",
+        "Explanation": "The `length` property of a string returns the number of characters in it."
+    },
+    {
+        "Q": 38,
+        "Question": "Which of the following is used to stop a loop in JavaScript?",
+        "OptionA": "break",
+        "OptionB": "continue",
+        "OptionC": "exit",
+        "OptionD": "return",
+        "Answer": "A",
+        "Explanation": "The `break` statement is used to stop a loop in JavaScript."
+    },
+    {
+        "Q": 39,
+        "Question": "What does the `map()` method do in JavaScript?",
+        "OptionA": "Creates a new array by applying a function to each item in an existing array",
+        "OptionB": "Returns the maximum value in an array",
+        "OptionC": "Sorts an array",
+        "OptionD": "Creates an object from an array",
+        "Answer": "A",
+        "Explanation": "The `map()` method creates a new array by applying a function to each item in an existing array."
+    },
+    {
+        "Q": 40,
+        "Question": "How do you access the first element of an array in JavaScript?",
+        "OptionA": "arr[0]",
+        "OptionB": "arr[1]",
+        "OptionC": "arr.first()",
+        "OptionD": "arr.firstElement()",
+        "Answer": "A",
+        "Explanation": "In JavaScript, array elements are accessed by their index, where the first element is at index 0."
+    },
+    {
+        "Q": 41,
+        "Question": "Which of the following methods adds an element to the beginning of an array?",
+        "OptionA": "unshift()",
+        "OptionB": "shift()",
+        "OptionC": "push()",
+        "OptionD": "pop()",
+        "Answer": "A",
+        "Explanation": "The `unshift()` method adds an element to the beginning of an array."
+    },
+    {
+        "Q": 42,
+        "Question": "What does the `concat()` method do in JavaScript?",
+        "OptionA": "Combines two or more arrays",
+        "OptionB": "Splits a string into an array",
+        "OptionC": "Reverses an array",
+        "OptionD": "Checks if an element is in an array",
+        "Answer": "A",
+        "Explanation": "The `concat()` method is used to combine two or more arrays into a new array."
+    },
+    {
+        "Q": 43,
+        "Question": "Which of the following can you use to declare a function in JavaScript?",
+        "OptionA": "Function Declaration",
+        "OptionB": "Function Expression",
+        "OptionC": "Arrow Function",
+        "OptionD": "All of the above",
+        "Answer": "D",
+        "Explanation": "JavaScript supports multiple ways to declare a function, including function declaration, function expression, and arrow function."
+    },
+    {
+        "Q": 44,
+        "Question": "What will the following code output? console.log(!!'false');",
+        "OptionA": "true",
+        "OptionB": "false",
+        "OptionC": "undefined",
+        "OptionD": "NaN",
+        "Answer": "A",
+        "Explanation": "In JavaScript, !!'false' converts the string 'false' to a boolean value, which is true."
+    },
+    {
+        "Q": 45,
+        "Question": "What does the `join()` method do in JavaScript?",
+        "OptionA": "Combines the elements of an array into a string",
+        "OptionB": "Splits a string into an array",
+        "OptionC": "Adds an element to an array",
+        "OptionD": "Sorts the elements of an array",
+        "Answer": "A",
+        "Explanation": "The `join()` method combines the elements of an array into a string."
+    },
+    {
+        "Q": 46,
+        "Question": "What will the following JavaScript code output? console.log(2 === '2');",
+        "OptionA": "false",
+        "OptionB": "true",
+        "OptionC": "undefined",
+        "OptionD": "NaN",
+        "Answer": "A",
+        "Explanation": "The === operator checks for strict equality, so 2 is not strictly equal to '2'."
+    },
+    {
+        "Q": 47,
+        "Question": "Which of the following methods can be used to add a new property to an object in JavaScript?",
+        "OptionA": "dot notation",
+        "OptionB": "bracket notation",
+        "OptionC": "Both A and B",
+        "OptionD": "None of the above",
+        "Answer": "C",
+        "Explanation": "You can use both dot notation and bracket notation to add properties to a JavaScript object."
+    },
+    {
+        "Q": 48,
+        "Question": "How can you prevent a default action from being triggered in an event handler in JavaScript?",
+        "OptionA": "event.preventDefault()",
+        "OptionB": "event.stopPropagation()",
+        "OptionC": "event.stopImmediatePropagation()",
+        "OptionD": "All of the above",
+        "Answer": "A",
+        "Explanation": "The `event.preventDefault()` method prevents the default action of an event from being triggered."
+    },
+    {
+        "Q": 49,
+        "Question": "Which operator is used to concatenate strings in JavaScript?",
+        "OptionA": "+",
+        "OptionB": "&",
+        "OptionC": "*",
+        "OptionD": "-",
+        "Answer": "A",
+        "Explanation": "The + operator is used to concatenate strings in JavaScript."
+    },
+    {
+        "Q": 50,
+        "Question": "Which of the following methods is used to find the index of an element in an array?",
+        "OptionA": "indexOf()",
+        "OptionB": "findIndex()",
+        "OptionC": "search()",
+        "OptionD": "Both A and B",
+        "Answer": "D",
+        "Explanation": "Both indexOf() and findIndex() can be used to find the index of an element in an array."
+    }
+]

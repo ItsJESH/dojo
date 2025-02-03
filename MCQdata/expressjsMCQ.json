@@ -1,0 +1,502 @@
+[
+    {
+        "Q": 1,
+        "Question": "What is Express.js?",
+        "OptionA": "A framework for building web applications",
+        "OptionB": "A programming language",
+        "OptionC": "A database management system",
+        "OptionD": "A cloud computing platform",
+        "Answer": "A",
+        "Explanation": "Express.js is a fast, unopinionated, minimalist web framework for Node.js."
+    },
+    {
+        "Q": 2,
+        "Question": "Which command is used to install Express.js in a Node.js project?",
+        "OptionA": "npm install express",
+        "OptionB": "npm install express.js",
+        "OptionC": "npm express install",
+        "OptionD": "npm add express",
+        "Answer": "A",
+        "Explanation": "The command `npm install express` installs Express.js in a Node.js project."
+    },
+    {
+        "Q": 3,
+        "Question": "What does the `app.listen()` method do in Express.js?",
+        "OptionA": "It starts the server and listens for incoming requests",
+        "OptionB": "It creates an HTTP request",
+        "OptionC": "It sends data to the database",
+        "OptionD": "It initializes a new route",
+        "Answer": "A",
+        "Explanation": "`app.listen()` is used to bind and listen for connections on a specified port."
+    },
+    {
+        "Q": 4,
+        "Question": "How do you define a route to handle GET requests in Express.js?",
+        "OptionA": "app.get()",
+        "OptionB": "app.post()",
+        "OptionC": "app.put()",
+        "OptionD": "app.delete()",
+        "Answer": "A",
+        "Explanation": "`app.get()` is used to define routes for handling GET requests in Express.js."
+    },
+    {
+        "Q": 5,
+        "Question": "Which of the following is used to parse JSON data in Express.js?",
+        "OptionA": "express.json()",
+        "OptionB": "express.urlencoded()",
+        "OptionC": "express.parser()",
+        "OptionD": "express.bodyParser()",
+        "Answer": "A",
+        "Explanation": "`express.json()` is used to parse incoming requests with JSON payloads."
+    },
+    {
+        "Q": 6,
+        "Question": "How do you include the Express.js module in a Node.js application?",
+        "OptionA": "const express = require('express');",
+        "OptionB": "import express from 'express';",
+        "OptionC": "let express = require('express');",
+        "OptionD": "import express from 'node-express';",
+        "Answer": "A",
+        "Explanation": "To use Express.js in your Node.js application, use `require('express')`."
+    },
+    {
+        "Q": 7,
+        "Question": "Which middleware function in Express.js is used for handling file uploads?",
+        "OptionA": "multer",
+        "OptionB": "express-fileupload",
+        "OptionC": "upload-file",
+        "OptionD": "express-upload",
+        "Answer": "A",
+        "Explanation": "Multer is a middleware used for handling file uploads in Express.js."
+    },
+    {
+        "Q": 8,
+        "Question": "What is the purpose of `next()` in Express.js?",
+        "OptionA": "To pass control to the next middleware function",
+        "OptionB": "To handle HTTP requests",
+        "OptionC": "To stop the request-response cycle",
+        "OptionD": "To send the response to the client",
+        "Answer": "A",
+        "Explanation": "`next()` is used to pass control to the next middleware function in the stack."
+    },
+    {
+        "Q": 9,
+        "Question": "What does `app.use()` do in Express.js?",
+        "OptionA": "It is used to define middleware functions",
+        "OptionB": "It is used to define GET routes",
+        "OptionC": "It initializes the server",
+        "OptionD": "It sends data to the client",
+        "Answer": "A",
+        "Explanation": "`app.use()` is used to define middleware functions that can be used for all routes."
+    },
+    {
+        "Q": 10,
+        "Question": "Which of the following methods is used to handle HTTP POST requests in Express.js?",
+        "OptionA": "app.post()",
+        "OptionB": "app.get()",
+        "OptionC": "app.put()",
+        "OptionD": "app.delete()",
+        "Answer": "A",
+        "Explanation": "`app.post()` is used to define routes for handling HTTP POST requests in Express.js."
+    },
+    {
+        "Q": 11,
+        "Question": "Which Express.js middleware allows you to serve static files like images and stylesheets?",
+        "OptionA": "express.static()",
+        "OptionB": "staticFiles()",
+        "OptionC": "serve.static()",
+        "OptionD": "app.static()",
+        "Answer": "A",
+        "Explanation": "`express.static()` is a middleware function used to serve static files in Express.js."
+    },
+    {
+        "Q": 12,
+        "Question": "What is the default port for an Express.js application?",
+        "OptionA": "3000",
+        "OptionB": "8080",
+        "OptionC": "5000",
+        "OptionD": "80",
+        "Answer": "A",
+        "Explanation": "The default port for an Express.js application is usually `3000`."
+    },
+    {
+        "Q": 13,
+        "Question": "How do you handle route parameters in Express.js?",
+        "OptionA": "Using `req.params`",
+        "OptionB": "Using `req.body`",
+        "OptionC": "Using `req.query`",
+        "OptionD": "Using `req.header`",
+        "Answer": "A",
+        "Explanation": "Route parameters are accessed using `req.params` in Express.js."
+    },
+    {
+        "Q": 14,
+        "Question": "Which middleware is used for parsing URL-encoded data in Express.js?",
+        "OptionA": "express.urlencoded()",
+        "OptionB": "express.json()",
+        "OptionC": "express.query()",
+        "OptionD": "body-parser()",
+        "Answer": "A",
+        "Explanation": "`express.urlencoded()` is used to parse URL-encoded data in Express.js."
+    },
+    {
+        "Q": 15,
+        "Question": "What does the `res.send()` method do in Express.js?",
+        "OptionA": "Sends a response to the client",
+        "OptionB": "Handles an HTTP request",
+        "OptionC": "Logs an error message",
+        "OptionD": "Starts the server",
+        "Answer": "A",
+        "Explanation": "`res.send()` is used to send a response back to the client in Express.js."
+    },
+    {
+        "Q": 16,
+        "Question": "Which function in Express.js is used to send JSON responses?",
+        "OptionA": "res.json()",
+        "OptionB": "res.send()",
+        "OptionC": "res.status()",
+        "OptionD": "res.response()",
+        "Answer": "A",
+        "Explanation": "`res.json()` is used to send a JSON response in Express.js."
+    },
+    {
+        "Q": 17,
+        "Question": "Which method is used to handle HTTP PUT requests in Express.js?",
+        "OptionA": "app.put()",
+        "OptionB": "app.get()",
+        "OptionC": "app.delete()",
+        "OptionD": "app.patch()",
+        "Answer": "A",
+        "Explanation": "`app.put()` is used to handle HTTP PUT requests in Express.js."
+    },
+    {
+        "Q": 18,
+        "Question": "What is the purpose of `app.set()` in Express.js?",
+        "OptionA": "To set application-level settings",
+        "OptionB": "To start a server",
+        "OptionC": "To handle request data",
+        "OptionD": "To configure middleware",
+        "Answer": "A",
+        "Explanation": "`app.set()` is used to set application-level settings in Express.js, like view engine or environment."
+    },
+    {
+        "Q": 19,
+        "Question": "Which Express.js method is used to redirect a client to another route?",
+        "OptionA": "res.redirect()",
+        "OptionB": "res.forward()",
+        "OptionC": "res.change()",
+        "OptionD": "res.move()",
+        "Answer": "A",
+        "Explanation": "`res.redirect()` is used to redirect the client to another route or URL."
+    },
+    {
+        "Q": 20,
+        "Question": "What is the `express.Router()` used for in Express.js?",
+        "OptionA": "To modularize route handling",
+        "OptionB": "To start a server",
+        "OptionC": "To handle file uploads",
+        "OptionD": "To parse query parameters",
+        "Answer": "A",
+        "Explanation": "`express.Router()` is used to modularize route handling and split the logic into separate route files."
+    },
+    {
+        "Q": 21,
+        "Question": "Which HTTP status code indicates that a request was successful?",
+        "OptionA": "200",
+        "OptionB": "404",
+        "OptionC": "500",
+        "OptionD": "301",
+        "Answer": "A",
+        "Explanation": "A status code of `200` indicates a successful HTTP request."
+    },
+    {
+        "Q": 22,
+        "Question": "Which middleware function helps in handling errors in Express.js?",
+        "OptionA": "error handling middleware",
+        "OptionB": "body-parser middleware",
+        "OptionC": "cookie-parser middleware",
+        "OptionD": "static file middleware",
+        "Answer": "A",
+        "Explanation": "Error handling middleware is used to handle errors and pass them to the error handler in Express.js."
+    },
+    {
+        "Q": 23,
+        "Question": "What does the `app.all()` method do in Express.js?",
+        "OptionA": "Defines a route that handles all HTTP methods",
+        "OptionB": "Starts the server on all available ports",
+        "OptionC": "Checks for errors in the application",
+        "OptionD": "Sets up all static routes",
+        "Answer": "A",
+        "Explanation": "`app.all()` is used to define a route that handles all HTTP methods (GET, POST, PUT, DELETE, etc.)."
+    },
+    {
+        "Q": 24,
+        "Question": "Which of the following is used to add middleware to a route in Express.js?",
+        "OptionA": "app.use()",
+        "OptionB": "app.get()",
+        "OptionC": "app.post()",
+        "OptionD": "app.all()",
+        "Answer": "A",
+        "Explanation": "`app.use()` is used to add middleware that applies to all routes."
+    },
+    {
+        "Q": 25,
+        "Question": "Which method is used to define a middleware function that runs before sending a response in Express.js?",
+        "OptionA": "app.use()",
+        "OptionB": "app.get()",
+        "OptionC": "app.post()",
+        "OptionD": "app.put()",
+        "Answer": "A",
+        "Explanation": "`app.use()` is used to define middleware functions that run before sending a response to the client."
+    },
+    {
+        "Q": 26,
+        "Question": "What does `app.route()` in Express.js do?",
+        "OptionA": "Chains HTTP methods to a route",
+        "OptionB": "Defines a new route",
+        "OptionC": "Sets the response type",
+        "OptionD": "Handles query parameters",
+        "Answer": "A",
+        "Explanation": "`app.route()` is used to define multiple HTTP methods for the same route."
+    },
+    {
+        "Q": 27,
+        "Question": "How do you pass data to a route in Express.js?",
+        "OptionA": "Using query parameters",
+        "OptionB": "Using cookies",
+        "OptionC": "Using request headers",
+        "OptionD": "Using the response object",
+        "Answer": "A",
+        "Explanation": "Data can be passed to a route using query parameters, body data, or route parameters."
+    },
+    {
+        "Q": 28,
+        "Question": "Which of the following is used for routing in Express.js?",
+        "OptionA": "express.Router()",
+        "OptionB": "express.Route()",
+        "OptionC": "express.router()",
+        "OptionD": "app.Router()",
+        "Answer": "A",
+        "Explanation": "`express.Router()` is used to define and modularize routes in Express.js."
+    },
+    {
+        "Q": 29,
+        "Question": "Which of the following methods is used to handle HTTP PATCH requests in Express.js?",
+        "OptionA": "app.patch()",
+        "OptionB": "app.put()",
+        "OptionC": "app.delete()",
+        "OptionD": "app.get()",
+        "Answer": "A",
+        "Explanation": "`app.patch()` is used to handle HTTP PATCH requests in Express.js."
+    },
+    {
+        "Q": 30,
+        "Question": "Which HTTP status code indicates that the requested resource could not be found?",
+        "OptionA": "404",
+        "OptionB": "200",
+        "OptionC": "500",
+        "OptionD": "301",
+        "Answer": "A",
+        "Explanation": "`404` indicates that the requested resource was not found on the server."
+    },
+    {
+        "Q": 31,
+        "Question": "Which method in Express.js can be used to terminate the response to the client?",
+        "OptionA": "res.end()",
+        "OptionB": "res.send()",
+        "OptionC": "res.sendFile()",
+        "OptionD": "res.redirect()",
+        "Answer": "A",
+        "Explanation": "`res.end()` is used to end the response and send it to the client."
+    },
+    {
+        "Q": 32,
+        "Question": "What is the use of `res.status()` method in Express.js?",
+        "OptionA": "Sets the HTTP status code for the response",
+        "OptionB": "Sends the response to the client",
+        "OptionC": "Redirects the client to a new URL",
+        "OptionD": "Generates an error in the response",
+        "Answer": "A",
+        "Explanation": "`res.status()` sets the HTTP status code for the response in Express.js."
+    },
+    {
+        "Q": 33,
+        "Question": "Which of the following middleware is used for handling cookies in Express.js?",
+        "OptionA": "cookie-parser",
+        "OptionB": "body-parser",
+        "OptionC": "express-session",
+        "OptionD": "multer",
+        "Answer": "A",
+        "Explanation": "`cookie-parser` is a middleware for parsing cookies in Express.js."
+    },
+    {
+        "Q": 34,
+        "Question": "How do you add a cookie in Express.js?",
+        "OptionA": "res.cookie()",
+        "OptionB": "res.addCookie()",
+        "OptionC": "res.setCookie()",
+        "OptionD": "app.cookie()",
+        "Answer": "A",
+        "Explanation": "`res.cookie()` is used to set cookies in the client's browser."
+    },
+    {
+        "Q": 35,
+        "Question": "How do you set a custom header in an Express.js response?",
+        "OptionA": "res.set()",
+        "OptionB": "res.header()",
+        "OptionC": "res.headers()",
+        "OptionD": "res.addHeader()",
+        "Answer": "A",
+        "Explanation": "`res.set()` is used to set custom headers in an Express.js response."
+    },
+    {
+        "Q": 36,
+        "Question": "Which of the following functions can be used to handle errors in Express.js routes?",
+        "OptionA": "next()",
+        "OptionB": "throw()",
+        "OptionC": "error()",
+        "OptionD": "stop()",
+        "Answer": "A",
+        "Explanation": "`next()` is used to pass control to the next error-handling middleware function."
+    },
+    {
+        "Q": 37,
+        "Question": "Which HTTP method is used to fetch data from a server in Express.js?",
+        "OptionA": "GET",
+        "OptionB": "POST",
+        "OptionC": "PUT",
+        "OptionD": "DELETE",
+        "Answer": "A",
+        "Explanation": "The `GET` method is used to retrieve data from the server."
+    },
+    {
+        "Q": 38,
+        "Question": "How can you prevent Express.js from crashing when an error occurs?",
+        "OptionA": "By using error-handling middleware",
+        "OptionB": "By using the `process.exit()` method",
+        "OptionC": "By using `try-catch` blocks",
+        "OptionD": "By setting a default error handler",
+        "Answer": "A",
+        "Explanation": "Error-handling middleware in Express.js helps handle errors gracefully and prevents server crashes."
+    },
+    {
+        "Q": 39,
+        "Question": "What is the function of `app.param()` in Express.js?",
+        "OptionA": "Defines route parameters for a specific route",
+        "OptionB": "Sets request headers",
+        "OptionC": "Sets the response body",
+        "OptionD": "Parses query parameters",
+        "Answer": "A",
+        "Explanation": "`app.param()` is used to define route parameters for specific routes in Express.js."
+    },
+    {
+        "Q": 40,
+        "Question": "Which method is used to render a view in Express.js?",
+        "OptionA": "res.render()",
+        "OptionB": "res.sendFile()",
+        "OptionC": "res.send()",
+        "OptionD": "res.file()",
+        "Answer": "A",
+        "Explanation": "`res.render()` is used to render a view template in Express.js."
+    },
+    {
+        "Q": 41,
+        "Question": "What is the function of `express.static()` middleware?",
+        "OptionA": "Serves static files from a directory",
+        "OptionB": "Compiles dynamic templates",
+        "OptionC": "Encrypts data",
+        "OptionD": "Logs requests",
+        "Answer": "A",
+        "Explanation": "`express.static()` is used to serve static files like images, CSS, and JavaScript files."
+    },
+    {
+        "Q": 42,
+        "Question": "Which of the following functions is used to handle HTTP DELETE requests in Express.js?",
+        "OptionA": "app.delete()",
+        "OptionB": "app.put()",
+        "OptionC": "app.get()",
+        "OptionD": "app.patch()",
+        "Answer": "A",
+        "Explanation": "`app.delete()` is used to handle HTTP DELETE requests in Express.js."
+    },
+    {
+        "Q": 43,
+        "Question": "How do you handle query parameters in Express.js?",
+        "OptionA": "Using `req.query`",
+        "OptionB": "Using `req.body`",
+        "OptionC": "Using `req.params`",
+        "OptionD": "Using `req.headers`",
+        "Answer": "A",
+        "Explanation": "Query parameters can be accessed using `req.query` in Express.js."
+    },
+    {
+        "Q": 44,
+        "Question": "What does the `app.locals` object store in Express.js?",
+        "OptionA": "Local variables for the application",
+        "OptionB": "Request-specific variables",
+        "OptionC": "Session variables",
+        "OptionD": "Global environment variables",
+        "Answer": "A",
+        "Explanation": "`app.locals` stores local variables that are available to all views in the application."
+    },
+    {
+        "Q": 45,
+        "Question": "Which of the following is used to set the view engine in an Express.js application?",
+        "OptionA": "app.set('view engine', 'ejs')",
+        "OptionB": "app.set('engine', 'pug')",
+        "OptionC": "app.view('ejs')",
+        "OptionD": "app.render('html')",
+        "Answer": "A",
+        "Explanation": "`app.set('view engine', 'ejs')` is used to set the view engine for rendering templates in Express.js."
+    },
+    {
+        "Q": 46,
+        "Question": "Which of the following HTTP status codes is used for indicating server errors?",
+        "OptionA": "500",
+        "OptionB": "404",
+        "OptionC": "200",
+        "OptionD": "301",
+        "Answer": "A",
+        "Explanation": "`500` is used for indicating a server-side error in the HTTP response."
+    },
+    {
+        "Q": 47,
+        "Question": "How can you secure cookies in Express.js?",
+        "OptionA": "By using the 'secure' and 'httpOnly' flags",
+        "OptionB": "By encrypting the cookies",
+        "OptionC": "By setting a strong password",
+        "OptionD": "By using HTTPS",
+        "Answer": "A",
+        "Explanation": "Cookies can be secured by setting the 'secure' and 'httpOnly' flags in Express.js."
+    },
+    {
+        "Q": 48,
+        "Question": "Which middleware in Express.js is used to manage sessions?",
+        "OptionA": "express-session",
+        "OptionB": "cookie-parser",
+        "OptionC": "body-parser",
+        "OptionD": "passport",
+        "Answer": "A",
+        "Explanation": "`express-session` is used to manage session data in Express.js."
+    },
+    {
+        "Q": 49,
+        "Question": "How do you configure Express.js to serve static files from a custom directory?",
+        "OptionA": "app.use(express.static('public'))",
+        "OptionB": "app.use('public', express.static())",
+        "OptionC": "app.set('static', 'public')",
+        "OptionD": "app.static('public')",
+        "Answer": "A",
+        "Explanation": "`app.use(express.static('public'))` configures Express.js to serve static files from the `public` directory."
+    },
+    {
+        "Q": 50,
+        "Question": "What does `res.status(404).send()` do in Express.js?",
+        "OptionA": "Sends a 404 error response to the client",
+        "OptionB": "Sends a successful response to the client",
+        "OptionC": "Redirects the client to a new URL",
+        "OptionD": "Handles a server error",
+        "Answer": "A",
+        "Explanation": "`res.status(404).send()` sends a 404 status code with a message indicating that the resource was not found."
+    }
+]

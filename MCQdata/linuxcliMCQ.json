@@ -1,0 +1,503 @@
+[
+    {
+      "Q": 1,
+      "Question": "Which command is used to list all files in a directory, including hidden files?",
+      "OptionA": "ls",
+      "OptionB": "ls -l",
+      "OptionC": "ls -a",
+      "OptionD": "ls -la",
+      "Answer": "C",
+      "Explanation": "The 'ls -a' command is used to list all files, including hidden files (those starting with a dot)."
+    },
+    {
+      "Q": 2,
+      "Question": "Which command is used to change the current working directory?",
+      "OptionA": "cd",
+      "OptionB": "pwd",
+      "OptionC": "ls",
+      "OptionD": "mv",
+      "Answer": "A",
+      "Explanation": "The 'cd' command is used to change the current working directory."
+    },
+    {
+      "Q": 3,
+      "Question": "What command would you use to display the current working directory?",
+      "OptionA": "cd",
+      "OptionB": "pwd",
+      "OptionC": "ls",
+      "OptionD": "dir",
+      "Answer": "B",
+      "Explanation": "The 'pwd' command is used to print the current working directory."
+    },
+    {
+      "Q": 4,
+      "Question": "Which command is used to display the manual pages for a command?",
+      "OptionA": "help",
+      "OptionB": "man",
+      "OptionC": "info",
+      "OptionD": "docs",
+      "Answer": "B",
+      "Explanation": "The 'man' command is used to display the manual pages for other commands."
+    },
+    {
+      "Q": 5,
+      "Question": "Which command is used to copy files or directories?",
+      "OptionA": "cp",
+      "OptionB": "mv",
+      "OptionC": "copy",
+      "OptionD": "cpdir",
+      "Answer": "A",
+      "Explanation": "The 'cp' command is used to copy files or directories in Linux."
+    },
+    {
+      "Q": 6,
+      "Question": "Which of the following commands will remove a file?",
+      "OptionA": "rm",
+      "OptionB": "rmdir",
+      "OptionC": "del",
+      "OptionD": "remove",
+      "Answer": "A",
+      "Explanation": "The 'rm' command is used to remove (delete) files in Linux."
+    },
+    {
+      "Q": 7,
+      "Question": "Which command is used to change the permissions of a file or directory?",
+      "OptionA": "chmod",
+      "OptionB": "chown",
+      "OptionC": "chgrp",
+      "OptionD": "fileperm",
+      "Answer": "A",
+      "Explanation": "The 'chmod' command is used to change the permissions of a file or directory."
+    },
+    {
+      "Q": 8,
+      "Question": "Which command is used to change the owner of a file?",
+      "OptionA": "chown",
+      "OptionB": "chmod",
+      "OptionC": "chgrp",
+      "OptionD": "chfile",
+      "Answer": "A",
+      "Explanation": "The 'chown' command is used to change the owner of a file or directory."
+    },
+    {
+      "Q": 9,
+      "Question": "Which command is used to display the first few lines of a file?",
+      "OptionA": "head",
+      "OptionB": "tail",
+      "OptionC": "cat",
+      "OptionD": "more",
+      "Answer": "A",
+      "Explanation": "The 'head' command is used to display the first few lines of a file."
+    },
+    {
+      "Q": 10,
+      "Question": "Which command is used to display the last few lines of a file?",
+      "OptionA": "head",
+      "OptionB": "tail",
+      "OptionC": "cat",
+      "OptionD": "more",
+      "Answer": "B",
+      "Explanation": "The 'tail' command is used to display the last few lines of a file."
+    },
+    {
+      "Q": 11,
+      "Question": "Which command is used to search for a specific pattern in a file?",
+      "OptionA": "grep",
+      "OptionB": "find",
+      "OptionC": "locate",
+      "OptionD": "search",
+      "Answer": "A",
+      "Explanation": "The 'grep' command is used to search for specific patterns or strings in files."
+    },
+    {
+      "Q": 12,
+      "Question": "Which command is used to find files and directories in a specified location?",
+      "OptionA": "find",
+      "OptionB": "locate",
+      "OptionC": "which",
+      "OptionD": "search",
+      "Answer": "A",
+      "Explanation": "The 'find' command is used to search for files and directories in a specified location."
+    },
+    {
+      "Q": 13,
+      "Question": "Which command is used to display the system’s disk usage?",
+      "OptionA": "df",
+      "OptionB": "du",
+      "OptionC": "ls",
+      "OptionD": "diskusage",
+      "Answer": "A",
+      "Explanation": "The 'df' command is used to display disk space usage for all mounted file systems."
+    },
+    {
+      "Q": 14,
+      "Question": "Which command is used to show the amount of disk space used by a directory and its subdirectories?",
+      "OptionA": "du",
+      "OptionB": "df",
+      "OptionC": "ls",
+      "OptionD": "size",
+      "Answer": "A",
+      "Explanation": "The 'du' command is used to estimate the disk space usage of files and directories."
+    },
+    {
+      "Q": 15,
+      "Question": "Which command is used to display the current system’s uptime?",
+      "OptionA": "uptime",
+      "OptionB": "top",
+      "OptionC": "time",
+      "OptionD": "sysinfo",
+      "Answer": "A",
+      "Explanation": "The 'uptime' command is used to display the system's current uptime and load averages."
+    },
+    {
+      "Q": 16,
+      "Question": "Which command is used to display the list of running processes?",
+      "OptionA": "ps",
+      "OptionB": "top",
+      "OptionC": "jobs",
+      "OptionD": "run",
+      "Answer": "A",
+      "Explanation": "The 'ps' command is used to display a list of running processes on the system."
+    },
+    {
+      "Q": 17,
+      "Question": "Which command is used to send a signal to a process in Linux?",
+      "OptionA": "kill",
+      "OptionB": "stop",
+      "OptionC": "terminate",
+      "OptionD": "signal",
+      "Answer": "A",
+      "Explanation": "The 'kill' command is used to send signals to processes, typically to terminate them."
+    },
+    {
+      "Q": 18,
+      "Question": "Which command is used to view the manual pages of a command?",
+      "OptionA": "help",
+      "OptionB": "man",
+      "OptionC": "info",
+      "OptionD": "docs",
+      "Answer": "B",
+      "Explanation": "The 'man' command is used to view the manual pages of commands, providing detailed information about them."
+    },
+    {
+      "Q": 19,
+      "Question": "Which command is used to create a new directory?",
+      "OptionA": "mkdir",
+      "OptionB": "rmdir",
+      "OptionC": "create",
+      "OptionD": "dir",
+      "Answer": "A",
+      "Explanation": "The 'mkdir' command is used to create a new directory."
+    },
+    {
+      "Q": 20,
+      "Question": "Which command is used to remove an empty directory?",
+      "OptionA": "rm -r",
+      "OptionB": "rmdir",
+      "OptionC": "del",
+      "OptionD": "remove",
+      "Answer": "B",
+      "Explanation": "The 'rmdir' command is used to remove empty directories."
+    },
+    {
+      "Q": 21,
+      "Question": "Which of the following commands will print a file to the screen?",
+      "OptionA": "cat",
+      "OptionB": "print",
+      "OptionC": "echo",
+      "OptionD": "show",
+      "Answer": "A",
+      "Explanation": "The 'cat' command is used to print the contents of a file to the terminal."
+    },
+    {
+      "Q": 22,
+      "Question": "Which command is used to append text to a file?",
+      "OptionA": "echo",
+      "OptionB": "cat >>",
+      "OptionC": "echo >>",
+      "OptionD": "add",
+      "Answer": "C",
+      "Explanation": "The 'echo >>' command is used to append text to a file in Linux."
+    },
+    {
+      "Q": 23,
+      "Question": "Which of the following commands is used to reboot the system?",
+      "OptionA": "shutdown -r now",
+      "OptionB": "reboot",
+      "OptionC": "systemctl reboot",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "All of the options are valid commands to reboot the system in Linux."
+    },
+    {
+      "Q": 24,
+      "Question": "Which command can be used to display the contents of a compressed file?",
+      "OptionA": "cat",
+      "OptionB": "less",
+      "OptionC": "zcat",
+      "OptionD": "show",
+      "Answer": "C",
+      "Explanation": "The 'zcat' command is used to display the contents of a compressed file (e.g., .gz files)."
+    },
+    {
+      "Q": 25,
+      "Question": "Which command is used to display the network configuration in Linux?",
+      "OptionA": "ifconfig",
+      "OptionB": "netstat",
+      "OptionC": "ip a",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "All of the commands listed can be used to display network configuration in Linux, though 'ifconfig' is deprecated in favor of 'ip a'."
+    },
+    {
+      "Q": 26,
+      "Question": "What does the 'tar' command do in Linux?",
+      "OptionA": "Compiles programs",
+      "OptionB": "Compresses files",
+      "OptionC": "Creates and extracts archives",
+      "OptionD": "Renames files",
+      "Answer": "C",
+      "Explanation": "The 'tar' command is used to create and extract file archives in Linux."
+    },
+    {
+      "Q": 27,
+      "Question": "Which command is used to monitor real-time system processes?",
+      "OptionA": "top",
+      "OptionB": "ps",
+      "OptionC": "htop",
+      "OptionD": "proc",
+      "Answer": "A",
+      "Explanation": "The 'top' command is used to monitor system processes in real-time."
+    },
+    {
+      "Q": 28,
+      "Question": "Which command will allow you to rename a file?",
+      "OptionA": "mv",
+      "OptionB": "rename",
+      "OptionC": "mvrename",
+      "OptionD": "change",
+      "Answer": "A",
+      "Explanation": "The 'mv' command is used to rename a file by moving it to a new name."
+    },
+    {
+      "Q": 29,
+      "Question": "Which command is used to compare two files line by line?",
+      "OptionA": "diff",
+      "OptionB": "cmp",
+      "OptionC": "compare",
+      "OptionD": "comp",
+      "Answer": "A",
+      "Explanation": "The 'diff' command is used to compare two files line by line."
+    },
+    {
+      "Q": 30,
+      "Question": "Which command can be used to display the manual for the 'ls' command?",
+      "OptionA": "man ls",
+      "OptionB": "help ls",
+      "OptionC": "ls --help",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "All of the listed options will display the manual or help for the 'ls' command."
+    },
+    {
+      "Q": 31,
+      "Question": "Which command is used to find the IP address of a Linux machine?",
+      "OptionA": "ifconfig",
+      "OptionB": "ip a",
+      "OptionC": "netstat",
+      "OptionD": "hostname -I",
+      "Answer": "D",
+      "Explanation": "The 'hostname -I' command displays the IP address of the machine."
+    },
+    {
+      "Q": 32,
+      "Question": "Which command is used to send a signal to terminate a process by its process ID?",
+      "OptionA": "kill",
+      "OptionB": "killall",
+      "OptionC": "stop",
+      "OptionD": "end",
+      "Answer": "A",
+      "Explanation": "The 'kill' command is used to terminate a process by its process ID."
+    },
+    {
+      "Q": 33,
+      "Question": "Which command is used to display active network connections?",
+      "OptionA": "netstat",
+      "OptionB": "ss",
+      "OptionC": "lsof",
+      "OptionD": "net",
+      "Answer": "A",
+      "Explanation": "The 'netstat' command displays active network connections."
+    },
+    {
+      "Q": 34,
+      "Question": "Which command can be used to check disk partitions and mount points?",
+      "OptionA": "df -h",
+      "OptionB": "parted",
+      "OptionC": "lsblk",
+      "OptionD": "fdisk",
+      "Answer": "C",
+      "Explanation": "The 'lsblk' command is used to display information about disk partitions and mount points."
+    },
+    {
+      "Q": 35,
+      "Question": "Which command is used to display the Linux kernel version?",
+      "OptionA": "uname -r",
+      "OptionB": "kernel -v",
+      "OptionC": "version -k",
+      "OptionD": "sysctl kernel.version",
+      "Answer": "A",
+      "Explanation": "The 'uname -r' command displays the kernel version of the system."
+    },
+    {
+      "Q": 36,
+      "Question": "Which command is used to check the current system’s memory usage?",
+      "OptionA": "free",
+      "OptionB": "top",
+      "OptionC": "ps",
+      "OptionD": "memusage",
+      "Answer": "A",
+      "Explanation": "The 'free' command is used to check the system's memory usage, including available and used memory."
+    },
+    {
+      "Q": 37,
+      "Question": "Which command is used to change the file owner group?",
+      "OptionA": "chgrp",
+      "OptionB": "chown",
+      "OptionC": "groupmod",
+      "OptionD": "chmod",
+      "Answer": "A",
+      "Explanation": "The 'chgrp' command is used to change the group ownership of a file."
+    },
+    {
+      "Q": 38,
+      "Question": "Which command is used to create a symbolic link?",
+      "OptionA": "ln -s",
+      "OptionB": "link",
+      "OptionC": "symlink",
+      "OptionD": "ln",
+      "Answer": "A",
+      "Explanation": "The 'ln -s' command is used to create symbolic links in Linux."
+    },
+    {
+      "Q": 39,
+      "Question": "Which command is used to show the routing table of a Linux system?",
+      "OptionA": "route",
+      "OptionB": "ip route",
+      "OptionC": "netstat -r",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "All the commands listed can be used to show the routing table of a Linux system."
+    },
+    {
+      "Q": 40,
+      "Question": "Which command is used to check the system’s hostname?",
+      "OptionA": "hostname",
+      "OptionB": "hostnamectl",
+      "OptionC": "uname -n",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "All the commands listed can be used to check the system's hostname."
+    },
+    {
+      "Q": 41,
+      "Question": "Which command is used to monitor real-time system performance?",
+      "OptionA": "htop",
+      "OptionB": "top",
+      "OptionC": "watch",
+      "OptionD": "sysstat",
+      "Answer": "A",
+      "Explanation": "The 'htop' command provides a more interactive and user-friendly interface to monitor system performance."
+    },
+    {
+      "Q": 42,
+      "Question": "Which command is used to temporarily change the system’s hostname?",
+      "OptionA": "hostnamectl",
+      "OptionB": "hostname",
+      "OptionC": "sethostname",
+      "OptionD": "sysctl",
+      "Answer": "B",
+      "Explanation": "The 'hostname' command is used to temporarily change the system's hostname until the next reboot."
+    },
+    {
+      "Q": 43,
+      "Question": "Which command is used to show the system’s kernel information?",
+      "OptionA": "uname -a",
+      "OptionB": "kernel -info",
+      "OptionC": "sysinfo",
+      "OptionD": "kernelinfo",
+      "Answer": "A",
+      "Explanation": "The 'uname -a' command shows detailed information about the system, including kernel version and other details."
+    },
+    {
+      "Q": 44,
+      "Question": "Which command is used to display the last system reboot time?",
+      "OptionA": "uptime",
+      "OptionB": "last reboot",
+      "OptionC": "reboot",
+      "OptionD": "who -b",
+      "Answer": "D",
+      "Explanation": "The 'who -b' command shows the last system reboot time."
+    },
+    {
+      "Q": 45,
+      "Question": "Which command is used to show all environment variables?",
+      "OptionA": "env",
+      "OptionB": "printenv",
+      "OptionC": "set",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "All the commands listed will show the environment variables."
+    },
+    {
+      "Q": 46,
+      "Question": "Which command is used to create a backup of a file?",
+      "OptionA": "cp",
+      "OptionB": "tar",
+      "OptionC": "rsync",
+      "OptionD": "backup",
+      "Answer": "A",
+      "Explanation": "The 'cp' command is used to create a backup by copying a file to another location."
+    },
+    {
+      "Q": 47,
+      "Question": "Which command is used to change the default file permissions?",
+      "OptionA": "chmod",
+      "OptionB": "umask",
+      "OptionC": "chown",
+      "OptionD": "chgrp",
+      "Answer": "B",
+      "Explanation": "The 'umask' command is used to set the default file permissions for newly created files."
+    },
+    {
+      "Q": 48,
+      "Question": "Which command is used to check the system’s disk partitions?",
+      "OptionA": "fdisk -l",
+      "OptionB": "lsblk",
+      "OptionC": "parted",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "All the listed commands can be used to check the system’s disk partitions."
+    },
+    {
+      "Q": 49,
+      "Question": "Which command is used to display the Linux system’s network interfaces?",
+      "OptionA": "ifconfig",
+      "OptionB": "ip a",
+      "OptionC": "netstat -i",
+      "OptionD": "All of the above",
+      "Answer": "D",
+      "Explanation": "All of the commands listed will display information about network interfaces in Linux."
+    },
+    {
+      "Q": 50,
+      "Question": "Which command is used to change the system’s time zone?",
+      "OptionA": "timedatectl",
+      "OptionB": "timezone",
+      "OptionC": "date",
+      "OptionD": "tzset",
+      "Answer": "A",
+      "Explanation": "The 'timedatectl' command is used to change the system's time zone."
+    }
+  ]
+  
